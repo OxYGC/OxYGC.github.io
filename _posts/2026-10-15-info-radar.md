@@ -88,7 +88,7 @@ AN4 与 AN5 的差别只是处理器平台：AN4 是 AMD EPYC 9004，AN5 是 900
 
 Typesafe 那套「用决策模型驱动 Agent」的方案发了 1.14.0，HN 上 283 分、91 评。同期阮一峰《科技爱好者周刊》第 414 期专门讨论「Jev 决策模型有什么用」，两篇对照着读比较省力——一个给实现细节，一个给问题背景。
 
-- 核实于 2026-10-15 17:10 ｜ [官方博客](https://typesafe.ai/blog/jev-1-14) ｜ [阮一峰第 414 期](http://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html)
+- 核实于 2026-10-15 17:10 ｜ [官方博客](https://typesafe.ai/blog/jev-1-14) ｜ [阮一峰第 414 期](https://www.ruanyifeng.com/blog/2026/10/weekly-issue-414.html)
 
 ### mksglu / context-mode：把工具输出沙箱化，宣称 tool output 减少 98%
 
