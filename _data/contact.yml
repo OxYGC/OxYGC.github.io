@@ -3,12 +3,15 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# 没有账号就先关掉，避免左下角点进占位链接。
+# 要恢复 X：在 _config.yml 填 twitter.username，再放开下面两行。
+#- type: twitter
+#  icon: "fa-brands fa-x-twitter"
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+# 要恢复邮箱：在 _config.yml 的 social.email 填真实地址，再放开下面三行。
+#- type: email
+#  icon: "fas fa-envelope"
+#  noblank: true # open link in current tab
 
 - type: rss
   icon: "fas fa-rss"
