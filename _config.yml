@@ -11,6 +11,10 @@ lang: zh-CN
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Shanghai
 
+# Keep a post whose front matter `date` is still a few minutes ahead of the build
+# machine in the site output; Jekyll's default (`false`) drops it silently.
+future: true
+
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
