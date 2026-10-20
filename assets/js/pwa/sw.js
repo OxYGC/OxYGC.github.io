@@ -34,6 +34,9 @@ self.addEventListener('install', (event) => {
       return cache.addAll(resource);
     })
   );
+
+  /* 装好即接管，不进 waiting 状态：缓存里那份旧 app.js 就再也读不到 waiting，弹窗条件被从源头抹掉 */
+  self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
