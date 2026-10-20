@@ -4,3 +4,15 @@
 @import 'main';
 
 /* append your custom style below */
+
+/*
+  首页列表：读过的文章标题变淡（早期浏览器靠 :visited 改色那套读痕）。
+  :visited 受隐私限制只能改颜色类属性，所以只有标题能变灰，配图与封面无法一起调暗。
+*/
+#post-list .card .card-body a.post-preview:visited {
+  color: var(--text-muted-color) !important;
+
+  .card-title {
+    color: var(--text-muted-color) !important;
+  }
+}
