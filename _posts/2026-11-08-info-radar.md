@@ -1,14 +1,14 @@
 ---
-title: "资讯雷达 2026-11-08｜Epic 两篇到 11-13、Steam 十款在效期；Alpine 官方补齐 OpenSSH 修复版本，Agent Skills 仓库集体上榜"
+title: "资讯雷达 2026-11-08｜Epic 两篇到 11-13；Steam 榜单换血、1211600 更正为《隔离区》；Agent Skills 仓库热度未退"
 author: OxYGC
-date: 2026-11-08 15:30:00 +0800
+date: 2026-11-08 16:05:00 +0800
 permalink: /posts/info-radar-2026-11-08/
 categories: [Info, Deals]
 tags: [资讯雷达, Epic限免, Steam折扣, OpenSSH, AI动态, 币圈, GitHub趋势]
-description: "2026-11-08 下午两轮：首轮 13 个来源、约 110 条抓取，6 个源或接口失败；15:20 补录补齐 Alpine 官方 OpenSSH 修复版本、Steam 全量 10 条折扣与 GitHub Skills 仓库集体上榜。福利侧 0 条新增，主体仍是复查。"
+description: "2026-11-08 三轮更新：16:03–16:05 重新取数，Steam 特别优惠榜 10 条换血并把 appid 1211600 正式名更正为《隔离区-丧尸末日生存》；Epic 两篇限免仍在效、LISA 现价 -60% 到 11-10 14:59；GitHub Trending 四个 Agent Skills 仓库热度与 15:24 持平。行情接口继续不可用。"
 ---
 
-这一轮跑了 13 个来源，抓回约 110 条，6 个源或接口失败。形状和前几天一样：**Epic、Steam 这些福利位没有新货，全是回到官方接口把仍在效期的重新核一遍**；真正有新信息的是安全侧——OpenSSH 10.6p2 的发布说明确认了一个可绕过密码验证的问题，只影响 musl libc 且关闭 PAM 的 Linux（典型是部分 Alpine）。行情侧今天不交白卷也不硬编：CoinGecko、Binance、Coinpaprika 三个接口本轮全部连不上，BTC/ETH 报价这栏只能留空。
+这一轮跑了 13 个来源，抓回约 110 条，6 个源或接口失败。形状和前几天一样：**Epic、Steam 这些福利位没有新货，全是回到官方接口把仍在效期的重新核一遍**；真正有新信息的是安全侧——OpenSSH 10.6p2 的发布说明确认了一个可绕过密码验证的问题，只影响 musl libc 且关闭 PAM 的 Linux（典型是部分 Alpine）。行情侧今天不交白卷也不硬编：CoinGecko、Binance、Coinpaprika 三个接口本轮全部连不上，BTC/ETH 报价这栏只能留空。16:05 又做了一轮只读复核，变化集中在 Steam 榜单换血与一处 appid 名称更正，见下方最新的第三轮。
 
 <div style="border:1px solid #e3e6ea;border-radius:10px;padding:16px 18px;background:#fbfcfd;margin:0 0 28px;">
 <strong style="font-size:15px;">这一轮真正会过期、或需要你自己动手的只有这几条</strong>
@@ -31,14 +31,63 @@ description: "2026-11-08 下午两轮：首轮 13 个来源、约 110 条抓取�
 <td style="padding:9px 8px 9px 0;">Steam 国区：人类一败涂地、PEAK（PEAK 到 11-15 18:00）</td>
 <td style="padding:9px 8px 9px 0;">¥17.40 / ¥20.46</td>
 <td style="padding:9px 0 9px 0;"><a href="https://store.steampowered.com/app/477160/">人类一败涂地</a></td></tr>
+<tr style="border-bottom:1px solid #eef0f2;">
+<td style="padding:9px 8px 9px 0;color:#6b7280;">11-10 14:59 收</td>
+<td style="padding:9px 8px 9px 0;">Epic《LISA: Definitive Edition》-60%（16:03 复核在效）</td>
+<td style="padding:9px 8px 9px 0;">¥108.00 → ¥64.80</td>
+<td style="padding:9px 0 9px 0;"><a href="https://store.epicgames.com/">store.epicgames.com</a></td></tr>
 <tr>
 <td style="padding:9px 8px 9px 0;color:#8a9099;">官方不设「截止」</td>
 <td style="padding:9px 8px 9px 0;">OpenSSH 10.6p2 / Alpine 官方公告：musl + 关闭 PAM 的 sshd 可被绕过密码验证，<strong>今天就该升，升完还要重启 sshd</strong></td>
 <td style="padding:9px 8px 9px 0;">免费升级</td>
 <td style="padding:9px 0 9px 0;"><a href="https://www.alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/">alpinelinux.org</a> · <a href="https://www.openssh.com/txt/release-10.6p2">openssh.com</a></td></tr>
 </tbody></table>
-<p style="font-size:12px;color:#8a9099;margin:12px 0 0;">价格与截止均为 2026-11-08 14:57–15:05 实测，补录 15:20–15:30。本站只报道与核实，注册、登录、领取、下单全部由你自己完成。</p>
+<p style="font-size:12px;color:#8a9099;margin:12px 0 0;">价格与截止均为 2026-11-08 14:57–15:05 实测，补录 15:20–15:30，第三轮 16:03–16:05 复核。本站只报道与核实，注册、登录、领取、下单全部由你自己完成。</p>
 </div>
+
+## 16:03–16:05 第三轮复核（4 条）
+
+<p>15:30 那版之后又跑了一轮只读取数：Epic 促销接口、Steam <code>featuredcategories</code>、GitHub Trending 日榜、CoinGecko 与 HN 各打一次。结论先说：<strong>没有新的免费游戏，但 Steam 特别优惠榜换了一条，且昨天榜里那个「ZED ZONE」是错的 appid 名称，今天连带更正</strong>；Epic 那边《LISA》的当前折扣也值得单独拎出来。安全侧没有新增，OpenSSH 10.6p2 / Alpine 的结论不变。</p>
+
+<details open>
+<summary><strong>Steam 特别优惠榜重新取数：10 条在效，appid 1211600 应叫《隔离区-丧尸末日生存》</strong> ｜ 含名称更正 ｜ 仅列表接口</summary>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">游戏（appid）</th><th style="padding:6px 8px 6px 0;">国区价</th><th style="padding:6px 8px 6px 0;">折扣</th><th style="padding:6px 0 6px 0;width:24%;">截止（北京时间）</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/3768760/">007 初露锋芒</a>（3768760）</td><td style="padding:8px 8px 8px 0;">¥338.00 → ¥202.80</td><td style="padding:8px 8px 8px 0;">-40%</td><td style="padding:8px 0 8px 0;">11-10 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/3241660/">R.E.P.O.</a>（3241660）</td><td style="padding:8px 8px 8px 0;">¥35.00 → ¥22.75</td><td style="padding:8px 8px 8px 0;">-35%</td><td style="padding:8px 0 8px 0;">11-10 01:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1345940/">Dying Light Essentials Edition</a>（1345940）</td><td style="padding:8px 8px 8px 0;">¥98.00 → ¥9.80</td><td style="padding:8px 8px 8px 0;">-90%</td><td style="padding:8px 0 8px 0;">11-10 01:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1943950/">Escape the Backrooms</a>（1943950）</td><td style="padding:8px 8px 8px 0;">¥37.00 → ¥29.60</td><td style="padding:8px 8px 8px 0;">-20%</td><td style="padding:8px 0 8px 0;">11-10 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/2223980/">Nomad Drive</a>（2223980）</td><td style="padding:8px 8px 8px 0;">¥54.00 → ¥48.60</td><td style="padding:8px 8px 8px 0;">-10%</td><td style="padding:8px 0 8px 0;">11-11 01:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/4348910/">深空当铺：可能是偷的</a>（4348910）</td><td style="padding:8px 8px 8px 0;">¥55.00 → ¥49.50</td><td style="padding:8px 8px 8px 0;">-10%</td><td style="padding:8px 0 8px 0;">11-12 01:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/477160/">人类一败涂地</a>（477160）</td><td style="padding:8px 8px 8px 0;">¥58.00 → ¥17.40</td><td style="padding:8px 8px 8px 0;">-70%</td><td style="padding:8px 0 8px 0;">11-13 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/3527290/">PEAK</a>（3527290）</td><td style="padding:8px 8px 8px 0;">¥33.00 → ¥20.46</td><td style="padding:8px 8px 8px 0;">-38%</td><td style="padding:8px 0 8px 0;">11-15 18:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/5266240/">Potato Please</a>（5266240）</td><td style="padding:8px 8px 8px 0;">¥35.00 → ¥31.50</td><td style="padding:8px 8px 8px 0;">-10%</td><td style="padding:8px 0 8px 0;">11-16 02:00</td></tr>
+<tr><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1211600/">隔离区-丧尸末日生存</a>（1211600）</td><td style="padding:8px 8px 8px 0;">¥48.00 → ¥28.80</td><td style="padding:8px 8px 8px 0;">-40%</td><td style="padding:8px 0 8px 0;">11-20 02:00</td></tr>
+</tbody></table>
+<p><strong>更正</strong>：15:25 那版把 appid <code>1211600</code> 写成了「ZED ZONE」，这是错的。16:04 重新取列表接口，<code>1211600</code> 的 <code>name</code> 字段是《隔离区-丧尸末日生存》，并用 <code>appdetails</code> 单独核到 <code>price_overview</code>：¥48.00 → ¥28.80、-40%，与列表一致。此前正文「Steam 特别优惠榜全量 10 条」里的 ZED ZONE 一条作废，以本表为准；观察区里写的「隔离区 -40%」反而是对的。榜单本身也换了一条：上一版 10 条里的 ZED ZONE 不再出现，本轮 10 条就是上表。</p>
+<p style="font-size:13px;color:#6b7280;">取法：<code>store.steampowered.com/api/featuredcategories?cc=cn&amp;l=schinese</code> 的 <code>specials.items</code>，价格取 <code>original_price</code>/<code>final_price</code>（单位分），截止取 <code>discount_expiration</code> 并换算为北京时间；核实于 2026-11-08 16:04。<strong>边界</strong>：除 1211600 外，其余 9 条本轮没有再逐款回 <code>appdetails</code> 核价——3241660 的单款请求在 16:04 超时（20 秒无响应），说明逐款复核仍被限流；付款前请以商店页为准。Dying Light（1345940）此前 <code>appdetails</code> 返回过另一款游戏，这条只保留列表接口的口径。</p>
+</details>
+
+<details>
+<summary><strong>Epic 复核：两篇限免仍在效；《LISA》当前 -60% 到 11-10 14:59</strong> ｜ 一条现货，一条提前记档</summary>
+<p>免费位没变：《浮游世界》与《Idle Champions of the Forgotten Realms》都还是 0 元，<code>endDate</code> 均为 <code>2026-11-12T16:00:00.000Z</code>，即 <strong>11-13 00:00 截止</strong>，领了永久入库。另有两条现在就能买到的折扣：<strong>《LISA: Definitive Edition》-60%，¥108.00 → ¥64.80，截止 11-10 14:59</strong>（<code>2026-11-10T06:59:00.000Z</code>）；这条此前只在观察区按「12 月再折 -55%」记过排期，当前这轮 -60% 反而更低。</p>
+<p>后续排期再核一遍，时间换算成北京时间：<strong>《斗阵骑士 Knightica》11-13 00:00 至 11-20 00:00 免费</strong>；<strong>TerraScape 11-22 00:00 至 12-22 00:00 -70%</strong>；<strong>《幽灵行者 2》12-11 01:00 起 -20%</strong>；<strong>《纪念碑谷》12-11 00:00 起 -35%</strong>；<strong>《LISA》12-11 00:00 起再折 -55%</strong>。都是 <code>upcomingPromotionalOffers</code> 里的未来排期，现在领不到、也还没生效，只做提前记档。</p>
+<p style="font-size:13px;color:#6b7280;">出处：Epic 官方 <code>freeGamesPromotions</code> 接口（<code>locale=zh-CN&amp;country=CN</code>），核实于 2026-11-08 16:03。边界：<code>originalPrice</code> 是接口给的当前原价，不保证是历史最低；促销时间以接口的 UTC 时间为准，页面上的倒计时可能因时区显示不同。</p>
+</details>
+
+<details>
+<summary><strong>GitHub Trending 16:04 快照：四个 Agent Skills 仓库热度与 15:24 持平</strong> ｜ 热度快照，不是推荐</summary>
+<p>日榜 15 条里，<a href="https://github.com/cloudflare/security-audit-skill">cloudflare/security-audit-skill</a> 仍是 +2,085、<a href="https://github.com/mattpocock/skills">mattpocock/skills</a> +1,100、<a href="https://github.com/google/skills">google/skills</a> +443、<a href="https://github.com/anthropics/skills">anthropics/skills</a> +390，与 15:24 那版数字一致。其余上榜：<a href="https://github.com/vercel-labs/agent-browser">vercel-labs/agent-browser</a> +190（Rust）、<a href="https://github.com/milind-soni/OpenMausBot">OpenMausBot</a> +1,955、<a href="https://github.com/sherlock-project/sherlock">sherlock</a> +1,766、<a href="https://github.com/zed-industries/zed">zed</a> +1,114、<a href="https://github.com/astral-sh/ruff">ruff</a> +350、<a href="https://github.com/prometheus/prometheus">prometheus</a> +322、<a href="https://github.com/mbillow/localthings">localthings</a> +186、<a href="https://github.com/ranxianglei/billion-context">billion-context</a> +191、<a href="https://github.com/dsx-ai-factory/nvke">nvke</a> +123、<a href="https://github.com/tailwindlabs/tailwindcss">tailwindcss</a> +122、<a href="https://github.com/meta/astryx">meta/astryx</a> +96。</p>
+<p style="font-size:13px;color:#6b7280;">边界：<code>stars today</code> 是 GitHub Trending 页面在 16:04 的快照，会随小时变化；本轮只读了榜单与描述，没有进仓库逐篇核对，不给采用建议。</p>
+</details>
+
+<details>
+<summary><strong>接口状态：行情与 HN 仍连不上，Steam 单款复核被限流</strong> ｜ 取不到就写明取不到</summary>
+<p>16:03 复测：CoinGecko <code>simple/price</code> 与 Hacker News <code>topstories</code> 都是 curl 退出码 35（TLS 握手没过代理），与下午那轮一致，所以 BTC/ETH 报价继续留空。Steam <code>appdetails</code> 对 3241660 的单款请求 16:04 超时，对 1211600 的请求成功，说明接口没有全挂、但逐款复核会被限流。Epic、Steam 列表接口、GitHub Trending 与 GitHub API 本轮均正常。</p>
+<p style="font-size:13px;color:#6b7280;">本轮没有新增安全条目，OpenSSH 10.6p2 / Alpine 的处置建议维持 15:30 那版不变；也没有新的 AI 与币圈一手来源可核，不用旧闻填充。</p>
+</details>
 
 ## 15:20–15:30 补录（4 条）
 
@@ -142,5 +191,5 @@ description: "2026-11-08 下午两轮：首轮 13 个来源、约 110 条抓取�
 <p><strong>取数</strong>：13 个来源 / 接口，约 110 条——Epic 官方促销接口（7 条 offer）、Steam 特别优惠榜（10 条）+ 5 款 appdetails、HN 首页（15 条）、Lobsters（12 条）、GitHub 官方博客 RSS（10 条）、Appinn RSS（10 条）、SSPAI RSS（7 条）、IT之家 RSS（15 条）、alternative.me、OpenSSH 发布说明、Asahi 与 mitchellh 各 1 篇。失败 6 处：CoinGecko、Binance、Coinpaprika、<code>t.me/s/TossTF</code>、Apiiro 博客（Cloudflare 挑战页）、Steam appid 1345940（返回错款）。</p>
 <p><strong>验真</strong>：福利类回官方接口二次确认价格与截止——Epic 走 <code>freeGamesPromotions</code>，Steam 走 <code>appdetails</code> 的 <code>price_overview</code>，这比上一轮「只能拿到列表页」进了一步；安全类只把 OpenSSH 官方发布说明提到「值得」，CVE 编号与影响范围因为是转述，正文里明确标了出处与不确定性。取不到的行情与限免，直接承认取不到。</p>
 <p><strong>分级</strong>：🔥 紧急要求距截止不超过 3 小时或影响既有服务，本轮 0 条（OpenSSH 虽重要，但没有统一截止时间，放「值得」第一条并给出自查命令）；⭐ 值得 6 条，均为一手来源或已回官方接口核实；👀 观察 11 条，逐条写明卡在哪一步；旧闻重推、软文、要连钱包才能领的直接过滤。</p>
-<p><strong>落盘</strong>：同一天只保留这一份，后续如有新料在此文更新而不是新建文件。15:05 首发后，15:20–15:30 又跑了一轮只读复核，按「一天一份」的规则直接在原文件追加「补录」段，远端仍是同一个 <code>_posts/2026-11-08-info-radar.md</code>。<strong>边界</strong>：全程只收集与核实，不注册、不绑卡、不代领券、不下单；币圈不连钱包、不签名、不导私钥、不代充代提，也不给买卖建议与目标价。所有兑现动作由读者本人完成。</p>
+<p><strong>落盘</strong>：同一天只保留这一份，后续如有新料在此文更新而不是新建文件。15:05 首发后，15:20–15:30 与 16:03–16:05 又各跑了一轮只读复核，按「一天一份」的规则直接在原文件追加「补录」与「第三轮复核」段，远端仍是同一个 <code>_posts/2026-11-08-info-radar.md</code>，没有新建文件。<strong>边界</strong>：全程只收集与核实，不注册、不绑卡、不代领券、不下单；币圈不连钱包、不签名、不导私钥、不代充代提，也不给买卖建议与目标价。所有兑现动作由读者本人完成。</p>
 </details>
