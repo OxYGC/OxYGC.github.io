@@ -74,25 +74,19 @@
     background:var(--panel2);border-radius:9px 9px 0 0}
   .panel header b{font-size:13px;letter-spacing:.6px}
   .led{width:8px;height:8px;border-radius:50%;background:var(--cyan)}
-  .radar-body{padding:16px 20px;font-size:14px}
-  .radar-body h2{font-size:16px;margin:26px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
-  .radar-body h3{font-size:14.5px;margin:18px 0 8px}
-  .radar-body p{margin:8px 0}
-  .radar-body a{color:var(--cyan);text-decoration:none}
-  .radar-body a:hover{text-decoration:underline}
-  .radar-body table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
-  .radar-body th,.radar-body td{border-bottom:1px solid var(--line);padding:8px;text-align:left}
-  .radar-body details{border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin:10px 0;background:var(--panel2)}
-  .radar-body summary{cursor:pointer;font-size:13.5px}
-  .radar-body code{font-family:Consolas,monospace;font-size:12.5px;background:var(--panel2);border:1px solid var(--line);border-radius:4px;padding:1px 5px}
-  .radar-body ul,.radar-body ol{padding-left:22px;margin:8px 0}
-  .radar-body blockquote{border-left:3px solid var(--cyan);padding:4px 14px;margin:10px 0;color:var(--muted);background:var(--panel2);border-radius:0 8px 8px 0}
-  .radar-body img{max-width:100%;border-radius:8px}
-  /* 暗色下修正正文内联浅色样式 */
-  [data-theme="dark"] .radar-body div[style]{background:var(--panel2)!important;border-color:var(--line)!important}
-  [data-theme="dark"] .radar-body td[style],[data-theme="dark"] .radar-body th[style]{border-color:var(--line)!important}
-  [data-theme="dark"] .radar-body span[style*="#6b7280"],[data-theme="dark"] .radar-body p[style*="#8a9099"],
-  [data-theme="dark"] .radar-body p[style*="#6b7280"]{color:var(--muted)!important}
+  .led.gr{background:var(--green)}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+  @media(max-width:1100px){.grid2{grid-template-columns:1fr}}
+  .panel header .more{margin-left:auto;font-size:11.5px;color:var(--cyan);text-decoration:none;font-weight:700}
+  .radar-body{padding:6px 4px}
+  .row{display:flex;align-items:flex-start;gap:10px;padding:8px 14px;border-bottom:1px solid var(--line)}
+  .row:last-child{border-bottom:none}
+  .row:hover{background:var(--hover)}
+  .row .dot{width:6px;height:6px;border-radius:50%;background:var(--cyan);flex-shrink:0;margin-top:7px}
+  .row .t{flex:1;min-width:0;font-size:13px}
+  .row .t a{color:var(--text);text-decoration:none;font-weight:700}
+  .row .t a:hover{color:var(--cyan)}
+  .row .t .m{font-size:11px;color:var(--muted);margin-top:2px}
   footer.page-foot{margin-top:18px;font-size:11px;color:var(--muted);display:flex;justify-content:space-between}
   @media(max-width:900px){
     .sidebar{position:fixed;left:0;top:0;z-index:20;transform:translateX(-100%);box-shadow:0 0 40px rgba(0,0,0,.25)}
@@ -107,7 +101,7 @@
 </style>
 </head>
 <body>
-{% assign radar = site.posts | where: "tags", "资讯雷达" %}
+{% assign radar = site.posts | where: "tags", "资讯雷达" | sort: "date" | reverse %}
 {% assign latest = radar | first %}
   <div class="layout">
     <aside class="sidebar">
@@ -154,10 +148,27 @@
         <div class="stat c4"><div class="l">站点标签</div><div class="n mono">{{ site.tags | size }}</div><div class="d">含资讯雷达等</div></div>
       </div>
 
-      <section class="panel">
-        <header><span class="led"></span><b>{{ latest.title }}</b></header>
-        <div class="radar-body">{{ latest.content }}</div>
-      </section>
+      <div class="grid2">
+        <section class="panel">
+          <header><span class="led"></span><b>今日要点</b><a class="more" href="{{ latest.url | relative_url }}">读原文 →</a></header>
+          <div class="radar-body">
+            <div class="row"><div class="t"><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a><div class="m mono">{{ latest.date | date: '%Y-%m-%d %H:%M' }} · {{ latest.categories | join: ' / ' }}</div></div></div>
+            {% assign parts = latest.description | split: "；" %}
+            {% for x in parts %}
+            <div class="row"><span class="dot"></span><div class="t">{{ x | strip_html }}。</div></div>
+            {% endfor %}
+          </div>
+        </section>
+
+        <section class="panel">
+          <header><span class="led gr"></span><b>近期简报</b><a class="more" href="{{ '/archives/' | relative_url }}">全部 →</a></header>
+          <div class="radar-body">
+            {% for p in radar limit: 9 %}
+            <div class="row"><div class="t"><a href="{{ p.url | relative_url }}">{{ p.title | split: '｜' | first }}</a><div class="m mono">{{ p.date | date: '%m-%d' }} · {{ p.tags | slice: 1, 3 | join: ' / ' }}</div></div></div>
+            {% endfor %}
+          </div>
+        </section>
+      </div>
 
       <footer class="page-foot mono"><span>© {{ "now" | date: "%Y" }} {{ site.author.name }} · 资讯雷达监控台</span><a href="{{ latest.url | relative_url }}" style="color:var(--cyan)">本期原帖 →</a></footer>
     </main>
