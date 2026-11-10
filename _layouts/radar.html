@@ -1,1 +1,209 @@
-<!-- radar.html placeholder -->
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'zh-CN' }}" data-theme="light">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title | default: '资讯雷达' }} · {{ site.title }}</title>
+<style>
+  :root{
+    --bg:#f2f5f9;--panel:#ffffff;--panel2:#f6f8fb;--line:#dde3ec;
+    --text:#243041;--muted:#7c8798;--side:#ffffff;--side-active:#eef4fb;
+    --cyan:#0891b2;--green:#16a34a;--orange:#d97706;--red:#dc2626;--violet:#7c3aed;
+    --track:#e6ebf2;--hover:#f4f7fb;--glow:.18;--shadow:0 4px 18px rgba(30,50,90,.07);
+  }
+  [data-theme="dark"]{
+    --bg:#0b0e14;--panel:#131720;--panel2:#171c27;--line:#232a38;
+    --text:#d7dde8;--muted:#6b7688;--side:#0e1219;--side-active:#182234;
+    --cyan:#22d3ee;--green:#34d399;--orange:#fbbf24;--red:#f87171;--violet:#a78bfa;
+    --track:#232a38;--hover:#181e2b;--glow:.6;--shadow:0 6px 22px rgba(0,0,0,.4);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);line-height:1.6;font-size:13.5px;
+    font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;transition:background .25s,color .25s}
+  .mono{font-family:Consolas,"JetBrains Mono",monospace}
+  .layout{display:flex;min-height:100vh}
+  .sidebar{width:236px;flex-shrink:0;background:var(--side);border-right:1px solid var(--line);
+    position:sticky;top:0;height:100vh;display:flex;flex-direction:column;transition:width .22s;overflow:hidden}
+  .side-head{display:flex;align-items:center;gap:12px;padding:18px 16px 12px;min-height:74px}
+  .avatar{width:44px;height:44px;border-radius:12px;flex-shrink:0;object-fit:cover;
+    background:linear-gradient(135deg,var(--cyan),var(--violet));box-shadow:0 4px 12px rgba(8,145,178,.35)}
+  .side-id{min-width:0}
+  .side-id .name{font-size:15px;font-weight:800;white-space:nowrap}
+  .side-id .slogan{font-size:11px;color:var(--muted);white-space:nowrap;margin-top:2px}
+  .menu{padding:4px 10px;display:flex;flex-direction:column;gap:3px}
+  .menu a{display:flex;align-items:center;gap:12px;padding:9px 12px;border-radius:9px;
+    color:var(--text);text-decoration:none;font-size:13.5px;white-space:nowrap;transition:.15s}
+  .menu a svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8;flex-shrink:0}
+  .menu a:hover{background:var(--hover)}
+  .menu a.active{background:var(--side-active);color:var(--cyan);font-weight:700}
+  .menu .sec{font-size:10.5px;letter-spacing:1.5px;color:var(--muted);padding:12px 12px 3px;white-space:nowrap}
+  .hist{flex:1;min-height:0;overflow-y:auto;padding:0 10px 8px}
+  .hist a{display:flex;justify-content:space-between;align-items:center;padding:5px 12px;border-radius:7px;
+    font-size:12px;color:var(--muted);text-decoration:none;white-space:nowrap}
+  .hist a:hover{background:var(--hover);color:var(--cyan)}
+  .hist a.today{color:var(--green);font-weight:700}
+  .side-foot{padding:10px 16px;border-top:1px solid var(--line);font-size:11px;color:var(--muted);white-space:nowrap}
+  body.side-collapsed .sidebar{width:66px}
+  body.side-collapsed .side-id,body.side-collapsed .slogan,body.side-collapsed .menu a span,
+  body.side-collapsed .menu .sec,body.side-collapsed .hist,body.side-collapsed .side-foot span{opacity:0;width:0;overflow:hidden}
+  body.side-collapsed .menu a{justify-content:center;padding:10px 0}
+  body.side-collapsed .side-head{justify-content:center;padding:18px 8px 12px}
+  .main{flex:1;min-width:0;padding:18px 24px 60px}
+  .top{display:flex;align-items:center;gap:14px;padding:2px 0 14px;border-bottom:1px solid var(--line);margin-bottom:15px;flex-wrap:wrap}
+  .icon-btn{width:34px;height:34px;border-radius:8px;border:1px solid var(--line);background:var(--panel);
+    color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.15s;flex-shrink:0}
+  .icon-btn:hover{border-color:var(--cyan);color:var(--cyan)}
+  .icon-btn svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:1.8}
+  .top h1{font-size:17px;font-weight:800;letter-spacing:.8px}
+  .top h1 em{color:var(--cyan);font-style:normal}
+  .live{display:inline-flex;align-items:center;gap:7px;font-size:11.5px;color:var(--green);
+    border:1px solid var(--green);border-radius:5px;padding:2px 9px}
+  .live i{width:7px;height:7px;border-radius:50%;background:var(--green);animation:p 1.5s infinite}
+  @keyframes p{50%{opacity:.3}}
+  .top .right{margin-left:auto;font-size:11.5px;color:var(--muted)}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:14px}
+  .stat{background:var(--panel);border:1px solid var(--line);border-left-width:3px;border-radius:9px;padding:12px 16px;box-shadow:var(--shadow)}
+  .stat.c1{border-left-color:var(--cyan)}.stat.c2{border-left-color:var(--green)}
+  .stat.c3{border-left-color:var(--orange)}.stat.c4{border-left-color:var(--red)}
+  .stat .l{font-size:10.5px;color:var(--muted);letter-spacing:1.5px}
+  .stat .n{font-size:25px;font-weight:800;margin-top:1px}
+  .stat.c1 .n{color:var(--cyan)}.stat.c2 .n{color:var(--green)}.stat.c3 .n{color:var(--orange)}.stat.c4 .n{color:var(--red)}
+  .stat .d{font-size:11px;color:var(--muted)}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:9px;box-shadow:var(--shadow)}
+  .panel header{display:flex;align-items:center;gap:9px;padding:10px 16px;border-bottom:1px solid var(--line);
+    background:var(--panel2);border-radius:9px 9px 0 0}
+  .panel header b{font-size:13px;letter-spacing:.6px}
+  .led{width:8px;height:8px;border-radius:50%;background:var(--cyan)}
+  .led.gr{background:var(--green)}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+  @media(max-width:1100px){.grid2{grid-template-columns:1fr}}
+  .panel header .more{margin-left:auto;font-size:11.5px;color:var(--cyan);text-decoration:none;font-weight:700}
+  .radar-body{padding:6px 4px}
+  .row{display:flex;align-items:flex-start;gap:10px;padding:8px 14px;border-bottom:1px solid var(--line)}
+  .row:last-child{border-bottom:none}
+  .row:hover{background:var(--hover)}
+  .row .dot{width:6px;height:6px;border-radius:50%;background:var(--cyan);flex-shrink:0;margin-top:7px}
+  .row .t{flex:1;min-width:0;font-size:13px}
+  .row .t a{color:var(--text);text-decoration:none;font-weight:700}
+  .row .t a:hover{color:var(--cyan)}
+  .row .t .m{font-size:11px;color:var(--muted);margin-top:2px}
+  footer.page-foot{margin-top:18px;font-size:11px;color:var(--muted);display:flex;justify-content:space-between}
+  @media(max-width:900px){
+    .sidebar{position:fixed;left:0;top:0;z-index:20;transform:translateX(-100%);box-shadow:0 0 40px rgba(0,0,0,.25)}
+    body.drawer-open .sidebar{transform:none}
+    body.side-collapsed .sidebar{width:236px}
+    body.side-collapsed .side-id,body.side-collapsed .slogan,body.side-collapsed .menu a span,
+    body.side-collapsed .menu .sec,body.side-collapsed .hist,body.side-collapsed .side-foot span{opacity:1;width:auto}
+    body.side-collapsed .menu a{justify-content:flex-start;padding:9px 12px}
+    body.side-collapsed .side-head{justify-content:flex-start;padding:18px 16px 12px}
+    .stats{grid-template-columns:1fr 1fr}
+  }
+</style>
+</head>
+<body>
+{% assign radar = site.posts | where: "tags", "资讯雷达" | sort: "date" | reverse %}
+{% assign latest = radar | first %}
+{% assign oldest = radar | last %}
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="side-head">
+        <img class="avatar" src="{{ site.avatar | relative_url }}" alt="avatar">
+        <div class="side-id">
+          <div class="name">{{ site.title }}</div>
+          <div class="slogan">{{ site.tagline }}</div>
+        </div>
+      </div>
+      <nav class="menu">
+        <a class="active" href="{{ '/radar/' | relative_url }}"><svg viewBox="0 0 24 24"><path d="M12 12l7-7M12 3a9 9 0 109 9"/><circle cx="12" cy="12" r="1.5"/></svg><span>资讯雷达监控</span></a>
+        <div class="sec">浏览</div>
+        <a href="{{ '/categories/' | relative_url }}"><svg viewBox="0 0 24 24"><path d="M4 5h6v6H4zM14 5h6v6h-6zM4 13h6v6H4zM14 13h6v6h-6z"/></svg><span>分类</span></a>
+        <a href="{{ '/tags/' | relative_url }}"><svg viewBox="0 0 24 24"><path d="M4 4h9l7 7-9 9-7-7zM8.5 8.5h.01"/></svg><span>标签</span></a>
+        <a href="{{ '/archives/' | relative_url }}"><svg viewBox="0 0 24 24"><path d="M4 7h16M6 7l1 13h10l1-13M9 7V4h6v3"/></svg><span>归档</span></a>
+        <div class="sec">站点</div>
+        <a href="{{ '/about/' | relative_url }}"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg><span>关于</span></a>
+      </nav>
+      <div class="menu"><div class="sec">历史简报</div></div>
+      <div class="hist">
+        {% for p in radar limit: 14 %}
+        <a href="{{ p.url | relative_url }}"{% if forloop.first %} class="today"{% endif %}><span class="mono">{{ p.date | date: '%m-%d' }}</span><span>{% if forloop.first %}最新{% endif %}</span></a>
+        {% endfor %}
+      </div>
+      <div class="side-foot"><span class="mono">news-ops · {{ radar.size }} 期已归档</span></div>
+    </aside>
+
+    <main class="main">
+      <div class="top">
+        <button class="icon-btn" id="sideBtn" title="开/关侧边栏"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h16"/></svg></button>
+        <h1><em>NEWS</em>·OPS 资讯监控台</h1>
+        <span class="live"><i></i>{{ latest.date | date: '更新 %m-%d %H:%M' }}</span>
+        <span class="right mono">{{ site.title }} · 未核实不收录</span>
+        <button class="icon-btn" id="themeBtn" title="切换浅色/暗色">
+          <svg id="themeIcon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1111.2 3 7 7 0 0021 12.8z"/></svg>
+        </button>
+      </div>
+
+      <div class="stats">
+        <div class="stat c1"><div class="l">雷达总期数</div><div class="n mono">{{ radar.size }}</div><div class="d">自 {{ oldest.date | date: '%Y-%m-%d' }}</div></div>
+        <div class="stat c2"><div class="l">最新一期</div><div class="n mono">{{ latest.date | date: '%m-%d' }}</div><div class="d">{{ latest.title | truncate: 26, '…' }}</div></div>
+        <div class="stat c3"><div class="l">站点分类</div><div class="n mono">{{ site.categories | size }}</div><div class="d">全站文章 {{ site.posts | size }} 篇</div></div>
+        <div class="stat c4"><div class="l">站点标签</div><div class="n mono">{{ site.tags | size }}</div><div class="d">含资讯雷达等</div></div>
+      </div>
+
+      <div class="grid2">
+        <section class="panel">
+          <header><span class="led"></span><b>今日要点</b><a class="more" href="{{ latest.url | relative_url }}">读原文 →</a></header>
+          <div class="radar-body">
+            <div class="row"><div class="t"><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a><div class="m mono">{{ latest.date | date: '%Y-%m-%d %H:%M' }} · {{ latest.categories | join: ' / ' }}</div></div></div>
+            {% assign parts = latest.description | split: "；" %}
+            {% for x in parts %}
+            <div class="row"><span class="dot"></span><div class="t">{{ x | strip_html }}。</div></div>
+            {% endfor %}
+          </div>
+        </section>
+
+        <section class="panel">
+          <header><span class="led gr"></span><b>近期简报</b><a class="more" href="{{ '/archives/' | relative_url }}">全部 →</a></header>
+          <div class="radar-body">
+            {% for p in radar limit: 9 %}
+            <div class="row"><div class="t"><a href="{{ p.url | relative_url }}">{{ p.title | split: '｜' | first }}</a><div class="m mono">{{ p.date | date: '%m-%d' }} · {{ p.tags | slice: 1, 3 | join: ' / ' }}</div></div></div>
+            {% endfor %}
+          </div>
+        </section>
+      </div>
+
+      <footer class="page-foot mono"><span>© {{ "now" | date: "%Y" }} {{ site.author.name }} · 资讯雷达监控台</span><a href="{{ latest.url | relative_url }}" style="color:var(--cyan)">本期原帖 →</a></footer>
+    </main>
+  </div>
+
+<script>
+  /* ===== 代码控制项 =====
+     theme       : "light" | "dark"  默认主题
+     sidebarOpen : true | false      侧边栏默认展开
+     remember    : true 时记住用户手动切换(localStorage) */
+  const CONFIG = { theme: "light", sidebarOpen: true, remember: true };
+
+  const root = document.documentElement, body = document.body;
+  function applyTheme(t){
+    root.setAttribute("data-theme", t);
+    document.getElementById("themeIcon").innerHTML =
+      t === "dark" ? '<circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4 4l1.5 1.5M18.5 18.5L20 20M2 12h2M20 12h2M4 20l1.5-1.5M18.5 5.5L20 4"/>'
+                   : '<path d="M21 12.8A9 9 0 1111.2 3 7 7 0 0021 12.8z"/>';
+  }
+  const savedTheme = CONFIG.remember ? localStorage.getItem("radar-theme") : null;
+  applyTheme(savedTheme || CONFIG.theme);
+  const savedSide = CONFIG.remember ? localStorage.getItem("radar-side") : null;
+  body.classList.toggle("side-collapsed", savedSide ? savedSide === "closed" : !CONFIG.sidebarOpen);
+
+  document.getElementById("themeBtn").addEventListener("click", () => {
+    const next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    applyTheme(next);
+    if (CONFIG.remember) localStorage.setItem("radar-theme", next);
+  });
+  document.getElementById("sideBtn").addEventListener("click", () => {
+    if (window.innerWidth <= 900) { body.classList.toggle("drawer-open"); return; }
+    body.classList.toggle("side-collapsed");
+    if (CONFIG.remember) localStorage.setItem("radar-side", body.classList.contains("side-collapsed") ? "closed" : "open");
+  });
+</script>
+</body>
+</html>
