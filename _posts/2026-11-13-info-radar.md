@@ -162,7 +162,7 @@ description: "2026-11-13 凌晨更新：黄仁勋辞去英伟达 CEO 即刻生�
 <li><a href="https://www.appinn.com/11-lightweight-self-hosted-apps-512mb-ram/">11 款超轻量自托管工具</a>，最低只占 5MB 内存。</li>
 <li><a href="https://www.appinn.com/apple-harbor-mac-ai-cluster/">苹果新应用 Harbor 曝光</a>：插线连接多台 Mac，一起运行本地大模型。</li>
 <li><a href="https://www.appinn.com/process-explorer-for-macos/">微软为 Mac 推出 Process Explorer</a>，比活动监视器更强的进程管理工具。</li>
-<li><a href="http://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html">阮一峰科技周刊第 418 期：如果科技停止在 21 世纪初</a>。</li>
+<li><a href="https://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html">阮一峰科技周刊第 418 期：如果科技停止在 21 世纪初</a>。</li>
 </ul>
 <p style="font-size:13px;color:#6b7280;">Product Hunt 11-12 上榜包括 Hoy for Mac、Plurai Simulation、Jot 2.0、Infinite Drive、Crossfade、Sluice、⌘+L、Yogurt、Spacefast by Automattic、Toki Matter；仅作线索，未逐项试用。</p>
 </details>
