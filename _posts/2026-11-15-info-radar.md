@@ -5,12 +5,14 @@ date: 2026-11-15 00:12:00 +0800
 permalink: /posts/info-radar-2026-11-15/
 categories: [Info, Deals]
 tags: [资讯雷达, Steam折扣, Epic限免, GitHub趋势, AI动态, 币圈]
-description: "2026-11-15 凌晨版：Steam《PEAK》-38% 今晚 18:00 截止，Epic《斗阵骑士 Knightica》0 元领到 11-20 00:00，下周《Alien: Isolation》接力限免；GitHub Trending 由 modern-web-guidance-src、alibaba/open-code-review 领跑；BTC 约 6.56 万美元、恐惧贪婪指数 13，全网 24 小时爆仓 8.54 亿美元。"
+description: "2026-11-15 凌晨版 + 早间 06:31–06:57 复核：Steam《PEAK》-38% 今晚 18:00 截止，Epic《斗阵骑士 Knightica》0 元领到 11-20 00:00，下周《Alien: Isolation》接力限免；iOS 国区 9 款应用回 iTunes 核到下载价 0 元；InstaBox 免费档规格已回官方定价页校正；Kraken 充提仍在部分降级；BTC 约 6.4 万美元、恐惧贪婪指数 13。"
 ---
 
 这一轮取数在 2026-11-15 00:04–00:11（北京时间）完成：22 个来源、抓回 171 条，16 个来源正常、6 个异常，异常仍是境外源 SSL 连接失败（CoinGecko、V2EX、Hugging Face、Binance、以太坊博客、CoinDesk）。这是当天第一版，也是当天唯一一篇；午间若再跑，只会在本文件内更新，不新增文件。
 
-结论先摆前面：**今天最紧的是 Steam《PEAK》-38%，今晚 18:00 截止；Epic 免费位还是《斗阵骑士 Knightica》0 元，11-20 00:00 换档，接棒的是《Alien: Isolation》与《Mark of the Deep》；币圈继续走弱，BTC 约 6.56 万美元，恐惧贪婪指数仍在 13（Extreme Fear）。**
+**早间 06:31–06:57 做了第二轮复核，仍是这一篇。** 这一轮走的是 25 源的雷达取数（`fetched=281 / fresh=146 / errors=0`，凌晨报 6 个 ERR 的那批境外源今早全绿），复核带来的增量是四块：iOS 国区限免（凌晨只做了连通性探测，今早按 trackId 逐条回 iTunes 核到 9 款下载价 0 元）、InstaBox 免费档（凌晨只有小众软件转述，今早回官方定价页核到限额，并且**修正了一处数字**）、Kraken 充提服务状态（凌晨版没取，今早取到仍在部分降级）、GitHub Trending 的总 star 与授权（凌晨版只有今日新增数）。下面凡标注「早间复核」的，数值都以 06:31–06:57 这次实测为准。
+
+结论先摆前面：**今天最紧的是 Steam《PEAK》-38%，今晚 18:00 截止；Epic 免费位还是《斗阵骑士 Knightica》0 元，11-20 00:00 换档，接棒的是《Alien: Isolation》与《Mark of the Deep》；iOS 侧今早有 9 款核到下载价 0 元，但 Apple 不公布截止时间；Kraken 的充提网关仍在报降级，在提币的要自己复查；币圈继续走弱，早间快照 BTC 约 6.40 万美元，恐惧贪婪指数仍在 13（Extreme Fear）。**
 
 <div style="border:1px solid #e3e6ea;border-radius:10px;padding:16px 18px;background:#fbfcfd;margin:0 0 28px;">
 <strong style="font-size:15px;">这一轮真正会过期、或需要你自己动手的只有这几条</strong>
@@ -34,20 +36,32 @@ description: "2026-11-15 凌晨版：Steam《PEAK》-38% 今晚 18:00 截止，E
 <td style="padding:9px 8px 9px 0;">¥198.00 → 0 元</td>
 <td style="padding:9px 0 9px 0;"><a href="https://store.epicgames.com/zh-CN/free-games">store.epicgames.com</a></td></tr>
 <tr style="border-bottom:1px solid #eef0f2;">
-<td style="padding:9px 8px 9px 0;color:#c0392b;font-weight:700;">11-20 01:00 收</td>
-<td style="padding:9px 8px 9px 0;">Steam《Overcooked! 2》-66%</td>
-<td style="padding:9px 8px 9px 0;">¥98.00 → ¥33.32</td>
-<td style="padding:9px 0 9px 0;"><a href="https://store.steampowered.com/app/728880/">store.steampowered.com</a></td></tr>
+<td style="padding:9px 8px 9px 0;color:#c0392b;font-weight:700;">今天下载</td>
+<td style="padding:9px 8px 9px 0;">iOS 国区 9 款本体限免（早间回 iTunes 核到 0 元）</td>
+<td style="padding:9px 8px 9px 0;">0 元</td>
+<td style="padding:9px 0 9px 0;"><a href="https://apps.apple.com/cn/app/velora-player-video-audio/id6787141171">apps.apple.com/cn</a></td></tr>
+<tr style="border-bottom:1px solid #eef0f2;">
+<td style="padding:9px 8px 9px 0;color:#c0392b;font-weight:700;">持续中（复查）</td>
+<td style="padding:9px 8px 9px 0;">Kraken 充提网关仍部分降级</td>
+<td style="padding:9px 8px 9px 0;">非价格项</td>
+<td style="padding:9px 0 9px 0;"><a href="https://status.kraken.com/api/v2/status.json">status.kraken.com</a></td></tr>
 <tr>
 <td style="padding:9px 8px 9px 0;color:#c0392b;font-weight:700;">11-25 01:00 收</td>
 <td style="padding:9px 8px 9px 0;">Steam《Euro Truck Simulator 2》-75%</td>
 <td style="padding:9px 8px 9px 0;">¥92.99 → ¥23.24</td>
 <td style="padding:9px 0 9px 0;"><a href="https://store.steampowered.com/app/227300/">store.steampowered.com</a></td></tr>
 </tbody></table>
-<p style="font-size:12px;color:#8a9099;margin:12px 0 0;">价格为 11-15 00:06 官方接口实测（Steam featuredcategories / Epic promotions）。本站只报道与核实，注册、登录、领取、下单全部由你自己完成。</p>
+<p style="font-size:12px;color:#8a9099;margin:12px 0 0;">价格为 11-15 00:06 官方接口实测，Steam/Epic 与 iOS 限免在 06:46–06:33 早间复核（Steam featuredcategories / Epic promotions / iTunes lookup）。<strong>Overcooked! 2 凌晨在特惠榜、今早 06:46 与 06:57 两次回读都已不在返回的 top-10 窗口内，故从行动卡移出</strong>——该接口是滚动返回，掉出窗口不等于活动结束，要买请自己打开商店页确认。本站只报道与核实，注册、登录、领取、下单全部由你自己完成。</p>
 </div>
 
-## 值得看（5）
+## 值得看（8，含 1 条 🔥 复查项）
+
+<details open>
+<summary><strong>🔥 Kraken 充提服务仍在「部分降级」：在提币的自己复查</strong> ｜ <span style="color:#c0392b;font-weight:700;">持续中，非临期</span> ｜ <span style="color:#6b7280;">早间 06:46 复核</span></summary>
+<p>今早取状态页（Statuspage 官方接口）：<code>indicator=minor</code>、描述 <code>Partially Degraded Service</code>，页面整体最后更新 <code>2026-11-14T20:44Z</code>（≈ 北京时间 11-15 04:44）。正在报的组件集中在<strong>充提网关</strong>：Digital Currency Funding、Flare (FLR)、MemeCore (M)-BNB Chain、Osmosis (OSMO)、Stablr Euro (EURR)、Stablr USD (USDR)、Tether USD (USDT)-Flare，其中 Osmosis 组件级最后更新 <code>2026-11-14T11:02Z</code>。同一轮 Coinbase 状态页 <code>indicator=none</code>。</p>
+<p style="font-size:13px;color:#6b7280;">这条之所以单独提到「需要你动手」这一层：它影响的是<strong>在用资产的可得性</strong>——如果你的在途充提走上面这几条链，到账会比平时慢，但本站不代操作充提、不碰任何链上动作，也不会替你判断该不该提。口径：<code>indicator</code> 不是 <code>none</code> 就提出复查，不用 Kraken 可以直接忽略这一条。</p>
+<p style="font-size:13px;color:#6b7280;">出处：<a href="https://status.kraken.com/api/v2/status.json">status.kraken.com/api/v2/status.json</a>、<a href="https://status.coinbase.com/api/v2/status.json">status.coinbase.com/api/v2/status.json</a>｜核实于 2026-11-15 06:46。</p>
+</details>
 
 <details open>
 <summary><strong>Steam 折扣：PEAK 今晚 18:00 截止，其余九款还有一周窗口</strong> ｜ <span style="color:#1a7f37;font-weight:700;">¥18.20 起</span> ｜ <span style="color:#c0392b;font-weight:700;">最近 11-15 18:00 收</span></summary>
@@ -67,7 +81,7 @@ description: "2026-11-15 凌晨版：Steam《PEAK》-38% 今晚 18:00 截止，E
 <tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/394360/">Hearts of Iron IV</a>（394360）</td><td style="padding:8px 8px 8px 0;">¥198.00 → ¥59.40</td><td style="padding:8px 8px 8px 0;">-70%</td><td style="padding:8px 0 8px 0;">11-27 02:00</td></tr>
 <tr><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/3816120/">重生2我独自逆袭</a>（3816120）</td><td style="padding:8px 8px 8px 0;">¥58.00 → ¥46.40</td><td style="padding:8px 8px 8px 0;">-20%</td><td style="padding:8px 0 8px 0;">11-28 02:00</td></tr>
 </tbody></table>
-<p style="font-size:13px;color:#6b7280;">取法：<code>store.steampowered.com/api/featuredcategories?cc=cn&amp;l=schinese</code> 的 <code>specials.items</code>，价格取 <code>original_price</code>/<code>final_price</code>（单位分），截止取 <code>discount_expiration</code> 并换算为北京时间；核实于 2026-11-15 00:06。<strong>边界</strong>：只取列表接口，未逐款回 <code>appdetails</code> 复核，付款前请以商店页为准。</p>
+<p style="font-size:13px;color:#6b7280;">取法：<code>store.steampowered.com/api/featuredcategories?cc=cn&amp;l=schinese</code> 的 <code>specials.items</code>，价格取 <code>original_price</code>/<code>final_price</code>（单位分），截止取 <code>discount_expiration</code> 并换算为北京时间；核实于 2026-11-15 00:06。<strong>早间 06:46 与 06:57 两次回读复核：PEAK 仍在榜且仍是 <code>2026-11-15T10:00Z</code>（= 今晚 18:00 北京）截止，¥33.00 → ¥20.46 未变；ETS2 / HOI4 / Bodycam 价格与截止同样未变。这个接口只返回滚动的前 10 条，两次回读里 <code>Potato Please</code>（¥35.00 → ¥31.50，-10%，11-16 02:00 北京收）与 <code>隔离区-丧尸末日生存</code>（¥48.00 → ¥28.80，-40%）轮流进窗口，而 <code>Overcooked! 2</code> 已掉出窗口——掉出≠活动结束，只说明本轮没再核到它。</strong>边界：只取列表接口，未逐款回 <code>appdetails</code> 复核，付款前请以商店页为准。</p>
 </details>
 
 <details>
@@ -82,6 +96,30 @@ description: "2026-11-15 凌晨版：Steam《PEAK》-38% 今晚 18:00 截止，E
 <tr><td style="padding:8px 8px 8px 0;">Mark of the Deep</td><td style="padding:8px 8px 8px 0;">¥55.00</td><td style="padding:8px 0 8px 0;">11-20 00:00 → 11-27 00:00</td></tr>
 </tbody></table>
 <p style="font-size:13px;color:#6b7280;">出处：Epic 官方 <code>freeGamesPromotions</code> 接口（<code>locale=zh-CN&amp;country=CN</code>），核实于 2026-11-15 00:06。边界：领了永久入库，但后续 DLC / 内购是否另收费以商店页为准。</p>
+</details>
+
+<details>
+<summary><strong>iOS 国区限免：9 款应用本体下载价 0 元（已逐条回 iTunes 核）</strong> ｜ <span style="color:#1a7f37;font-weight:700;">0 元</span> ｜ <span style="color:#6b7280;">Apple 不公布限免截止时间</span></summary>
+<p>凌晨那一轮 App Store 通道只做了连通性探测（状态页写「仅连通性探测，本轮未采用」），今早 06:33 这一轮把汇总频道播报的条目逐条拿 <code>trackId</code> 回 iTunes <code>lookup</code> 核了国区现价，<strong>9 款核到下载价 0 元</strong>。两件事要说在前面：</p>
+<ul>
+<li><strong>没有截止时间。</strong>Apple 不公布促销结束时间，这一栏只能空着——不编日期。<code>price==0</code> 也只等于「今天下载不花钱」，接口分不出「本就免费」和「促销限免」，所以不写「限免仍在」。核价认 App Store 的 id，不认名字（国区常改名，按名字会认错 app、把别人的免费价安到这条上）。</li>
+<li><strong>内购型另算。</strong>同轮播报里的 ZeroClock 是内购限免，内购解锁价不体现在下载价上，这条只算转述，放在观察段，不进下面这张表。</li>
+</ul>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">应用（trackId）</th><th style="padding:6px 8px 6px 0;width:16%;">国区现价</th><th style="padding:6px 0 6px 0;width:26%;">商店名 / 开发者</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://apps.apple.com/cn/app/velora-player-video-audio/id6787141171">Velora Player</a>（6787141171）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">0 元</td><td style="padding:8px 0 8px 0;">Velora Player: Video &amp; Audio / Ram Tulugu</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://apps.apple.com/cn/app/clippro-video-photo-editor/id6795239812">ClipPro</a>（6795239812）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">0 元</td><td style="padding:8px 0 8px 0;">ClipPro: Video &amp; Photo Editor / Ram Tulugu</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://apps.apple.com/cn/app/scankit-document-qr-scanner/id6789805312">ScanKit</a>（6789805312）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">0 元</td><td style="padding:8px 0 8px 0;">ScanKit: Document &amp; QR Scanner / Ram Tulugu</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://apps.apple.com/cn/app/isudo-sudoku-game-kid-in-you/id6787329096">iSudo</a>（6787329096）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">0 元</td><td style="padding:8px 0 8px 0;">iSudo: Sudoku Game / Ram Tulugu</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://apps.apple.com/cn/app/feedlog-feed-medicine-log/id6788526569">FeedLog</a>（6788526569）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">0 元</td><td style="padding:8px 0 8px 0;">FeedLog: Feed &amp; Medicine Log / Ram Tulugu</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://apps.apple.com/cn/app/islip-auto-delete-notes/id6791581762">iSlip</a>（6791581762）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">0 元</td><td style="padding:8px 0 8px 0;">iSlip: Auto delete notes / Ram Tulugu</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://apps.apple.com/cn/app/patterns-create-wallpapers/id6801606517">Patterns</a>（6801606517）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">0 元</td><td style="padding:8px 0 8px 0;">Patterns: Create Wallpapers / Ram Tulugu</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://apps.apple.com/cn/app/pastetiny/id6742772789?mt=12">PasteTiny</a>（6742772789，macOS）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">0 元</td><td style="padding:8px 0 8px 0;">PasteTiny / Evergreen Soft</td></tr>
+<tr><td style="padding:8px 8px 8px 0;"><a href="https://apps.apple.com/cn/app/noctra-dark-mode-for-safari/id6758641325">Noctra</a>（6758641325）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">0 元</td><td style="padding:8px 0 8px 0;">Noctra: Dark Mode For Safari / Abdellah El fdali</td></tr>
+</tbody></table>
+<p style="font-size:13px;color:#6b7280;">取法：汇总频道播报给出「今天有什么在限免」与 trackId，价格一律回 <code>itunes.apple.com/lookup?country=cn&amp;id=&lt;trackId&gt;</code> 核，本轮 9/9 核到 <code>price==0</code>；核实于 2026-11-15 06:33。边界：下载与兑换由你自己完成，本站不代领；兑换码型限免不转载码本身，只留原帖。</p>
 </details>
 
 <details>
@@ -100,7 +138,16 @@ description: "2026-11-15 凌晨版：Steam《PEAK》-38% 今晚 18:00 截止，E
 <tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://github.com/louislam/uptime-kuma">louislam/uptime-kuma</a></td><td style="padding:8px 8px 8px 0;">+432</td><td style="padding:8px 0 8px 0;">自托管监控工具</td></tr>
 <tr><td style="padding:8px 8px 8px 0;"><a href="https://github.com/Likely7/Veyra-NRVideo">Likely7/Veyra-NRVideo</a></td><td style="padding:8px 8px 8px 0;">+423</td><td style="padding:8px 0 8px 0;">Windows 视频播放与采集增强工具</td></tr>
 </tbody></table>
-<p style="font-size:13px;color:#6b7280;">出处：GitHub Trending 日榜 HTML 抓取，核实于 2026-11-15 00:07。边界：GitHub 页面本轮未给出总 star，仅保留“今日新增”；新库建议先读 README 与最近提交。</p>
+<p style="font-size:13px;color:#6b7280;">出处：GitHub Trending 日榜 HTML 抓取，核实于 2026-11-15 00:07。边界：GitHub 页面本轮未给出总 star，仅保留"今日新增"；新库建议先读 README 与最近提交。</p>
+<p style="font-size:13px;color:#6b7280;"><strong>早间 06:54 用 GitHub API 补了总 star、语言、授权与最近推送</strong>（数值为 06:54 那次返回，会随时间往上走）：</p>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">仓库</th><th style="padding:6px 8px 6px 0;width:12%;">总 star</th><th style="padding:6px 8px 6px 0;width:14%;">授权</th><th style="padding:6px 0 6px 0;">早间复核说明</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://github.com/Tencent/LoopForge">Tencent/LoopForge</a></td><td style="padding:8px 8px 8px 0;">867</td><td style="padding:8px 8px 8px 0;color:#c0392b;">NOASSERTION</td><td style="padding:8px 0 8px 0;">Go，最近推送 2026-11-14T22:04Z（≈ 今早 06:04 北京）。自托管的 coding-agent 交付流水线，用脚本 + 人工审批位把 CodeBuddy / Codex / Claude Code 串起来。<strong>授权字段是 Other/NOASSERTION，不是标准开源许可</strong>，商用前先看仓库自述条款。</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></td><td style="padding:8px 8px 8px 0;">30,305</td><td style="padding:8px 8px 8px 0;color:#1a7f37;">Apache-2.0</td><td style="padding:8px 0 8px 0;">最近推送 2026-11-14T22:53Z，仍在活跃提交。</td></tr>
+<tr><td style="padding:8px 8px 8px 0;"><a href="https://github.com/ag-ui-protocol/ag-ui">ag-ui-protocol/ag-ui</a></td><td style="padding:8px 8px 8px 0;">17,333</td><td style="padding:8px 8px 8px 0;color:#1a7f37;">MIT</td><td style="padding:8px 0 8px 0;">Agent 与前端的交互协议层（把 Agent 事件流接进 Web UI）；最近推送 2026-11-14T16:02Z。</td></tr>
+</tbody></table>
 </details>
 
 <details>
@@ -127,10 +174,17 @@ description: "2026-11-15 凌晨版：Steam《PEAK》-38% 今晚 18:00 截止，E
 <li>小众软件：<a href="https://www.appinn.com/mkw-recomp/">mkw-recomp 在 Windows / Linux 原生运行 Switch 2《马力欧赛车世界》</a>；<a href="https://www.appinn.com/windowsios-windows-11-iphone-duo-gemini-open-source/">用 Gemini 让 Windows 11 跑在 iPhone Duo 上并开源</a>。</li>
 <li>IT之家：<a href="https://www.ithome.com/1/027/243.htm">OPPO Reno17 系列洛天依定制主题，11-16 发布</a>；<a href="https://www.ithome.com/1/027/240.htm">小米与“AMG 之父”创办的 HWA 秘密合作</a>。</li>
 </ul>
-<p style="font-size:13px;color:#6b7280;">价格与活动来自资讯源标题，未逐项回厂商页核价；领取、下单前请以活动页条款为准。</p>
+<p style="font-size:13px;color:#6b7280;">价格与活动来自资讯源标题，未逐项回厂商页核价；领取、下单前请以活动页条款为准。<strong>这一条里只有 InstaBox 今早回了官方页核价，其余仍是转述口径</strong>，见下面单独一张卡。</p>
 </details>
 
-## 观察（4）、币圈快照与方法
+<details>
+<summary><strong>InstaBox 免费档云机：官方定价页核到规格与限额（含一处数字修正）</strong> ｜ <span style="color:#1a7f37;font-weight:700;">Free $0，常驻定价</span> ｜ <span style="color:#6b7280;">非限时活动，不给截止时间</span></summary>
+<p>凌晨版这条只有小众软件的转述。今早 06:55 直接打开官方定价页核了一遍，逐条原文：<code>Plans: Free $0</code>、<code>Sizes (vCPU/GiB): Free 4/8 only</code>、<code>Plan limits: Free 1 machine, 5 snapshots, 200 GiB stored data, idle pause fixed at 30 min, max run 120 min a run, growing with use up to 480 min</code>；免费档只能从 <code>agent-browser</code>、<code>android</code>、<code>omarchy</code>、<code>ci</code> 四个模板或快照创建。付费档对照着看更清楚：Pro $20/月 + 用量、Builder $100/月 + 用量、Team $500/月 + 用量，用量单价 vCPU $0.004/vCPU·h、内存 $0.00225/GiB·h、存储 $0.00011/GiB·h、出口 $0.02/GiB。</p>
+<p style="font-size:13px;color:#c0392b;"><strong>要点名的一处修正：</strong>11-14 那篇写的是「20 GiB 固定硬盘、100 GiB/月出口流量」，今早官方页的免费档口径是 <strong>200 GiB stored data</strong>，出口流量则是按 $0.02/GiB 计费、免费档没有单列月度额度。以本次实际打开的官方页为准，旧数字作废。</p>
+<p style="font-size:13px;color:#6b7280;">未核到的部分照实说：登录方式（是否只支持 Google / GitHub）与是否需要绑卡，本轮没在定价页读到，属转述未核。这是常驻定价而非促销，所以<strong>不给截止时间</strong>；注册与领取由你自己完成，本站不代注册。</p>
+</details>
+
+## 观察（5）、币圈快照与方法
 
 <details>
 <summary><strong>VPS / 域名 / 软件优惠线索</strong> ｜ <span style="color:#6b7280;">价格来自资讯源标题，未回厂商页核价</span></summary>
@@ -181,10 +235,39 @@ description: "2026-11-15 凌晨版：Steam《PEAK》-38% 今晚 18:00 截止，E
 <li>The Block：<a href="https://www.theblock.co/news/markets/2026-11-13-meta-tests-prediction-market-app-using-cred-points-i">Meta 测试用“cred”积分的预测市场 App</a>；<a href="https://www.theblock.co/news/business/2026-11-13-kraken-parent-payward-posts-66-drop-in-q3-adjusted-">Kraken 母公司 Q3 调整后 EBITDA 同比降 66%</a>；<a href="https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676">泰国拟对稳定币转账设每日 14.8 万美元上限</a>。</li>
 </ul>
 <p style="font-size:13px;color:#6b7280;">以上均为媒体转述，未逐条回到交易所或项目方一手公告核实。不写买卖建议、目标价、钱包地址与邀请返利链接。</p>
+<p style="font-size:13px;color:#6b7280;"><strong>早间 06:31 复核：CoinGecko 已恢复（凌晨那轮的 ERR 消了），下面是同一指标的第二时点。</strong>仍然是快照，不是信号。</p>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">指标</th><th style="padding:6px 8px 6px 0;">06:31 快照（CoinGecko）</th><th style="padding:6px 0 6px 0;">24h</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">BTC</td><td style="padding:8px 8px 8px 0;">$64,006</td><td style="padding:8px 0 8px 0;color:#c0392b;">-6.3%</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">ETH</td><td style="padding:8px 8px 8px 0;">$1,761.47</td><td style="padding:8px 0 8px 0;color:#c0392b;">-8.6%</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">BNB</td><td style="padding:8px 8px 8px 0;">$576.99</td><td style="padding:8px 0 8px 0;color:#c0392b;">-8.5%</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">SOL</td><td style="padding:8px 8px 8px 0;">$69.59</td><td style="padding:8px 0 8px 0;color:#c0392b;">-11.3%</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">ZEC</td><td style="padding:8px 8px 8px 0;">$849.99</td><td style="padding:8px 0 8px 0;color:#c0392b;">-7.9%</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">UNI</td><td style="padding:8px 8px 8px 0;">$4.78</td><td style="padding:8px 0 8px 0;color:#c0392b;">-16.7%</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">ASTER</td><td style="padding:8px 8px 8px 0;">$0.5008</td><td style="padding:8px 0 8px 0;color:#c0392b;">-22.4%</td></tr>
+<tr><td style="padding:8px 8px 8px 0;">KAVA</td><td style="padding:8px 8px 8px 0;">$0.0363</td><td style="padding:8px 0 8px 0;color:#c0392b;">-46.4%</td></tr>
+</tbody></table>
+<p style="font-size:13px;color:#6b7280;">异动口径：只看市值前 300 且 24h 绝对涨跌幅 ≥ 8%（<code>cgmarkets</code>，06:31）。恐惧贪婪指数 06:33 仍是 <strong>13（Extreme Fear）</strong>，来源 alternative.me，只作语境底数。热搜：CoinGecko trending 前 10 为 BTC、HYPE、ASTER、ETH、NEAR、SOL、UNI、MON、ZEC、KAVA；CMC topsearch 为 XRP、SOL、Midnight (NIGHT)、KAVA、ASTER、Sophon (SOPH)。<strong>热搜与涨幅本身不构成价值，一律留在观察。</strong>凌晨版有一条 PANews 转述「Kava 暂停经 Axelar 桥的跨链提现」，早间 KAVA 的 24h 跌幅是 -46.4%；<strong>两者是否相关，本轮没有一手材料能连起来</strong>，而提现暂停这条也没回到 Kava 官方公告核到生效时间与影响范围，所以仍然只是转述。另有一条 CoinDesk 的「分析师称第四轮投降浪/深度价值区」按喊单口径直接过滤，不写。</p>
 </details>
 
 <details>
-<summary><strong>本轮方法与来源健康度</strong> ｜ <span style="color:#6b7280;">22 源 / 16 正常 / 6 异常</span></summary>
+<summary><strong>早间新增观察：iOS 内购型限免、单源数据泄露、黑五预热价</strong> ｜ <span style="color:#6b7280;">都还没核到一手，不给「值得」</span></summary>
+<ul>
+<li><a href="https://apps.apple.com/cn/app/zeroclock/id1574644243">ZeroClock</a>（trackId 1574644243）汇总频道标「内购限免」，iTunes 国区下载价实测 0 元、最低系统 17.0｜06:33 核。存疑原因：内购解锁价不体现在下载价上，接口分不出本体是「本就免费」还是「促销中」，所以只算转述，不写成限免仍在。</li>
+<li><a href="https://www.crissyfield.de/research/lovable-en/">Lovable 应用泄露护照信息与 20 万+ 条私信</a>（研究者自述，11-14 17:43Z，HN 单源）。存疑原因：本轮没拿到 Lovable 官方一手回应，影响面与修复状态无法核实；若你在用该平台，先自行复查可见性与第三方集成。</li>
+<li><a href="https://www.ithome.com/1/027/219.htm">Uber 美国多州司机驾照信息外泄</a>（IT之家，11-14 11:23 GMT）。存疑原因：单源转述，未拿到 Uber 官方声明与影响范围。</li>
+<li><a href="https://www.coindesk.com/business/2026-11-14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business">MegaETH 裁员 20%、转向 AI 业务</a>（CoinDesk，11-14 16:33Z）。存疑原因：媒体转述，没找到项目方一手公告；涉及公链进度判断时不据此下结论。</li>
+<li><a href="https://www.ithome.com/1/027/165.htm">bilibili 超级大会员年卡 388 → 124 元</a>（IT之家，11-14 08:14 GMT）。存疑原因：只拿到资讯源标题，未回 B 站官方活动页核价格、门槛与截止。</li>
+<li><a href="https://www.v2ex.com/t/1256998">v2ex「GPT 官 Key 免费用。蹬完即止」</a>（发帖 11-14 01:54）。存疑原因：要拿别人池子的 Key 才能兑现，未回官方核额度与来源，属钓鱼与滥用高发形态，不核不报。</li>
+<li>黑五/双十一预热：美国主机侦探 06:46 一轮 8 条（恒创科技首月 19.8 起、雨云对象存储 5 折、AccuWebHosting VPS 最高 -84%/WP $1.99 起、Jtti 香港轻量云 $6/月、Rank Math 约 -40% 等）+ <a href="https://lowendbox.com/blog/two-weeks-to-black-friday-prices-you-wont-see-until-next-black-friday/">LowEndBox「距黑五还有两周」</a>。存疑原因：全是商家宣传价与「最高优惠 x%」，未逐一回官方下单页核最终价与<strong>续费价</strong>——续费涨价是这类促销的主要坑。</li>
+</ul>
+<p style="font-size:13px;color:#6b7280;">恐惧贪婪指数 13（Extreme Fear）与行情快照同样落在这里：它们是时刻状态，不是可执行信息，超过两小时就不该写进正文。</p>
+</details>
+
+<details>
+<summary><strong>本轮方法与来源健康度</strong> ｜ <span style="color:#6b7280;">凌晨 22 源 / 16 正常 / 6 异常 → 早间 25 源 / 25 正常 / 0 异常</span></summary>
 <p>取数在 2026-11-15 00:04–00:11 完成：限免走 Epic 官方 promotions 接口，Steam 走官方 featuredcategories，趋势抓 GitHub Trending 页面，开发资讯走 HN Algolia API，国内资讯走 IT之家 RSS，软件与羊毛走小众软件 RSS，VPS 优惠走 IDCSPY 与 LowEndBox RSS，币圈媒体走 The Block 与 PANews，情绪与行情走 alternative.me、DefiLlama 与 mempool.space。单源失败不拖垮整轮，下面是逐源结果。</p>
 <table style="width:100%;border-collapse:collapse;font-size:13px;">
 <thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
@@ -214,4 +297,6 @@ description: "2026-11-15 凌晨版：Steam《PEAK》-38% 今晚 18:00 截止，E
 <tr><td style="padding:6px 8px 6px 0;">coindesk</td><td style="padding:6px 8px 6px 0;">—</td><td style="padding:6px 8px 6px 0;color:#c0392b;">ERR</td><td style="padding:6px 0 6px 0;">RSS SSL 连接失败</td></tr>
 </tbody></table>
 <p style="font-size:13px;color:#6b7280;"><code>SUMMARY fetched=171 fresh=171 sources=22 errors=6</code>；取数与验真 2026-11-15 00:04–00:11（Asia/Shanghai）。境外源集中失败，优先怀疑本轮出口代理对部分域名不可达，而不是站点集体改版。阮一峰与 PANews 本轮恢复，上一版的两条 ERR 已消掉。</p>
+<p style="font-size:13px;color:#6b7280;"><strong>早间第二轮（06:31–06:33 主轮）</strong>：<code>SUMMARY fetched=281 fresh=146 sources=25 errors=0</code>，跨天去重后新进 146 条，<strong>无一条 ERR</strong>——凌晨报 SSL 失败的 CoinGecko、V2EX、Hugging Face、Binance、以太坊博客、CoinDesk 这一轮全部返回成功，印证了「是代理抖动、不是站点集体改版」。16 个来源有条目（IT之家 25、HN 23、Product Hunt 15、PANews 15、CoinGecko 热搜 10、App Store 10、v2ex 9、CoinDesk 8、CoinGecko 行情 7、lobsters 6、GitHub Trending 6、CMC 热搜 6、The Block 3、美国主机侦探 1、交易所状态 1、恐惧贪婪 1），9 个来源 0 条新进：Epic 与 Steam 是昨日已报被去重命中（数值改由 06:46 不带去重的 <code>deal</code> 重跑回读，<code>fetched=55 fresh=30 sources=6 errors=0</code>），appinn/binance/ethblog/creleases/hf/阮一峰/lowendbox 是窗口内确无更新，都不是取数失败。</p>
+<p style="font-size:13px;color:#6b7280;">口径没变：只收集、核实、报告，不代注册、不绑卡、不代领券、不下单，iOS 兑换码型限免不转载码本身，币圈不连钱包、不签名、不给买卖建议与目标价，产物里不出现凭据、钱包地址与带 <code>?ref=</code> 的返利参数。需要登录态的源（Steam 愿望单、Epic 库、交易所后台）本轮没有用带登录态的浏览器去取，所以只报公开接口能证明的部分。</p>
 </details>
