@@ -178,7 +178,7 @@ description: "2026-11-16 凌晨版：SpaceX 星舰 Flight 15 首次用发射塔�
 <li>IT之家：<a href="https://www.ithome.com/1/027/435.htm">初代 Xbox 游戏机迎上市 25 周年</a>；<a href="https://www.ithome.com/1/027/436.htm">FURIA 成功卫冕《CS2》BLAST 香港对抗赛</a>。</li>
 <li>IT之家：<a href="https://www.ithome.com/1/027/440.htm">微软服务大面积故障波及德国酒店，自动预警邮件未能送达致泳池氯气超标 15 人就医</a>——这条的价值不在故障本身，而在“关键告警依赖单一云服务”的风险样本。</li>
 <li>IT之家：<a href="https://www.ithome.com/1/027/460.htm">微星 PRO CORELIQUID R13 360 液冷 399 / 419 元</a>；<a href="https://www.ithome.com/1/027/447.htm">魅族 MIFI N1 随身 Wi-Fi 79 元</a>；<a href="https://www.ithome.com/1/027/444.htm">达摩鲨 28g 指握鼠标 AIR28 国行预售 499 元</a>。</li>
-<li>阮一峰：<a href="http://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html">科技爱好者周刊第 419 期：机房来了，写字楼走了</a>（11-15）。</li>
+<li>阮一峰：<a href="https://www.ruanyifeng.com/blog/2026/11/weekly-issue-419.html">科技爱好者周刊第 419 期：机房来了，写字楼走了</a>（11-15）。</li>
 </ul>
 <p style="font-size:13px;color:#6b7280;">价格与活动来自资讯源标题，未逐项回厂商页核价；领取、下单前请以活动页条款为准。本条里没有像昨天 InstaBox 那样“已回官方定价页核到规格与限额”的条目，所以都不给“可直接动手”的标签。</p>
 </details>
