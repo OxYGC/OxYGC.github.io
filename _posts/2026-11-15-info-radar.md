@@ -1,18 +1,20 @@
 ---
-title: "资讯雷达 2026-11-15｜PEAK 今晚 18:00 截止、Epic《斗阵骑士》0 元倒计时、BTC 跌破 6.6 万"
+title: "资讯雷达 2026-11-15｜PEAK 今晚 18:00 截止、Epic《斗阵骑士》0 元、Steam《Sifu》-75%、BTC 6.47 万"
 author: OxYGC
-date: 2026-11-15 00:12:00 +0800
+date: 2026-11-15 12:10:00 +0800
 permalink: /posts/info-radar-2026-11-15/
 categories: [Info, Deals]
 tags: [资讯雷达, Steam折扣, Epic限免, GitHub趋势, AI动态, 币圈]
-description: "2026-11-15 凌晨版 + 早间 06:31–06:57 复核：Steam《PEAK》-38% 今晚 18:00 截止，Epic《斗阵骑士 Knightica》0 元领到 11-20 00:00，下周《Alien: Isolation》接力限免；iOS 国区 9 款应用回 iTunes 核到下载价 0 元；InstaBox 免费档规格已回官方定价页校正；Kraken 充提仍在部分降级；BTC 约 6.4 万美元、恐惧贪婪指数 13。"
+description: "2026-11-15 午间 12:05 复核版：Steam《PEAK》-38% 今晚 18:00 截止（复核仍在榜），《Sifu》-75% 新进；Epic《斗阵骑士 Knightica》0 元领到 11-20 00:00，下周《Alien: Isolation》《Mark of the Deep》接力；GitHub Trending 由 modern-web-guidance-src +1231 领跑；Kava Lend 被盗约 380 万美元、KAVA 近 -40%；BTC 约 6.47 万美元、恐惧贪婪指数 10。"
 ---
 
 这一轮取数在 2026-11-15 00:04–00:11（北京时间）完成：22 个来源、抓回 171 条，16 个来源正常、6 个异常，异常仍是境外源 SSL 连接失败（CoinGecko、V2EX、Hugging Face、Binance、以太坊博客、CoinDesk）。这是当天第一版，也是当天唯一一篇；午间若再跑，只会在本文件内更新，不新增文件。
 
 **早间 06:31–06:57 做了第二轮复核，仍是这一篇。** 这一轮走的是 25 源的雷达取数（`fetched=281 / fresh=146 / errors=0`，凌晨报 6 个 ERR 的那批境外源今早全绿），复核带来的增量是四块：iOS 国区限免（凌晨只做了连通性探测，今早按 trackId 逐条回 iTunes 核到 9 款下载价 0 元）、InstaBox 免费档（凌晨只有小众软件转述，今早回官方定价页核到限额，并且**修正了一处数字**）、Kraken 充提服务状态（凌晨版没取，今早取到仍在部分降级）、GitHub Trending 的总 star 与授权（凌晨版只有今日新增数）。下面凡标注「早间复核」的，数值都以 06:31–06:57 这次实测为准。
 
-结论先摆前面：**今天最紧的是 Steam《PEAK》-38%，今晚 18:00 截止；Epic 免费位还是《斗阵骑士 Knightica》0 元，11-20 00:00 换档，接棒的是《Alien: Isolation》与《Mark of the Deep》；iOS 侧今早有 9 款核到下载价 0 元，但 Apple 不公布截止时间；Kraken 的充提网关仍在报降级，在提币的要自己复查；币圈继续走弱，早间快照 BTC 约 6.40 万美元，恐惧贪婪指数仍在 13（Extreme Fear）。**
+**午间 12:04–12:07 做了第三轮复核，仍然是这一篇。** 18 个来源、14 个正常、4 个异常（CoinGecko、Kraken 状态页、V2EX、CoinDesk 仍是 SSL 连接失败；PANews 换到 `rss.xml?lang=zh&type=NEWS` 后恢复）。这一轮的增量：Steam 特惠窗口里《Sifu》-75% 新进（¥139 → ¥34.75，11-29 02:00 收），《PEAK》-38% 仍在榜、仍是今晚 18:00 收；Epic 免费位仍是《斗阵骑士》0 元；GitHub Trending 换榜，modern-web-guidance-src 今日 +1,231 star 重新领跑；The Block 报 Kava Lend 被盗约 380 万美元、KAVA 近 -40%；恐惧贪婪指数从 13 降到 10。下面凡标「午间复核」的，以 12:04–12:07 实测为准。
+
+结论先摆前面：**今天最紧的是 Steam《PEAK》-38%，今晚 18:00 截止（午间复核仍在榜）；Epic 免费位还是《斗阵骑士 Knightica》0 元，11-20 00:00 换档，接棒的是《Alien: Isolation》与《Mark of the Deep》；午间新进 Steam《Sifu》-75%（¥34.75，11-29 02:00 收）；iOS 侧今早有 9 款核到下载价 0 元，但 Apple 不公布截止时间；Kraken 的充提网关早间仍在报降级，午间状态页取数失败、未能复核；币圈继续走弱，午间快照 BTC 约 6.47 万美元，恐惧贪婪指数降到 10（Extreme Fear）。**
 
 <div style="border:1px solid #e3e6ea;border-radius:10px;padding:16px 18px;background:#fbfcfd;margin:0 0 28px;">
 <strong style="font-size:15px;">这一轮真正会过期、或需要你自己动手的只有这几条</strong>
@@ -46,21 +48,61 @@ description: "2026-11-15 凌晨版 + 早间 06:31–06:57 复核：Steam《PEAK�
 <td style="padding:9px 8px 9px 0;">非价格项</td>
 <td style="padding:9px 0 9px 0;"><a href="https://status.kraken.com/api/v2/status.json">status.kraken.com</a></td></tr>
 <tr>
+<td style="padding:9px 8px 9px 0;color:#c0392b;font-weight:700;">11-29 02:00 收</td>
+<td style="padding:9px 8px 9px 0;">Steam《Sifu》-75%（午间新进）</td>
+<td style="padding:9px 8px 9px 0;">¥139.00 → ¥34.75</td>
+<td style="padding:9px 0 9px 0;"><a href="https://store.steampowered.com/app/2138710/">store.steampowered.com</a></td></tr>
+<tr>
 <td style="padding:9px 8px 9px 0;color:#c0392b;font-weight:700;">11-25 01:00 收</td>
 <td style="padding:9px 8px 9px 0;">Steam《Euro Truck Simulator 2》-75%</td>
 <td style="padding:9px 8px 9px 0;">¥92.99 → ¥23.24</td>
 <td style="padding:9px 0 9px 0;"><a href="https://store.steampowered.com/app/227300/">store.steampowered.com</a></td></tr>
 </tbody></table>
-<p style="font-size:12px;color:#8a9099;margin:12px 0 0;">价格为 11-15 00:06 官方接口实测，Steam/Epic 与 iOS 限免在 06:46–06:33 早间复核（Steam featuredcategories / Epic promotions / iTunes lookup）。<strong>Overcooked! 2 凌晨在特惠榜、今早 06:46 与 06:57 两次回读都已不在返回的 top-10 窗口内，故从行动卡移出</strong>——该接口是滚动返回，掉出窗口不等于活动结束，要买请自己打开商店页确认。本站只报道与核实，注册、登录、领取、下单全部由你自己完成。</p>
+<p style="font-size:12px;color:#8a9099;margin:12px 0 0;">价格为 11-15 00:06 官方接口实测，Steam/Epic 与 iOS 限免在 06:46–06:33 早间复核（Steam featuredcategories / Epic promotions / iTunes lookup）。<strong>午间 12:06 再次回读：PEAK 仍在榜、仍是今晚 18:00 收；Sifu 新进 top-10（¥139.00 → ¥34.75，11-29 02:00 收）；Overcooked! 2 已连续三轮不在返回的 top-10 窗口内，故从行动卡移出</strong>——该接口是滚动返回，掉出窗口不等于活动结束，要买请自己打开商店页确认。本站只报道与核实，注册、登录、领取、下单全部由你自己完成。</p>
 </div>
 
-## 值得看（8，含 1 条 🔥 复查项）
+## 值得看（10，含 1 条 🔥 复查项）
+
+<details open>
+<summary><strong>午间复核：Sifu -75% 新进、PEAK 今晚 18:00 仍在榜、Trending 换榜</strong> ｜ <span style="color:#c0392b;font-weight:700;">今天 18:00 最紧</span> ｜ <span style="color:#6b7280;">12:06 实测</span></summary>
+<p>Steam 官方 <code>featuredcategories</code> 午间回读（<code>cc=cn&amp;l=schinese</code>）里，《PEAK》仍在特惠 top-10、仍是 ¥33.00 → ¥20.46（-38%）、仍是 <code>2026-11-15T10:00Z</code> 截止（= 今晚 18:00 北京）；新进窗口的是《Sifu》：¥139.00 → ¥34.75（-75%），截止 <code>2026-11-28T18:00Z</code>（= 11-29 02:00 北京）。《Overcooked! 2》连续三轮不在返回窗口内，本轮不再列入行动卡。</p>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">游戏（appid）</th><th style="padding:6px 8px 6px 0;">国区价</th><th style="padding:6px 8px 6px 0;">折扣</th><th style="padding:6px 0 6px 0;width:24%;">截止（北京时间）</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/3527290/">PEAK</a>（3527290）</td><td style="padding:8px 8px 8px 0;">¥33.00 → ¥20.46</td><td style="padding:8px 8px 8px 0;">-38%</td><td style="padding:8px 0 8px 0;color:#c0392b;font-weight:700;">今晚 11-15 18:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/2138710/">Sifu</a>（2138710）</td><td style="padding:8px 8px 8px 0;">¥139.00 → ¥34.75</td><td style="padding:8px 8px 8px 0;">-75%</td><td style="padding:8px 0 8px 0;">11-29 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/227300/">Euro Truck Simulator 2</a>（227300）</td><td style="padding:8px 8px 8px 0;">¥92.99 → ¥23.24</td><td style="padding:8px 8px 8px 0;">-75%</td><td style="padding:8px 0 8px 0;">11-25 01:00</td></tr>
+<tr><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/394360/">Hearts of Iron IV</a>（394360）</td><td style="padding:8px 8px 8px 0;">¥198.00 → ¥59.40</td><td style="padding:8px 8px 8px 0;">-70%</td><td style="padding:8px 0 8px 0;">11-27 02:00</td></tr>
+</tbody></table>
+<p>Epic 免费位复核无变化：<a href="https://store.epicgames.com/zh-CN/p/72b46f5d95624fd5b7e7d81b7dcaead1">《斗阵骑士 Knightica》</a> <code>originalPrice=4700</code>、<code>discountPrice=0</code>，窗口到 <code>2026-11-19T16:00Z</code>（= 11-20 00:00 北京）；接棒的《Alien: Isolation》与《Mark of the Deep》同为 11-20 00:00 → 11-27 00:00。</p>
+<p>GitHub Trending 午间日榜：<a href="https://github.com/GoogleChrome/modern-web-guidance-src">GoogleChrome/modern-web-guidance-src</a> 今日 +1,231 star 重新领跑（总 6,191）；<a href="https://github.com/alibaba/open-code-review">alibaba/open-code-review</a> +893；<a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp</a> +664（总 56,380）；<a href="https://github.com/we-promise/sure">we-promise/sure</a> +659；<a href="https://github.com/tradermonty/claude-trading-skills">tradermonty/claude-trading-skills</a> +553；<a href="https://github.com/dream-num/univer">dream-num/univer</a> +495；<a href="https://github.com/louislam/uptime-kuma">louislam/uptime-kuma</a> +430（总 94,294）。</p>
+<p style="font-size:13px;color:#6b7280;">出处：Steam <code>featuredcategories</code>、Epic <code>freeGamesPromotions</code>、GitHub Trending HTML，核实于 2026-11-15 12:04–12:06。边界同前：Steam 只取列表接口，未逐款回 <code>appdetails</code>；滚动窗口掉出≠活动结束。</p>
+</details>
+
+<details open>
+<summary><strong>午间币圈：Kava Lend 被盗约 380 万美元、KAVA 近 -40%，BTC 约 6.47 万</strong> ｜ <span style="color:#c0392b;font-weight:700;">只报快照，不给方向</span> ｜ <span style="color:#6b7280;">12:04–12:06</span></summary>
+<p>The Block 今早 07:07（北京）报道：<a href="https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kav">Kava Lend 遭攻击损失约 380 万美元，KAVA 代币跌幅接近 40%</a>。DefiLlama 午间价 KAVA ≈ <strong>$0.0291</strong>，对照早间 06:33 的 $0.0363 继续走低。同一轮 The Block 还有：<a href="https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a">比特币 ETF 连续第二周净流出 10 亿美元</a>、<a href="https://www.theblock.co/news/regulation/2026-11-14-louisiana-ag-calls-cftc-chair-an-obsequious-standard">路易斯安那州总检察长就预测市场问题抨击 CFTC 主席</a>。</p>
+<p>全景口径：PANews 引 BIT 数据称<a href="https://www.panewslab.com/zh/articles/01a1dd51-0287-761d-8b2e-2e6e76988b33">加密总市值自 10 月初以来蒸发约 8000 亿美元</a>；Aave 高管称<a href="https://www.panewslab.com/zh/articles/01a1dd46-3bb9-713b-9880-c8f5e24155fa">过去两天借款人共发生约 3900 万美元清算</a>；韩国 <a href="https://www.panewslab.com/zh/articles/01a1dd37-957a-72d3-a02e-7fd5633c202b">Coinone 客服外包服务器遭入侵，部分用户咨询信息泄露</a>。以上均为媒体转述，未回项目方或交易所一手公告逐条核实。</p>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">指标</th><th style="padding:6px 8px 6px 0;">12:06 快照</th><th style="padding:6px 0 6px 0;">来源</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">BTC</td><td style="padding:8px 8px 8px 0;">$64,719.36</td><td style="padding:8px 0 8px 0;">DefiLlama coins API</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">ETH</td><td style="padding:8px 8px 8px 0;">$1,815.40</td><td style="padding:8px 0 8px 0;">DefiLlama coins API</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">SOL</td><td style="padding:8px 8px 8px 0;">$71.15</td><td style="padding:8px 0 8px 0;">DefiLlama coins API</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">KAVA / UNI / ZEC</td><td style="padding:8px 8px 8px 0;">$0.0291 / $5.03 / $907.90</td><td style="padding:8px 0 8px 0;">DefiLlama coins API</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">BTC 建议手续费</td><td style="padding:8px 8px 8px 0;">1 sat/vB（最快档）</td><td style="padding:8px 0 8px 0;">mempool.space</td></tr>
+<tr><td style="padding:8px 8px 8px 0;">恐惧贪婪指数</td><td style="padding:8px 8px 8px 0;color:#c0392b;font-weight:700;">10（Extreme Fear）</td><td style="padding:8px 0 8px 0;">alternative.me，11-15</td></tr>
+</tbody></table>
+<p style="font-size:13px;color:#6b7280;">与早间 06:31 相比：BTC 从 $64,006 微升至 $64,719、ETH 从 $1,761.47 升至 $1,815.40、SOL 从 $69.59 升至 $71.15；恐惧贪婪指数从 13 降到 10。CoinGecko 本轮仍 SSL 连接失败，快照改用 DefiLlama + mempool.space。以上仅为快照，不构成任何建议；不写目标价、钱包地址与返利链接。</p>
+</details>
 
 <details open>
 <summary><strong>🔥 Kraken 充提服务仍在「部分降级」：在提币的自己复查</strong> ｜ <span style="color:#c0392b;font-weight:700;">持续中，非临期</span> ｜ <span style="color:#6b7280;">早间 06:46 复核</span></summary>
 <p>今早取状态页（Statuspage 官方接口）：<code>indicator=minor</code>、描述 <code>Partially Degraded Service</code>，页面整体最后更新 <code>2026-11-14T20:44Z</code>（≈ 北京时间 11-15 04:44）。正在报的组件集中在<strong>充提网关</strong>：Digital Currency Funding、Flare (FLR)、MemeCore (M)-BNB Chain、Osmosis (OSMO)、Stablr Euro (EURR)、Stablr USD (USDR)、Tether USD (USDT)-Flare，其中 Osmosis 组件级最后更新 <code>2026-11-14T11:02Z</code>。同一轮 Coinbase 状态页 <code>indicator=none</code>。</p>
 <p style="font-size:13px;color:#6b7280;">这条之所以单独提到「需要你动手」这一层：它影响的是<strong>在用资产的可得性</strong>——如果你的在途充提走上面这几条链，到账会比平时慢，但本站不代操作充提、不碰任何链上动作，也不会替你判断该不该提。口径：<code>indicator</code> 不是 <code>none</code> 就提出复查，不用 Kraken 可以直接忽略这一条。</p>
-<p style="font-size:13px;color:#6b7280;">出处：<a href="https://status.kraken.com/api/v2/status.json">status.kraken.com/api/v2/status.json</a>、<a href="https://status.coinbase.com/api/v2/status.json">status.coinbase.com/api/v2/status.json</a>｜核实于 2026-11-15 06:46。</p>
+<p style="font-size:13px;color:#6b7280;">出处：<a href="https://status.kraken.com/api/v2/status.json">status.kraken.com/api/v2/status.json</a>、<a href="https://status.coinbase.com/api/v2/status.json">status.coinbase.com/api/v2/status.json</a>｜核实于 2026-11-15 06:46。<strong>午间 12:06 复核时该接口 SSL 连接失败，本轮未能重新读状态，结论沿用早间 <code>indicator=minor</code>；要提币请自己再打开状态页确认。</strong></p>
 </details>
 
 <details open>
@@ -81,7 +123,7 @@ description: "2026-11-15 凌晨版 + 早间 06:31–06:57 复核：Steam《PEAK�
 <tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/394360/">Hearts of Iron IV</a>（394360）</td><td style="padding:8px 8px 8px 0;">¥198.00 → ¥59.40</td><td style="padding:8px 8px 8px 0;">-70%</td><td style="padding:8px 0 8px 0;">11-27 02:00</td></tr>
 <tr><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/3816120/">重生2我独自逆袭</a>（3816120）</td><td style="padding:8px 8px 8px 0;">¥58.00 → ¥46.40</td><td style="padding:8px 8px 8px 0;">-20%</td><td style="padding:8px 0 8px 0;">11-28 02:00</td></tr>
 </tbody></table>
-<p style="font-size:13px;color:#6b7280;">取法：<code>store.steampowered.com/api/featuredcategories?cc=cn&amp;l=schinese</code> 的 <code>specials.items</code>，价格取 <code>original_price</code>/<code>final_price</code>（单位分），截止取 <code>discount_expiration</code> 并换算为北京时间；核实于 2026-11-15 00:06。<strong>早间 06:46 与 06:57 两次回读复核：PEAK 仍在榜且仍是 <code>2026-11-15T10:00Z</code>（= 今晚 18:00 北京）截止，¥33.00 → ¥20.46 未变；ETS2 / HOI4 / Bodycam 价格与截止同样未变。这个接口只返回滚动的前 10 条，两次回读里 <code>Potato Please</code>（¥35.00 → ¥31.50，-10%，11-16 02:00 北京收）与 <code>隔离区-丧尸末日生存</code>（¥48.00 → ¥28.80，-40%）轮流进窗口，而 <code>Overcooked! 2</code> 已掉出窗口——掉出≠活动结束，只说明本轮没再核到它。</strong>边界：只取列表接口，未逐款回 <code>appdetails</code> 复核，付款前请以商店页为准。</p>
+<p style="font-size:13px;color:#6b7280;">取法：<code>store.steampowered.com/api/featuredcategories?cc=cn&amp;l=schinese</code> 的 <code>specials.items</code>，价格取 <code>original_price</code>/<code>final_price</code>（单位分），截止取 <code>discount_expiration</code> 并换算为北京时间；核实于 2026-11-15 00:06。<strong>早间 06:46 与 06:57 两次回读复核：PEAK 仍在榜且仍是 <code>2026-11-15T10:00Z</code>（= 今晚 18:00 北京）截止，¥33.00 → ¥20.46 未变；ETS2 / HOI4 / Bodycam 价格与截止同样未变。这个接口只返回滚动的前 10 条，两次回读里 <code>Potato Please</code>（¥35.00 → ¥31.50，-10%，11-16 02:00 北京收）与 <code>隔离区-丧尸末日生存</code>（¥48.00 → ¥28.80，-40%）轮流进窗口，而 <code>Overcooked! 2</code> 已掉出窗口——掉出≠活动结束，只说明本轮没再核到它。</strong>边界：只取列表接口，未逐款回 <code>appdetails</code> 复核，付款前请以商店页为准。<strong>午间 12:06 第三次回读：PEAK 仍为 ¥33.00 → ¥20.46、今晚 18:00 收；Sifu 新进（¥139.00 → ¥34.75，-75%，11-29 02:00 收）；Overcooked! 2 仍不在窗口内。</strong></p>
 </details>
 
 <details>
@@ -162,7 +204,8 @@ description: "2026-11-15 凌晨版 + 早间 06:31–06:57 复核：Steam《PEAK�
 <li>IT之家：<a href="https://www.ithome.com/1/027/238.htm">Meta Muse 上线代打电话功能</a>；<a href="https://www.ithome.com/1/027/227.htm">Meta 因擅自读取意大利用户相册被罚 8.05 亿欧元</a>；<a href="https://www.ithome.com/1/027/245.htm">英特尔官网确认酷睿 Ultra 7 260K</a>（5.4GHz）。</li>
 <li>IT之家：<a href="https://www.ithome.com/1/027/244.htm">新项目探索把 macOS 搬上骁龙与 x86</a>；<a href="https://www.ithome.com/1/027/230.htm">华大九天联合大湾区基金完成国产数字前端 EDA 整合</a>；<a href="https://www.ithome.com/1/027/229.htm">白宫“超级智能工作组”呼吁放宽 AI 问责政策</a>。</li>
 </ul>
-<p style="font-size:13px;color:#6b7280;">出处：HN Algolia <code>front_page</code>、IT之家 RSS，抓取于 2026-11-15 00:07–00:09。边界：媒体转述的数字未回一手论文或官方公告逐条复核，阅读时留意原文口径。</p>
+<p><strong>午间 12:05 复核的 HN 前排放了两处变化：</strong><a href="https://www.spacex.com/launches/starship-flight-15">SpaceX 在 Starship Flight 15 中完成助推器回收</a>升到榜首（870 分 / 603 评论）；早间还是单源转述的 <a href="https://www.crissyfield.de/research/lovable-en/">Lovable 应用泄露护照信息与 20 万+ 条私信</a>升到第二（698 分 / 287 评论），但仍是研究者自述、未见 Lovable 官方回应。另有 <a href="https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again">EFF：科技公司再次试图改写隐私概念</a>（500 分 / 181 评论）、<a href="https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/">PyPI 新版项目页上线</a>（218 分 / 95 评论）、<a href="https://projectzero.google/2026/11/disclosure-policy.html">Project Zero 改为报 90 天后披露</a>（196 分 / 54 评论）。</p>
+<p style="font-size:13px;color:#6b7280;">出处：HN Algolia <code>front_page</code>、IT之家 RSS，抓取于 2026-11-15 00:07–00:09，午间 12:05 复核。边界：媒体转述的数字未回一手论文或官方公告逐条复核，阅读时留意原文口径。</p>
 </details>
 
 <details>
@@ -173,6 +216,9 @@ description: "2026-11-15 凌晨版 + 早间 06:31–06:57 复核：Steam《PEAK�
 <li>小众软件：<a href="https://www.appinn.com/windows-11-startup-delay-registry-fix/">修改两个参数把 Win11 启动时间从 150 秒降到 30 秒</a>；<a href="https://www.appinn.com/chrome-cve-2026-125350-zero-day-exploit/">Chrome 高危 0day（CVE-2026-125350）已遭实际利用</a>，建议尽快更新。</li>
 <li>小众软件：<a href="https://www.appinn.com/mkw-recomp/">mkw-recomp 在 Windows / Linux 原生运行 Switch 2《马力欧赛车世界》</a>；<a href="https://www.appinn.com/windowsios-windows-11-iphone-duo-gemini-open-source/">用 Gemini 让 Windows 11 跑在 iPhone Duo 上并开源</a>。</li>
 <li>IT之家：<a href="https://www.ithome.com/1/027/243.htm">OPPO Reno17 系列洛天依定制主题，11-16 发布</a>；<a href="https://www.ithome.com/1/027/240.htm">小米与“AMG 之父”创办的 HWA 秘密合作</a>。</li>
+<li><strong>午间 12:05 新增（IT之家，11-15 上午）：</strong><a href="https://www.ithome.com/1/027/279.htm">BLG 战队 Knight 拿下《英雄联盟》S16 全球总决赛 FMVP</a>；<a href="https://www.ithome.com/1/027/289.htm">B站“BLG 夺冠时刻”赠送 7 天大会员，每人限领一次</a>。</li>
+<li>IT之家：<a href="https://www.ithome.com/1/027/295.htm">小米海外公布 18 Pro 系列背屏适配（谷歌地图、Spotify、Gemini）</a>；<a href="https://www.ithome.com/1/027/292.htm">华为麒麟 9050 系列新一代巴龙 AI Modem 情报公开</a>。</li>
+<li>IT之家：<a href="https://www.ithome.com/1/027/294.htm">苹果智能家庭中枢 HomeView 首批评测：Siri AI 问题频出</a>；<a href="https://www.ithome.com/1/027/291.htm">JPR：全球 PC 客户端 CPU 2026Q3 出货同比 -6.5%</a>；<a href="https://www.ithome.com/1/027/282.htm">Purism 公布 RISC-V 手机 Librem 5 v2</a>。</li>
 </ul>
 <p style="font-size:13px;color:#6b7280;">价格与活动来自资讯源标题，未逐项回厂商页核价；领取、下单前请以活动页条款为准。<strong>这一条里只有 InstaBox 今早回了官方页核价，其余仍是转述口径</strong>，见下面单独一张卡。</p>
 </details>
@@ -267,7 +313,7 @@ description: "2026-11-15 凌晨版 + 早间 06:31–06:57 复核：Steam《PEAK�
 </details>
 
 <details>
-<summary><strong>本轮方法与来源健康度</strong> ｜ <span style="color:#6b7280;">凌晨 22 源 / 16 正常 / 6 异常 → 早间 25 源 / 25 正常 / 0 异常</span></summary>
+<summary><strong>本轮方法与来源健康度</strong> ｜ <span style="color:#6b7280;">凌晨 22 源 / 16 正常 / 6 异常 → 早间 25 源 / 25 正常 / 0 异常 → 午间 18 源 / 14 正常 / 4 异常</span></summary>
 <p>取数在 2026-11-15 00:04–00:11 完成：限免走 Epic 官方 promotions 接口，Steam 走官方 featuredcategories，趋势抓 GitHub Trending 页面，开发资讯走 HN Algolia API，国内资讯走 IT之家 RSS，软件与羊毛走小众软件 RSS，VPS 优惠走 IDCSPY 与 LowEndBox RSS，币圈媒体走 The Block 与 PANews，情绪与行情走 alternative.me、DefiLlama 与 mempool.space。单源失败不拖垮整轮，下面是逐源结果。</p>
 <table style="width:100%;border-collapse:collapse;font-size:13px;">
 <thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
@@ -298,5 +344,6 @@ description: "2026-11-15 凌晨版 + 早间 06:31–06:57 复核：Steam《PEAK�
 </tbody></table>
 <p style="font-size:13px;color:#6b7280;"><code>SUMMARY fetched=171 fresh=171 sources=22 errors=6</code>；取数与验真 2026-11-15 00:04–00:11（Asia/Shanghai）。境外源集中失败，优先怀疑本轮出口代理对部分域名不可达，而不是站点集体改版。阮一峰与 PANews 本轮恢复，上一版的两条 ERR 已消掉。</p>
 <p style="font-size:13px;color:#6b7280;"><strong>早间第二轮（06:31–06:33 主轮）</strong>：<code>SUMMARY fetched=281 fresh=146 sources=25 errors=0</code>，跨天去重后新进 146 条，<strong>无一条 ERR</strong>——凌晨报 SSL 失败的 CoinGecko、V2EX、Hugging Face、Binance、以太坊博客、CoinDesk 这一轮全部返回成功，印证了「是代理抖动、不是站点集体改版」。16 个来源有条目（IT之家 25、HN 23、Product Hunt 15、PANews 15、CoinGecko 热搜 10、App Store 10、v2ex 9、CoinDesk 8、CoinGecko 行情 7、lobsters 6、GitHub Trending 6、CMC 热搜 6、The Block 3、美国主机侦探 1、交易所状态 1、恐惧贪婪 1），9 个来源 0 条新进：Epic 与 Steam 是昨日已报被去重命中（数值改由 06:46 不带去重的 <code>deal</code> 重跑回读，<code>fetched=55 fresh=30 sources=6 errors=0</code>），appinn/binance/ethblog/creleases/hf/阮一峰/lowendbox 是窗口内确无更新，都不是取数失败。</p>
+<p style="font-size:13px;color:#6b7280;"><strong>午间第三轮（12:04–12:07）</strong>：<code>SUMMARY sources=18 ok=14 errors=4</code>。Steam、Epic、GitHub Trending、HN、IT之家、小众软件、PANews（改用 <code>/rss.xml?lang=zh&amp;type=NEWS</code>）、The Block、IDCSPY、LowEndBox、Product Hunt、DefiLlama、mempool、alternative.me 共 14 源正常；CoinGecko、Kraken 状态页、V2EX、CoinDesk 仍是 <code>SSL_ERROR_SYSCALL</code> 连接失败。IT之家本轮抓到 60 条（最新到 11:56 北京），PANews 100 条（最新到 11:51 北京），The Block 20 条（最新 07:07 北京）；小众软件与 LowEndBox 窗口内无新条目，不是取数失败。</p>
 <p style="font-size:13px;color:#6b7280;">口径没变：只收集、核实、报告，不代注册、不绑卡、不代领券、不下单，iOS 兑换码型限免不转载码本身，币圈不连钱包、不签名、不给买卖建议与目标价，产物里不出现凭据、钱包地址与带 <code>?ref=</code> 的返利参数。需要登录态的源（Steam 愿望单、Epic 库、交易所后台）本轮没有用带登录态的浏览器去取，所以只报公开接口能证明的部分。</p>
 </details>
