@@ -5,10 +5,10 @@ date: 2026-11-16 00:10:00 +0800
 permalink: /posts/info-radar-2026-11-16/
 categories: [Info, Deals]
 tags: [资讯雷达, Steam折扣, Epic限免, GitHub趋势, AI动态, 币圈]
-description: "2026-11-16 凌晨版：SpaceX 星舰 Flight 15 首次用发射塔机械臂夹住飞船；英伟达黄仁勋卸任余波持续，超 15 万人联署要求恢复其 CEO 职务；Steam《Sifu》-75%（¥34.75）、《Overcooked! 2》-66%（¥33.32）11-20 01:00 收；Epic《斗阵骑士》0 元至 11-20 00:00；BTC 约 6.47 万美元、恐惧贪婪指数 10，24 小时全网爆仓 17.08 亿美元。"
+description: "2026-11-16 凌晨版：SpaceX 星舰 Flight 15 首次用发射塔机械臂夹住飞船；英伟达黄仁勋卸任余波持续，超 15 万人联署要求恢复其 CEO 职务；Steam《Sifu》-75%（¥34.75）、《Overcooked! 2》-66%（¥33.32）11-20 01:00 收；Epic《斗阵骑士》0 元至 11-20 00:00；BTC 约 6.47 万美元、恐惧贪婪指数 10，24 小时全网爆仓 17.08 亿美元。12:05 追加午后快照：Steam 特惠窗口换血，《GTA 三部曲 – 最终版》-67% 入场，BTC 回到约 6.50 万美元。"
 ---
 
-这一轮取数在 2026-11-16 00:04–00:10（北京时间）完成：18 个来源、抓回 267 条原始条目，18 个来源正常、0 个异常（Steam 首次请求出现一次 SSL EOF，重试后恢复正常）。这是当天第一版，也是当天唯一一篇；今天若再跑，只会在本文件内更新，不新增文件。
+这一轮取数在 2026-11-16 00:04–00:10（北京时间）完成：18 个来源、抓回 267 条原始条目，18 个来源正常、0 个异常（Steam 首次请求出现一次 SSL EOF，重试后恢复正常）。这是当天第一版，也是当天唯一一篇；今天若再跑，只会在本文件内更新，不新增文件。12:05 已按同一口径复核并追加快照，变化见文末「午后快照」，本文件仍是当天唯一一篇。
 
 结论先摆前面：**今天没有“今晚就截止”的 Steam 特惠，最近的一条是《Overcooked! 2》-66%（¥33.32），11-20 01:00 收；《Sifu》-75%（¥34.75）窗口到 11-29 02:00；Epic 免费位仍是《斗阵骑士 Knightica》0 元，11-20 00:00 换《Alien: Isolation》与《Mark of the Deep》。资讯面今天最大的两条：SpaceX 星舰 Flight 15 首次用发射塔机械臂“夹住”飞船；英伟达黄仁勋卸任的余波继续扩散，超 15 万人联署要求董事会恢复其 CEO 职务，美国财长贝森特公开称英伟达领导层需要“大幅调整”。币圈继续走弱，BTC 约 6.47 万美元、恐惧贪婪指数 10（Extreme Fear），过去 24 小时全网合约爆仓 17.08 亿美元、主爆多单。**
 
@@ -232,4 +232,135 @@ description: "2026-11-16 凌晨版：SpaceX 星舰 Flight 15 首次用发射塔�
 </tbody></table>
 <p style="font-size:13px;color:#6b7280;">本轮未做 iOS 国区限免核价（没有拿到可逐条回 iTunes <code>lookup</code> 的 trackId 清单），因此不写 iOS 限免段，也不沿用昨天的 9 款名单——限免状态随时会变，隔天名单不能当今日结论。本站只报道与核实，不代注册、不代领取、不代下单；所有价格与时点以你打开官方页面的那一刻为准。</p>
 <p style="font-size:13px;color:#6b7280;"><strong>更新规则：</strong>这是 2026-11-16 的第一版，也是当天唯一一篇。今天若再做复核，只会更新本文件（追加快照时点与变化），不会在 <code>_posts/</code> 下新增第二份同日期文件。</p>
+</details>
+
+## 12:05 午后快照（本文件当日更新）
+
+这一轮复核在 2026-11-16 12:03–12:07（北京时间）完成：12 个来源里 11 个正常、1 个异常（PANews RSS 返回的是 HTML 页面，本轮弃用其条目）。按“一天一份”的规则，这次不新增文件，只在本文件追加快照；凌晨版的结论不改，下面只写与 00:10 相比的变化。
+
+<div style="border:1px solid #e3e6ea;border-radius:10px;padding:16px 18px;background:#fbfcfd;margin:0 0 28px;">
+<strong style="font-size:15px;">午后变化最大的三件事</strong>
+<ul style="margin:10px 0 0;padding-left:20px;">
+<li><strong>Steam 特惠窗口换血：</strong>凌晨版里的《Overcooked! 2》（-66%，11-20 01:00）与《Hearts of Iron IV》（-70%，11-27 02:00）已掉出本轮返回；《GTA 三部曲 – 最终版》-67%（¥279.00 → ¥92.07，11-20 02:00）等 4 款新进窗口。当前最近截止变成《MONOMOON: 幻月迷踪》11-19 02:00（仅 -10%）。</li>
+<li><strong>币圈小幅反弹但情绪没变：</strong>BTC 从 $64,655.02 回到 $64,995.91（+0.53%），ETH +0.80%、SOL +1.10%；恐惧贪婪指数仍是 10（Extreme Fear），BTC 建议手续费仍是 1 sat/vB。</li>
+<li><strong>GitHub Trending 与凌晨几乎一致：</strong><code>GoogleChrome/modern-web-guidance-src</code> 仍以 +1,219 领跑，前八名只换了位次，没有新项目突然冲榜；“今日新增”是当日累计值，不是午后新增。</li>
+</ul>
+</div>
+
+<details open>
+<summary><strong>Steam 当前窗口：10 条特惠，最近截止是 11-19 02:00 的《MONOMOON》</strong> ｜ <span style="color:#c0392b;font-weight:700;">掉出窗口 ≠ 活动结束</span></summary>
+<p><code>featuredcategories</code> 在 12:05 返回的 10 条特惠如下，金额已从“分”换算成人民币，截止时间按 <code>discount_expiration</code> 换算为北京时间。与 00:06 那轮相比，《Overcooked! 2》《Hearts of Iron IV》掉出返回窗口，《GTA 三部曲 – 最终版》《重生2我独自逆袭》《转运军团 - Slotbound》《MONOMOON: 幻月迷踪》新进；《Sifu》《Euro Truck Simulator 2》《Bodycam》《隔离区-丧尸末日生存》《我带过的最差一届》《勇者小队全灭了。》继续在榜。</p>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">游戏（appid）</th><th style="padding:6px 8px 6px 0;">国区价</th><th style="padding:6px 8px 6px 0;">折扣</th><th style="padding:6px 0 6px 0;width:24%;">截止（北京时间）</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/3285880/">MONOMOON: 幻月迷踪</a>（3285880）</td><td style="padding:8px 8px 8px 0;">¥42.00 → ¥37.80</td><td style="padding:8px 8px 8px 0;">-10%</td><td style="padding:8px 0 8px 0;color:#c0392b;font-weight:700;">11-19 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/817628/">GTA 三部曲 – 最终版</a>（817628）</td><td style="padding:8px 8px 8px 0;">¥279.00 → ¥92.07</td><td style="padding:8px 8px 8px 0;">-67%</td><td style="padding:8px 0 8px 0;color:#c0392b;font-weight:700;">11-20 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1211600/">隔离区-丧尸末日生存</a>（1211600）</td><td style="padding:8px 8px 8px 0;">¥48.00 → ¥28.80</td><td style="padding:8px 8px 8px 0;">-40%</td><td style="padding:8px 0 8px 0;color:#c0392b;font-weight:700;">11-20 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/2406770/">Bodycam</a>（2406770）</td><td style="padding:8px 8px 8px 0;">¥128.00 → ¥102.40</td><td style="padding:8px 8px 8px 0;">-20%</td><td style="padding:8px 0 8px 0;">11-21 05:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/5175310/">我带过的最差一届</a>（5175310）</td><td style="padding:8px 8px 8px 0;">¥28.00 → ¥18.20</td><td style="padding:8px 8px 8px 0;">-35%</td><td style="padding:8px 0 8px 0;">11-24 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/2638080/">勇者小队全灭了。</a>（2638080）</td><td style="padding:8px 8px 8px 0;">¥68.00 → ¥61.20</td><td style="padding:8px 8px 8px 0;">-10%</td><td style="padding:8px 0 8px 0;">11-24 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/227300/">Euro Truck Simulator 2</a>（227300）</td><td style="padding:8px 8px 8px 0;">¥92.99 → ¥23.24</td><td style="padding:8px 8px 8px 0;">-75%</td><td style="padding:8px 0 8px 0;color:#c0392b;font-weight:700;">11-25 01:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/4459590/">转运军团 - Slotbound</a>（4459590）</td><td style="padding:8px 8px 8px 0;">¥42.00 → ¥37.80</td><td style="padding:8px 8px 8px 0;">-10%</td><td style="padding:8px 0 8px 0;">11-27 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/3816120/">重生2我独自逆袭</a>（3816120）</td><td style="padding:8px 8px 8px 0;">¥58.00 → ¥46.40</td><td style="padding:8px 8px 8px 0;">-20%</td><td style="padding:8px 0 8px 0;">11-28 02:00</td></tr>
+<tr><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/2138710/">Sifu</a>（2138710）</td><td style="padding:8px 8px 8px 0;">¥139.00 → ¥34.75</td><td style="padding:8px 8px 8px 0;">-75%</td><td style="padding:8px 0 8px 0;color:#c0392b;font-weight:700;">11-29 02:00</td></tr>
+</tbody></table>
+<p style="font-size:13px;color:#6b7280;">Epic 免费位不变：《斗阵骑士 Knightica》0 元到 11-20 00:00，随后由《Alien: Isolation》与《Mark of the Deep》接棒（官方 promotions 接口 12:04 复核）。《Overcooked! 2》《Hearts of Iron IV》只是不再出现在本轮 <code>featuredcategories</code> 返回里，不能据此判定活动提前结束；要买请打开商店页看实时状态。本站只报道与核实，注册、登录、领取、下单全部由你自己完成。</p>
+</details>
+
+<details open>
+<summary><strong>币圈 12:05 快照：BTC 约 6.50 万美元，情绪仍停在 Extreme Fear</strong> ｜ <span style="color:#6b7280;">只报快照，不给方向</span></summary>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">指标</th><th style="padding:6px 8px 6px 0;">00:06</th><th style="padding:6px 8px 6px 0;">12:05</th><th style="padding:6px 0 6px 0;">变化</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">BTC</td><td style="padding:8px 8px 8px 0;">$64,655.02</td><td style="padding:8px 8px 8px 0;">$64,995.91</td><td style="padding:8px 0 8px 0;color:#1a7f37;">+0.53%</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">ETH</td><td style="padding:8px 8px 8px 0;">$1,808.80</td><td style="padding:8px 8px 8px 0;">$1,823.32</td><td style="padding:8px 0 8px 0;color:#1a7f37;">+0.80%</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">SOL</td><td style="padding:8px 8px 8px 0;">$71.10</td><td style="padding:8px 8px 8px 0;">$71.88</td><td style="padding:8px 0 8px 0;color:#1a7f37;">+1.10%</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">恐惧贪婪指数</td><td style="padding:8px 8px 8px 0;">10（Extreme Fear）</td><td style="padding:8px 8px 8px 0;color:#c0392b;font-weight:700;">10（Extreme Fear）</td><td style="padding:8px 0 8px 0;">持平</td></tr>
+<tr><td style="padding:8px 8px 8px 0;">BTC 建议手续费</td><td style="padding:8px 8px 8px 0;">1 sat/vB</td><td style="padding:8px 8px 8px 0;">1 sat/vB</td><td style="padding:8px 0 8px 0;">持平</td></tr>
+</tbody></table>
+<ul>
+<li>The Block：<a href="https://www.theblock.co/news/markets/2026-11-15-cz-denies-binance-sold-crypto-as-bitcoin-bounces-from-four-month-low-near-62-000">CZ 否认币安抛售加密资产，BTC 从近 $62,000 的四个月低点反弹</a>（11-16 05:57 北京时间）。</li>
+<li>技术面没有新的一手材料，本轮不写支撑位、目标价与“抄底”建议；爆仓数据沿用凌晨版 PANews 的 24 小时口径，午后未重新取数。</li>
+</ul>
+<p style="font-size:13px;color:#6b7280;">出处：DefiLlama coins API、alternative.me、mempool.space、The Block RSS，抓取于 2026-11-16 12:03–12:06。以上仅为快照，不构成任何建议；不写目标价、钱包地址与返利链接。</p>
+</details>
+
+<details open>
+<summary><strong>GitHub Trending 12:05：前八名与凌晨一致，modern-web-guidance-src 仍领跑</strong> ｜ <span style="color:#6b7280;">今日新增是累计值</span></summary>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">仓库</th><th style="padding:6px 8px 6px 0;width:14%;">今日新增</th><th style="padding:6px 0 6px 0;">说明</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://github.com/GoogleChrome/modern-web-guidance-src">GoogleChrome/modern-web-guidance-src</a></td><td style="padding:8px 8px 8px 0;">+1,219</td><td style="padding:8px 0 8px 0;">给编码 Agent 同步最新 web 最佳实践</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://github.com/dream-num/univer">dream-num/univer</a></td><td style="padding:8px 8px 8px 0;">+988</td><td style="padding:8px 0 8px 0;">AI Office SDK：编辑、计算、协作与文件处理</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://github.com/backnotprop/plannotator">backnotprop/plannotator</a></td><td style="padding:8px 8px 8px 0;">+866</td><td style="padding:8px 0 8px 0;">与 Agent 协作的规划 / 标注 / 审阅工作台</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp</a></td><td style="padding:8px 8px 8px 0;">+717</td><td style="padding:8px 0 8px 0;">面向编码 Agent 的 Chrome DevTools</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://github.com/alibaba/open-code-review">alibaba/open-code-review</a></td><td style="padding:8px 8px 8px 0;">+691</td><td style="padding:8px 0 8px 0;">混合架构代码评审：确定性流水线 + LLM Agent</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://github.com/Tencent/LoopForge">Tencent/LoopForge</a></td><td style="padding:8px 8px 8px 0;">+423</td><td style="padding:8px 0 8px 0;">自托管的 coding-agent 交付流水线</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://github.com/ag-ui-protocol/ag-ui">ag-ui-protocol/ag-ui</a></td><td style="padding:8px 8px 8px 0;">+355</td><td style="padding:8px 0 8px 0;">Agent 与前端的交互协议层</td></tr>
+<tr><td style="padding:8px 8px 8px 0;"><a href="https://github.com/google-labs-code/stitch-skills">google-labs-code/stitch-skills</a></td><td style="padding:8px 8px 8px 0;">+247</td><td style="padding:8px 0 8px 0;">配合 Stitch MCP 的 Agent Skills 库（最近推送仍停在 2026-08-17）</td></tr>
+</tbody></table>
+<p style="font-size:13px;color:#6b7280;">出处：GitHub Trending 日榜 HTML，抓取于 2026-11-16 12:05。与 00:06 相比，modern-web-guidance-src 从 +1,220 到 +1,219、stitch-skills 从 +248 到 +247，属于同一累计值的正常波动，不代表午后新增；凌晨版已提醒 stitch-skills 三个月没推送，这里继续保留该风险提示。</p>
+</details>
+
+<details open>
+<summary><strong>HN 前排 12:04：微软故障致氯气中毒仍在榜首，Bitly 老链接被劫持进前十</strong> ｜ <span style="color:#6b7280;">分数会继续变</span></summary>
+<ul>
+<li><a href="https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html">微软 365 故障导致德国酒店 15 人氯气中毒</a>（437 分）仍是榜首；凌晨版已按“关键告警依赖单一云服务”的风险样本记录，午后没有新的一手回应。</li>
+<li><a href="https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/">MacBook Pro OLED 的 PWM 问题</a>（435 分）：硬件素质更好，不等于对所有人更舒适。</li>
+<li><a href="https://www.youtube.com/watch?v=WPj3aQ-xxpI">Claude Code 与 Codex 用 3 美元 Arduino 逆向 1994 年 Jeep 的 ECU</a>（371 分，视频）：Agent 参与硬件逆向的演示，动手前先确认车辆与法规边界。</li>
+<li><a href="https://magazine.sebastianraschka.com/p/understanding-positional-embeddings">现代 LLM 的位置嵌入讲解</a>（217 分）；<a href="https://bruceroettgers.eu/blog/protomaps/">Protomaps：自托管地图瓦片已经又便宜又简单</a>（214 分）。</li>
+<li><a href="https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/">旧的 Bitly 短链接正在被劫持</a>（208 分）：历史短链、二维码与旧文档里的链接值得复查。</li>
+<li><a href="https://qwen.ai/blog?id=qwen4-max">Qwen4-Max</a>（168 分）：模型发布信息以官方博客为准，本轮未展开评测。</li>
+</ul>
+<p style="font-size:13px;color:#6b7280;">出处：HN Algolia <code>front_page</code>，抓取于 2026-11-16 12:04。边界：分数与评论数会继续变化；媒体转述的数字未回一手论文或官方公告逐条复核。</p>
+</details>
+
+<details open>
+<summary><strong>国内资讯午间新增：DeepSeek 应用传限额、《欧卡 2》同时在线破 10 万、Win11 OOBE 不支持纯 IPv6</strong> ｜ <span style="color:#6b7280;">按标题记录，未逐条回官方</span></summary>
+<ul>
+<li>IT之家：<a href="https://www.ithome.com/1/027/597.htm">算力承压：曝 DeepSeek 应用及网页端实施限额，长对话与日额度双双受限</a>（11:44）。属“曝”，未见 DeepSeek 官方公告；如果今天要用长对话，先留出额度。</li>
+<li>IT之家：<a href="https://www.ithome.com/1/027/577.htm">《欧洲卡车模拟 2》Steam 同时在线玩家数首破 10 万，刷新历史纪录</a>（11:22）；与午后 Steam 窗口里的 -75% 特惠互相印证，但热度不等于适合入手。</li>
+<li>IT之家：<a href="https://www.ithome.com/1/027/598.htm">网友发现 Win11 初次开机流程 OOBE 不支持纯 IPv6 网络</a>（11:45）：纯 IPv6 环境部署前先准备双栈或过渡方案。</li>
+<li>IT之家：<a href="https://www.ithome.com/1/027/574.htm">华为麒麟 9050 系列芯片智能音视频处理情报公开：低延迟 AI 异构协同、率先支持 H.266 解码</a>（11:16）。</li>
+<li>IT之家：<a href="https://www.ithome.com/1/027/576.htm">高德发布“云控红绿灯”系统：可根据车流调整配时，北京率先试点</a>（11:20）。</li>
+<li>IT之家：<a href="https://www.ithome.com/1/027/595.htm">SK 海力士携手韩政府共建 TRINITY FAB：12 英寸量产级测试验证平台</a>（11:41）；<a href="https://www.ithome.com/1/027/599.htm">宝马首款国产新世代 BMW iX3 投产，11 月 25 日开启交付</a>（11:51）。</li>
+</ul>
+<p style="font-size:13px;color:#6b7280;">出处：IT之家 RSS，抓取于 2026-11-16 12:05；时间按 RSS 的 GMT 时间换算为北京时间。标题里的“曝”“网友发现”“情报”均不代表官方确认。</p>
+</details>
+
+<details>
+<summary><strong>AI 与软件侧新增：Apple 上线 AI 健康研究 App、Bharat Semi 获 2,400 万美元种子轮</strong> ｜ <span style="color:#6b7280;">仅两条，不凑数</span></summary>
+<ul>
+<li>TechCrunch：<a href="https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/">Apple 上线新 App，研究人们如何用 AI 管理健康</a>（11-16 09:30 北京时间）。研究类 App 的数据范围与知情同意值得单独看，别只看“AI 健康”四个字。</li>
+<li>TechCrunch：<a href="https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/">印度芯片初创 Bharat Semi 获 2,400 万美元种子轮，瞄准全球 AI 传感器市场</a>（11-16 07:30 北京时间）。</li>
+<li>少数派：<a href="https://sspai.com/post/119119">派早报：逾十万人次联署要求黄仁勋复职</a>（07:24）；<a href="https://sspai.com/post/119012">App+1｜不卡带：给你爱听的「老调」，配点记忆中的风味</a>（10:52）。联署人数口径与凌晨版的“超 15 万”不同，按各自来源原样记录，不做合并。</li>
+</ul>
+<p style="font-size:13px;color:#6b7280;">出处：TechCrunch AI RSS、少数派 RSS，抓取于 2026-11-16 12:05–12:06。</p>
+</details>
+
+<details>
+<summary><strong>本轮方法与来源健康度</strong> ｜ <span style="color:#c0392b;">12 源 / 11 正常 / 1 异常</span></summary>
+<p>复核在 2026-11-16 12:03–12:07 完成：Steam 走官方 <code>featuredcategories</code>，Epic 走官方 <code>freeGamesPromotions</code>，趋势抓 GitHub Trending 页面，开发资讯走 HN Algolia，国内资讯走 IT之家 RSS，软件与资讯走少数派 RSS，AI 走 TechCrunch AI RSS，币圈媒体走 The Block RSS，情绪与行情走 alternative.me、DefiLlama 与 mempool.space。PANews RSS 本轮返回的是 HTML 页面而不是订阅 XML，弃用其条目，不拿旧闻补位。</p>
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">来源</th><th style="padding:6px 8px 6px 0;width:10%;">条数</th><th style="padding:6px 8px 6px 0;width:12%;">状态</th><th style="padding:6px 0 6px 0;">备注</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:6px 8px 6px 0;">steam</td><td style="padding:6px 8px 6px 0;">10</td><td style="padding:6px 8px 6px 0;color:#1a7f37;">正常</td><td style="padding:6px 0 6px 0;">窗口换血，2 掉出 / 4 新进</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:6px 8px 6px 0;">epic</td><td style="padding:6px 8px 6px 0;">12</td><td style="padding:6px 8px 6px 0;color:#1a7f37;">正常</td><td style="padding:6px 0 6px 0;">当前 1 + 下周 2，未变</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:6px 8px 6px 0;">trending</td><td style="padding:6px 8px 6px 0;">12</td><td style="padding:6px 8px 6px 0;color:#1a7f37;">正常</td><td style="padding:6px 0 6px 0;">与凌晨基本一致</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:6px 8px 6px 0;">hn</td><td style="padding:6px 8px 6px 0;">30</td><td style="padding:6px 8px 6px 0;color:#1a7f37;">正常</td><td style="padding:6px 0 6px 0;">Algolia front_page</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:6px 8px 6px 0;">ithome</td><td style="padding:6px 8px 6px 0;">60</td><td style="padding:6px 8px 6px 0;color:#1a7f37;">正常</td><td style="padding:6px 0 6px 0;">含今日午间新增</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:6px 8px 6px 0;">sspai</td><td style="padding:6px 8px 6px 0;">10</td><td style="padding:6px 8px 6px 0;color:#1a7f37;">正常</td><td style="padding:6px 0 6px 0;">派早报 + App+1</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:6px 8px 6px 0;">techcrunch_ai</td><td style="padding:6px 8px 6px 0;">20</td><td style="padding:6px 8px 6px 0;color:#1a7f37;">正常</td><td style="padding:6px 0 6px 0;">Apple 健康研究 App 等</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:6px 8px 6px 0;">theblock</td><td style="padding:6px 8px 6px 0;">20</td><td style="padding:6px 8px 6px 0;color:#1a7f37;">正常</td><td style="padding:6px 0 6px 0;">CZ 否认币安抛售</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:6px 8px 6px 0;">fng</td><td style="padding:6px 8px 6px 0;">1</td><td style="padding:6px 8px 6px 0;color:#1a7f37;">正常</td><td style="padding:6px 0 6px 0;">10 / Extreme Fear</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:6px 8px 6px 0;">defillama</td><td style="padding:6px 8px 6px 0;">3</td><td style="padding:6px 8px 6px 0;color:#1a7f37;">正常</td><td style="padding:6px 0 6px 0;">BTC / ETH / SOL</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:6px 8px 6px 0;">mempool</td><td style="padding:6px 8px 6px 0;">1</td><td style="padding:6px 8px 6px 0;color:#1a7f37;">正常</td><td style="padding:6px 0 6px 0;">1 sat/vB</td></tr>
+<tr><td style="padding:6px 8px 6px 0;">panews</td><td style="padding:6px 8px 6px 0;">0</td><td style="padding:6px 8px 6px 0;color:#c0392b;">异常</td><td style="padding:6px 0 6px 0;">RSS 返回 HTML 页面，弃用</td></tr>
+</tbody></table>
+<p style="font-size:13px;color:#6b7280;">本轮未做 iOS 国区限免核价，也没有新增 VPS / 软件促销的一手核价；限免状态随时会变，隔天名单不能当今日结论。本站只报道与核实，不代注册、不代领取、不代下单；所有价格与时点以你打开官方页面的那一刻为准。</p>
+<p style="font-size:13px;color:#6b7280;"><strong>更新规则：</strong>本次是 2026-11-16 当天在本文件内的第二次更新。今天若再做复核，仍只更新本文件（追加快照时点与变化），不会在 <code>_posts/</code> 下新增第二份同日期文件。</p>
 </details>
