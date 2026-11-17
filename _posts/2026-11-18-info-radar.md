@@ -12,6 +12,8 @@ description: "2026-11-18 当天唯一一篇：Epic《斗阵骑士 Knightica》0 
 
 结论先摆前面：**消费侧最近的两个到期点是 Epic《斗阵骑士 Knightica》11-20 00:00 与 Steam《隔离区-丧尸末日生存》11-20 02:00；幅度最大的是《女神异闻录5 皇家版》-70%（¥268.00 → ¥80.40）和《天国：拯救2》-67%（¥228.00 → ¥75.24），这两款都到 12-01 02:00。** 资讯面本轮仍是 Agent Skills / coding agent 占榜，`obra/superpowers` 已到 31.9 万 star；AI 侧有快手可灵 Kling Image 4.0 支持原生 8K、商汤 SenseNova Loop-9B 把部署显存压到 10 GB 内。币圈这一轮只取到媒体转述与情绪指数：恐惧贪婪指数 12（Extreme Fear），PANews 转述 BTC 跌破 64,000 美元、过去 24 小时全网合约爆仓 1.94 亿美元；交易所公告与一手行情源（Binance、CoinGecko、CMC、交易所状态页）本轮全部被代理挡住，相关数字只作语境，不当信号。
 
+**2026-11-18 06:30 早间全量复核（同一篇内追加，不新增文件）**：代理通道已恢复，第二轮 06:30:41 → 06:31:41 跑完 25 个来源，`SUMMARY fetched=311 fresh=170 sources=25 errors=0`——上一轮的 11 个 ERR 全部转绿，包括当时整源失败的 `appstore`（iOS 限免）、`binance`、`exstatus`、`coingecko`、`cgmarkets`、`cmc`、`ethblog`、`creleases`、`coindesk`、`v2ex`、`hf`。所以下面新增的三条「值得」和四条「观察」都是上一轮拿不到的东西：三款国区 iOS 本体限免（已逐条回 iTunes 核到现价 0）、币安全额保证金小额账户清理的公告原文（生效时刻已核对）、以及恢复后的一手行情与交易所状态。上一轮的既有结论不作废，只有 CloudCone 那条从「未回官网核实」推进成了「官网实测与转述不符」。**追加部分同样没有 🔥**：全天没有任何一条落在三小时到期窗口内，新增的时点项在「值得看」第 5、6 两张卡里。
+
 <div style="border:1px solid #e3e6ea;border-radius:10px;padding:16px 18px;background:#fbfcfd;margin:0 0 28px;">
 <strong style="font-size:15px;">这一轮真正会过期、或需要你自己动手的只有这几条</strong>
 <table style="width:100%;border-collapse:collapse;margin-top:12px;font-size:14px;">
@@ -47,7 +49,7 @@ description: "2026-11-18 当天唯一一篇：Epic《斗阵骑士 Knightica》0 
 <p style="font-size:12px;color:#8a9099;margin:12px 0 0;">价格为 2026-11-18 00:23–00:31 官方接口实测：Epic <code>freeGamesPromotions</code>、Steam <code>featuredcategories</code> 与逐款 <code>appdetails</code>。Steam 的 <code>discount_expiration</code> 是 epoch 时间，这里已换算成北京时间（比 UTC 多 8 小时）。本站只报道与核实，注册、登录、领取、下单全部由你自己完成。</p>
 </div>
 
-## 值得看（4）
+## 值得看（7）
 
 <details open>
 <summary><strong>Steam 折扣：P5R -70% 与天国：拯救2 -67% 领跑，最近到期是《隔离区》11-20 02:00</strong> ｜ <span style="color:#1a7f37;font-weight:700;">¥18.20 起</span> ｜ <span style="color:#c0392b;font-weight:700;">最近 11-20 02:00 收</span></summary>
@@ -99,7 +101,36 @@ description: "2026-11-18 当天唯一一篇：Epic《斗阵骑士 Knightica》0 
 <p style="font-size:12px;color:#8a9099;margin:12px 0 0;">核实于 2026-11-18 00:26，来源为 HN Algolia、Lobsters hottest、IT之家 RSS。资讯类条目只记录标题与来源，不构成选型或投资建议。</p>
 </details>
 
-## 观察（12）、币圈这一轮与方法
+<details>
+<summary><strong>国区 iOS 本体限免三款：记办猫、纪念日、Evening Reader</strong>（06:30 复核新增） ｜ <span style="color:#1a7f37;font-weight:700;">0 元</span> ｜ <span style="color:#6b7280;">Apple 不公布限免截止时间</span></summary>
+<p>上一轮 <code>appstore</code> 是整源失败，所以这一层当时完全没有。汇总频道本身没有官方接口，Apple 也不公布促销结束时间，于是价格只能自己回 iTunes 国区 lookup 核，而且<strong>认 <code>trackId</code> 不认名字</strong>——国区会改名，按名字搜会认错成另一个应用、把别人的免费价安到这条上。</p>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;"><th style="padding:6px 8px 6px 0;width:26%;">应用</th><th style="padding:6px 8px 6px 0;width:18%;">trackId</th><th style="padding:6px 8px 6px 0;width:16%;">iTunes 实测</th><th style="padding:6px 0 6px 0;width:40%;">备注与入口</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">记办猫</td><td style="padding:8px 8px 8px 0;"><code>1590485332</code></td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">免费</td><td style="padding:8px 0 8px 0;">待办提醒类，最低系统 iOS 15.0。<a href="https://apps.apple.com/cn/app/id1590485332">App Store 商品页</a></td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">纪念日 - 日期倒计时与生日提醒</td><td style="padding:8px 8px 8px 0;"><code>6760106574</code></td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">免费</td><td style="padding:8px 0 8px 0;">最低系统 iOS 17.0。<a href="https://apps.apple.com/cn/app/id6760106574">App Store 商品页</a></td></tr>
+<tr><td style="padding:8px 8px 8px 0;">Evening Reader</td><td style="padding:8px 8px 8px 0;"><code>6806076273</code></td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">免费</td><td style="padding:8px 0 8px 0;">夜间阅读排版，开发商 Jonathan Bobrow，最低 iOS 17.0。<a href="https://apps.apple.com/cn/app/evening-reader/id6806076273">App Store 商品页</a></td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:12px 0 0 0;">核实于 2026-11-18 06:37（三条各自回 lookup 复核一次，price 均为 0）。口径边界：<code>price = 0</code> 只证明「今天下载不花钱」，接口分不出本就免费和促销中，所以不写「限免仍在」；内购限免不体现在下载价上，本条只覆盖本体；兑换码型限免不转载兑换码，只留频道原帖。<strong>Apple 不公布限免截止时间</strong>，这一栏按口径留白而不是编一个日期。登录、下载由你自己在自己的账号上完成。</p>
+</details>
+
+<details>
+<summary><strong>币安全额保证金小额账户清理</strong>（06:30 复核新增，上一轮公告源整源失败） ｜ <span style="color:#c0392b;font-weight:700;">2026-11-30 08:00 起（北京时间）</span></summary>
+<p>回公告原文核对过的完整口径：<strong>全仓保证金账户</strong>里所有资产折算后抵押品总值<strong>低于 1 美元</strong>、且<strong>近 6 个月没有资金活动</strong>的，系统会把抵押品自动转到现货账户。资金活动指出入金、借款/还款、平仓等任何产生资金流的操作；挂了 6 个月以上的未成交订单<strong>不算</strong>资金活动。公告明写保证金账户功能照常，清理后仍可转入、借款与交易；抵押品等于或高于 1 美元的账户不受影响。生效时刻是原文的 <code>2026-11-30 00:00 (UTC)</code>，换算成北京时间 11-30 08:00，此后作为日常运维流程每日分批执行。落款 2026-11-17。</p>
+<p>核实于 2026-11-18 06:36，<a href="https://www.binance.com/en/support/announcement/detail/693bb3ed50e2420dad614ba78a22e9ea">币安公告原文</a>。</p>
+<p style="font-size:12px;color:#8a9099;margin:12px 0 0 0;">为什么没有升成紧急：这一条只改变资产在账户内部的存放位置，不触碰下架、清退、充提暂停这类可得性门槛。真正需要动手的判断只有一句——如果你在币安全仓保证金里留着不足 1 美元的零头，预期它会在 11-30 之后自己出现在现货账户里。不连钱包、不签名、不代充代提，也不构成任何买卖建议。</p>
+</details>
+
+<details>
+<summary><strong>06:30 复核补上的一手核实：GPT-6.2 官方页、MAI Code 2、Claude Code 的验证方法，以及 Apple 开发者服务仍在故障</strong> ｜ <span style="color:#c0392b;font-weight:700;">Apple 故障按实时页对待</span></summary>
+<p><strong>OpenAI GPT-6.2 Astra 与 Sol</strong>：官方页把定位写成「a frontier model for your hardest projects」加「efficient, versatile model for everyday work」。这一条 <code>curl</code> 直取会被 403（页面要求启用 JavaScript 与 cookie），所以走浏览器桥只读正文，标题与首段逐字核对，没有用资讯源转述代替原文。核实于 2026-11-18 06:39，<a href="https://openai.com/index/introducing-gpt-6-2-astra-sol/">OpenAI 官方页</a>。</p>
+<p><strong>Microsoft MAI Code 2 与 Code 2 Flash</strong>：官方博客标题即「Everyday coding at scalable prices」，主打编码场景价格档，适合与上一条一起对比选型。核实于 06:38，官方页 200，<a href="https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/">Microsoft AI 博客</a>。</p>
+<p><strong>《How the Claude Code team thinks about verification》</strong>：讲端到端、属性与差分测试如何让编码代理用证据自证工作结果。上一轮引用的是 Redict 与 curl 两条，这一条是新增。核实于 06:38，<a href="https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/">原文</a>。</p>
+<p><strong style="color:#c0392b;">Apple 开发者服务多项故障，回读时仍未全部恢复</strong>：状态页 06:41 实时读数为 Developer ID Notary Service、App Store Connect 的 Analytics 与 Sales and Trends、Apple Music Connect、Apple Music for Artists 标 Outage；App Store 内购与 Xcode Cloud 的故障已标 Resolved；43 项服务 available。今天要公证打包、或要拉销售与下载数据的会撞上。核实于 2026-11-18 06:41，<a href="https://developer.apple.com/system-status/">Apple 系统状态页</a>（实时页面，以你自己打开时为准）。</p>
+<p><strong>jingyaogong/minimind</strong>：65,909 star（GitHub API 实测，非页面读数），从零训练 64M 参数小模型的中文教程。核实于 06:38。<a href="https://github.com/jingyaogong/minimind">仓库</a>——<span style="color:#c0392b;">注意最近一次推送是 2026-10-27</span>，上 trending 不等于今天有更新。</p>
+</details>
+
+## 观察（16）、币圈这一轮与方法
 
 <details>
 <summary><strong>观察：12 条存疑或门槛高的条目</strong> ｜ <span style="color:#6b7280;">未核实的数字不当事实写</span></summary>
@@ -177,6 +208,19 @@ ERR source=creleases URLError hint=403 类需走浏览器桥
 ERR source=coindesk URLError hint=403 类需走浏览器桥
 ERR source=appstore URLError hint=403 类需走浏览器桥</pre>
 <p style="font-size:12px;color:#8a9099;margin:12px 0 0;">来源连续 3 天挂同一个错时再考虑改脚本或换源；本轮先按代理节点抖动记录，不做站点改版判断。取数覆盖五条赛道，但因 11 个源失败，本轮实际可用的是优惠/限免（Epic、Steam、idcspy、LowEndBox）、开发与 AI 资讯（HN、Lobsters、GitHub、Product Hunt、阮一峰、IT之家）与币圈媒体轴（PANews、The Block）+ 情绪指数。</p>
+</details>
+
+<details>
+<summary><strong>06:30 复核新增的四条观察</strong> ｜ <span style="color:#6b7280;">一手轴恢复之后仍然只配放在这里</span></summary>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;"><th style="padding:6px 8px 6px 0;width:30%;">条目</th><th style="padding:6px 8px 6px 0;width:22%;">数字 / 说法</th><th style="padding:6px 0 6px 0;width:48%;">为什么只算观察</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://calif.io/java4shell/">Java4Shell（CVE-2026-114938）</a></td><td style="padding:8px 8px 8px 0;">号称 Java 17 预认证 RCE，Base64 处理路径</td><td style="padding:8px 0 8px 0;">只有发现者博客与安全厂商 <a href="https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938">aikido.dev</a> 两边转述，<strong>没有看到 Oracle / OpenJDK 官方 advisory</strong>。按「安全事件只认项目方 advisory、官方博客、交易所公告三方之一」压在观察；与 Java 后端强相关，要盯的是官方发版说明而不是这条标题。这一条是 05:11（北京时间）之后才出现的，上一轮取数窗口里没有它。</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://status.kraken.com/">Kraken 服务状态</a></td><td style="padding:8px 8px 8px 0;">Partially Degraded Service；同期 Coinbase 为 All Systems Operational</td><td style="padding:8px 8px 8px 0;">上一轮 <code>exstatus</code> 整源 ERR，这条是本轮新增。状态非 none 本身不等于事件，只有你正在用这家才需要自查；行情与状态是数字不是信息。</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">一手行情与热搜（06:31 快照，CoinGecko / CMC）</td><td style="padding:8px 8px 8px 0;">BTC 64,404（24h -1.4%）、ETH 1,805.67（-1.4%）、SOL 73.55（+2.3%）、BNB 591.68（-0.3%）、USDT 0.999255；异动榜 Rain -20.4%、Pearl +14.3%、Bitway +11.9%、ICP -10.7%；趋势前十 BP、BTC、LIT、SOL、PEARL、VVV、NEAR、INJ、PENGU、ZEC</td><td style="padding:8px 8px 8px 0;">上一轮这些只能引 PANews 转述（BTC 跌破 64,000），本轮 <code>coingecko</code> / <code>cgmarkets</code> / <code>cmc</code> 全部转绿、拿到带快照时间的一手数字。但行情与热搜按口径一律不进「值得」：涨跌本身不构成价值，写进正文只会把日报变成荐股。恐惧贪婪指数 12（Extreme Fear）与上一轮一致，仍只作语境底数。</td></tr>
+<tr><td style="padding:8px 8px 8px 0;">CloudCone 1 核 1 GB 年付 16.48 美元（上一轮观察项的后续）</td><td style="padding:8px 8px 8px 0;">官网 <code>/vps</code> 实测 SSD VPS 1（1 vCPU / 1GB dedicated RAM）标价为年付 <strong>28 美元</strong></td><td style="padding:8px 8px 8px 0;">上一轮写的是「未回 CloudCone 官方页核实」。本轮回了：<strong>转述价与官网标价不符</strong>，且 <code>/promo</code> 活动页返回 404，找不到 16.48 美元的出处。同一批转述里的 edgeNAT 官网是 JavaScript 壳、抓不到可核对的价格文本，其余五条（BlueHost、FlyingPress、Astra、HostUS、Mondoze）本轮同样没有回官网核到，全部维持观察。抽查第一条就证伪，是这一整批按未核实对待的理由。</td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:12px 0 0;">另两条币安公告（ANTHROPICUSDT 预 IPO 永续提前完成合约规模调整并改名 ANTUSDT，11-17；多个 USDⓈ-M 永续 tick size 变更，11-18）本轮从 <code>binance-ann</code> 取到了，但未逐条回原文核对生效时刻，且只对上合约交易者有意义，一并留在观察。</p>
 </details>
 
 <p style="font-size:12px;color:#9aa0a8;margin:28px 0 0;">边界声明：本站只收集、核实与报道，不代为注册、不绑卡、不领取、不下单；币圈不连钱包、不签名、不给买卖建议。价格、折扣与截止时间以官方页面结算时为准。</p>
