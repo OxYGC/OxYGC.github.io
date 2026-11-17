@@ -1,11 +1,11 @@
 ---
-title: "资讯雷达 2026-11-17｜Epic《斗阵骑士》0 元、Steam 特惠换血、Trezor 物流方泄露 2.7 万单（凌晨版 + 早间 06:30 复核）"
+title: "资讯雷达 2026-11-17｜Epic《斗阵骑士》0 元、Steam 午间换血 P5R -70%、Trezor 物流方泄露 2.7 万单（凌晨 + 早间 + 午间复核）"
 author: OxYGC
-date: 2026-11-17 00:25:00 +0800
+date: 2026-11-17 12:18:00 +0800
 permalink: /posts/info-radar-2026-11-17/
 categories: [Info, Deals]
 tags: [资讯雷达, Steam折扣, Epic限免, App Store限免, GitHub趋势, AI动态, 币圈]
-description: "2026-11-17 凌晨版 + 早间 06:30–06:46 复核：Epic《斗阵骑士 Knightica》0 元领取，11-20 00:00 截止；Steam 特惠窗口换血，早间《天国：拯救2》¥228 → ¥75.24（-67%）已回 appdetails 逐款复核；GitHub Trending 仍由 Agent Skills 与 coding agent 占榜；币圈恐惧贪婪指数 10（Extreme Fear）。早间这一轮 25 个来源全绿、errors=0，凌晨因代理通道失败的 11 个源全部恢复，补齐了 iOS 国区限免（1 款本体核到下载不花钱）、Trezor 物流方 Skladon 泄露约 2.7 万笔订单、Kraken 充提部分降级与 CoinGecko/CMC 行情热搜。"
+description: "2026-11-17 当天唯一一篇，含凌晨版、早间 06:30 与午间 12:03 三轮复核：Epic《斗阵骑士 Knightica》0 元领取，11-20 00:00 截止；Steam 午间窗口再换血，《女神异闻录5 皇家版》-70%（¥268 → ¥80.40）、《人中之龙０ 导演剪辑版》-60%（¥238 → ¥95.20）、《天国：拯救2》-67%（¥228 → ¥75.24）三条已逐款回 appdetails 复核；GitHub Trending 仍由 Agent Skills 与 coding agent 占榜；恐惧贪婪指数 10 → 12（Extreme Fear）。午间这一轮 25 个来源里 14 个可用、11 个再次被代理通道挡住，加密货币一手行情与交易所状态未取到，只保留媒体转述与情绪指数。"
 ---
 
 这一轮取数在 2026-11-17 00:10–00:25（北京时间）完成：25 个来源里 13 个取到数据、1 个本轮无货（小众软件，属正常）、11 个因代理通道限制未取到（清单见文末）。共留下 121 条条目，其中 10 条来自 Steam、1 条来自 Epic。这是当天第一版，也是当天唯一一篇；今天若再跑，只会在本文件内更新，不新增文件。
@@ -19,6 +19,16 @@ description: "2026-11-17 凌晨版 + 早间 06:30–06:46 复核：Epic《斗阵
 5. **GitHub Trending**——早间回 GitHub API 复核了 4 个仓库的总 star 与创建时间。
 
 结论先摆前面：**早间这一轮最该动手的是 Trezor 那条防钓鱼提醒——物流合作方 Skladon 被泄约 2.7 万笔订单的姓名、电话、地址、邮箱，此后自称 Trezor / Skladon 的改址与补发一律按钓鱼处理；Kraken 的充提网关仍在报降级（最新事件 KAVA 充值延迟），在 Kraken 有充提的自己复查一笔。** 消费侧：Epic 免费位仍是《斗阵骑士 Knightica》0 元、11-20 00:00 换新；Steam 早间窗口里最近的一个到期点是《How They Built the Pyramids》¥22.00 → ¥15.40（-30%，11-20 18:00 收），幅度最大的是《天国：拯救2》¥228.00 → ¥75.24（-67%，11-30 18:00 收），这两条已逐款回官方 `appdetails` 复核；凌晨卡在榜首的《Overcooked! 2》-66%（¥33.32）今早 06:46 已掉出滚动窗口，按“掉出窗口≠活动结束”处理，行动卡里不再列它，要买请自己打开商店页确认。iOS 侧早间核到 1 款本体限免下载不花钱，但 Apple 不公布截止时间。资讯面今天比较集中：GitHub Trending 依旧被 Agent Skills / coding agent 相关项目占住；AI 侧有 Qwen4-Max 发布页冲上 HN 首页、AMD 完成对 World Labs 的收购并由李飞飞出任首席科学家；币圈继续处于恐惧区间，恐惧贪婪指数 10，PANews 转述过去 24 小时全网合约爆仓 2.83 亿美元（多空双爆），另有 Solana 基金会发布 Linux 内核漏洞安全提醒——这条本轮只有媒体转述，未回到官方 advisory，按“观察”处理。
+
+**午间 12:03–12:12 跑了第三轮，仍然是这一篇。** 这一轮 `SUMMARY fetched=148 fresh=148 sources=25 errors=11`，失败的仍是同一组 11 个源（v2ex、hf、binance、exstatus、coingecko、cgmarkets、cmc、ethblog、creleases、coindesk、appstore），形态与凌晨一致——代理节点对这组域名重新关闸，境外源整批挂、境内源全绿。能取到的 14 个源带来的增量有五块，凡标注「午间」的数值以 12:03–12:12 这次实测为准：
+
+1. **Steam 窗口再换血**——《女神异闻录5 皇家版》-70%（¥268 → ¥80.40）、《人中之龙０ 导演剪辑版》-60%（¥238 → ¥95.20）、《天国：拯救2》-67%（¥228 → ¥75.24）三条已逐款回 `appdetails` 复核；《Bodycam》-20%（¥128 → ¥102.40）也在窗口内。早间在榜的《How They Built the Pyramids》《Overcooked! 2》《隔离区》《Euro Truck Simulator 2》已掉出前 10 窗口，按「掉出窗口≠活动结束」处理。
+2. **Epic 免费位未变**——《斗阵骑士 Knightica》0 元、11-20 00:00 换新，官方 `freeGamesPromotions` 接口复核。
+3. **恐惧贪婪指数从 10 回到 12**（Extreme Fear，alternative.me 官方接口，午间快照），仍在极度恐惧区间，只作语境、不是信号。
+4. **GitHub Trending 12:05 窗口**——Agent Skills 仍在榜，`last30days-skill` 约 12 小时 +180 star；新进 `sveltejs/svelte`、`tradermonty/claude-trading-skills`、`elementalsouls/Claude-BugHunter`。
+5. **安全与平台规则**——HN 首页「Windows 11 在收集 coding agent / 开发工具使用数据」；IT之家「苹果新规遏制 AI 应用“全盘接管”Mac」「苹果中国区 App Store 新增 AIGC 合规入口，现有应用 2027-01-31 前补齐备案」「日本超算“富岳”因非法访问暂停，研究数据与 SSH 私钥可能泄露」。
+
+午间的行动结论和早间一致：**先领 Epic（11-20 00:00）、再看 Steam 三款已复核的大折扣**；Trezor 防钓鱼提醒继续有效。加密货币一手行情与交易所状态这一轮没取到，币圈只保留媒体转述与情绪指数，不当信号。
 
 <div style="border:1px solid #e3e6ea;border-radius:10px;padding:16px 18px;background:#fbfcfd;margin:0 0 28px;">
 <strong style="font-size:15px;">这一轮真正会过期、或需要你自己动手的只有这几条</strong>
@@ -60,7 +70,37 @@ description: "2026-11-17 凌晨版 + 早间 06:30–06:46 复核：Epic《斗阵
 <p style="font-size:12px;color:#8a9099;margin:12px 0 0;">价格为 2026-11-17 00:22 与 06:33–06:46 两次官方接口实测（Steam <code>featuredcategories</code> / <code>appdetails</code>、Epic <code>freeGamesPromotions</code>、iTunes <code>lookup</code>、交易所 Statuspage）。<strong>凌晨卡里的《Overcooked! 2》-66%（11-20 01:00 收）、《隔离区-丧尸末日生存》-40%、《Bodycam》-20% 在早间 06:46 的返回里已经掉出前 10 窗口，按旧口径「掉出窗口≠活动结束」从行动卡移出，数值本身没有再核到</strong>——要买请自己打开商店页确认。本站只报道与核实，注册、登录、领取、下单全部由你自己完成。</p>
 </div>
 
-## 值得看（5，另加早间复核 5 条）
+<div style="border:1px solid #cfe3d4;border-radius:10px;padding:16px 18px;background:#f7fbf8;margin:0 0 28px;">
+<strong style="font-size:15px;">午间 12:05 复核后，行动清单收敛为这 4 条</strong>
+<table style="width:100%;border-collapse:collapse;margin-top:12px;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #dce9df;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;width:24%;">时点（北京时间）</th><th style="padding:6px 8px 6px 0;">条目</th><th style="padding:6px 8px 6px 0;width:18%;">价格</th><th style="padding:6px 0 6px 0;width:20%;">核实层级</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;">
+<td style="padding:9px 8px 9px 0;color:#c0392b;font-weight:700;">11-20 00:00 收</td>
+<td style="padding:9px 8px 9px 0;">Epic《斗阵骑士 Knightica》0 元领取永久入库</td>
+<td style="padding:9px 8px 9px 0;">¥47.00 → 0 元</td>
+<td style="padding:9px 0 9px 0;color:#1a7f37;font-weight:700;">官方 freeGamesPromotions</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;">
+<td style="padding:9px 8px 9px 0;color:#1a7f37;font-weight:700;">11-30 18:00 收</td>
+<td style="padding:9px 8px 9px 0;">Steam《女神异闻录5 皇家版》-70%，午间新进窗口、本轮幅度最大</td>
+<td style="padding:9px 8px 9px 0;">¥268.00 → ¥80.40</td>
+<td style="padding:9px 0 9px 0;color:#1a7f37;font-weight:700;">appdetails 回读</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;">
+<td style="padding:9px 8px 9px 0;color:#1a7f37;font-weight:700;">11-30 18:00 收</td>
+<td style="padding:9px 8px 9px 0;">Steam《人中之龙０ 誓约的场所 导演剪辑版》-60%</td>
+<td style="padding:9px 8px 9px 0;">¥238.00 → ¥95.20</td>
+<td style="padding:9px 0 9px 0;color:#1a7f37;font-weight:700;">appdetails 回读</td></tr>
+<tr>
+<td style="padding:9px 8px 9px 0;color:#1a7f37;font-weight:700;">11-30 18:00 收</td>
+<td style="padding:9px 8px 9px 0;">Steam《天国：拯救2》-67%，早间进窗口、午间仍在</td>
+<td style="padding:9px 8px 9px 0;">¥228.00 → ¥75.24</td>
+<td style="padding:9px 0 9px 0;color:#1a7f37;font-weight:700;">appdetails 回读</td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:12px 0 0;">价格为 2026-11-17 12:05–12:12 官方接口实测；三款 Steam 游戏均用 <code>appdetails</code> 回读 <code>initial / final / discount_percent</code>，三项对上。早间卡里的《How They Built the Pyramids》11-20 18:00 已掉出午间前 10 窗口（掉出≠结束），要买请自己打开商店页确认。本站只报道与核实，注册、登录、领取、下单全部由你自己完成。</p>
+</div>
+
+## 值得看（5，另加早间复核 5 条、午间复核 1 条）
 
 <details open>
 <summary><strong>Steam 折扣：窗口换血，最近《Overcooked! 2》11-20 01:00</strong> ｜ <span style="color:#1a7f37;font-weight:700;">¥15.40 起</span> ｜ <span style="color:#c0392b;font-weight:700;">最近 11-20 01:00 收</span></summary>
@@ -139,12 +179,12 @@ description: "2026-11-17 凌晨版 + 早间 06:30–06:46 复核：Epic《斗阵
 <thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
 <th style="padding:6px 8px 6px 0;">条目</th><th style="padding:6px 0 6px 0;">内容</th></tr></thead>
 <tbody>
-<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">恐惧贪婪指数</td><td style="padding:8px 0 8px 0;"><strong style="color:#c0392b;">10（Extreme Fear）</strong>，alternative.me 官方接口，2026-11-17 快照</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">恐惧贪婪指数</td><td style="padding:8px 0 8px 0;"><strong style="color:#c0392b;">10 → 12（Extreme Fear）</strong>，alternative.me 官方接口，凌晨/早间 10、午间 12，只作语境底数</td></tr>
 <tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.panewslab.com/zh/articles/01a1e4fa-be57-76fc-8371-937abc55f170">24 小时全网合约爆仓</a></td><td style="padding:8px 0 8px 0;">2.83 亿美元，多空双爆（PANews 转述，未回交易所原始数据核对）</td></tr>
 <tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.theblock.co/news/ecosystems/2026-11-16-solana-drops-mainnet-beta-lab">Solana 去掉 mainnet beta 标签</a></td><td style="padding:8px 0 8px 0;">采用 protocol version 1.0（TheBlock，媒体转述）</td></tr>
 <tr><td style="padding:8px 8px 8px 0;"><a href="https://www.panewslab.com/zh/articles/01a1e4a4-056d-7631-912a-2902c10c5aa6">Vitalik 谈 EIP-8037</a></td><td style="padding:8px 0 8px 0;">主张提高创建账户与部署合约的 gas 成本，属于扩容与状态管理的讨论，不是操作建议</td></tr>
 </tbody></table>
-<p style="font-size:13px;color:#6b7280;">口径：行情、涨跌幅、情绪指数一律只作状态描述；喊单、目标价、荐币不写。快照时间 2026-11-17 00:22（北京时间），来源已在表中逐条标注。</p>
+<p style="font-size:13px;color:#6b7280;">口径：行情、涨跌幅、情绪指数一律只作状态描述；喊单、目标价、荐币不写。快照时间 2026-11-17 00:22、06:33 与 12:08（北京时间），来源已在表中逐条标注。</p>
 </details>
 
 <details open>
@@ -161,6 +201,22 @@ description: "2026-11-17 凌晨版 + 早间 06:30–06:46 复核：Epic《斗阵
 <tr><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/5200620/">Dungeonbound</a>（5200620）</td><td style="padding:8px 8px 8px 0;">¥42.00 → ¥37.80</td><td style="padding:8px 8px 8px 0;">-10%</td><td style="padding:8px 8px 8px 0;">11-30 18:00</td><td style="padding:8px 0 8px 0;color:#8a9099;">仅汇总接口 → 观察</td></tr>
 </tbody></table>
 <p style="font-size:13px;color:#6b7280;">口径与凌晨一致：汇总接口只返回滚动的前 10 条，掉出窗口不等于活动结束。核实于 2026-11-17 06:46。边界：付款前以商店页为准，本站不代下单。</p>
+</details>
+
+<details open>
+<summary><strong>午间复核｜Steam 窗口再换血：P5R -70%、人中之龙０ -60%，三条已逐款回 appdetails</strong> ｜ <span style="color:#1a7f37;font-weight:700;">¥75.24 起</span> ｜ <span style="color:#1a7f37;font-weight:700;">均 11-30 18:00 收</span></summary>
+<p>12:05 这一轮 <code>featuredcategories</code> 返回的 10 条与早间 06:33 那批又换了血：<strong>《女神异闻录5 皇家版》-70% 是午间幅度最大的一条</strong>，《人中之龙０ 导演剪辑版》-60% 与《天国：拯救2》-67% 同时仍在窗口内。下表前三条都做了第二层核对——除汇总接口外，另用 <code>appdetails</code> 逐款回读 <code>initial / final / discount_percent</code>，三项都对上；《女神异闻录３ Reload》只停在汇总接口这一层，按口径留在观察。</p>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">游戏（appid）</th><th style="padding:6px 8px 6px 0;">国区价</th><th style="padding:6px 8px 6px 0;">折扣</th><th style="padding:6px 8px 6px 0;width:20%;">截止（北京时间）</th><th style="padding:6px 0 6px 0;width:18%;">核实层级</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1687950/">女神异闻录5 皇家版</a>（1687950）</td><td style="padding:8px 8px 8px 0;">¥268.00 → ¥80.40</td><td style="padding:8px 8px 8px 0;">-70%</td><td style="padding:8px 8px 8px 0;">11-30 18:00</td><td style="padding:8px 0 8px 0;color:#1a7f37;font-weight:700;">appdetails 回读</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1771300/">天国：拯救2</a>（1771300）</td><td style="padding:8px 8px 8px 0;">¥228.00 → ¥75.24</td><td style="padding:8px 8px 8px 0;">-67%</td><td style="padding:8px 8px 8px 0;">11-30 18:00</td><td style="padding:8px 0 8px 0;color:#1a7f37;font-weight:700;">appdetails 回读</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/2161700/">人中之龙０ 誓约的场所 导演剪辑版</a>（2161700）</td><td style="padding:8px 8px 8px 0;">¥238.00 → ¥95.20</td><td style="padding:8px 8px 8px 0;">-60%</td><td style="padding:8px 8px 8px 0;">11-30 18:00</td><td style="padding:8px 0 8px 0;color:#1a7f37;font-weight:700;">appdetails 回读</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/2406770/">女神异闻录３ Reload</a>（2406770）</td><td style="padding:8px 8px 8px 0;">¥268.00 → ¥93.80</td><td style="padding:8px 8px 8px 0;">-65%</td><td style="padding:8px 8px 8px 0;">11-30 18:00</td><td style="padding:8px 0 8px 0;color:#8a9099;">仅汇总接口 → 观察</td></tr>
+<tr><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/2881570/">Bodycam</a>（2881570）</td><td style="padding:8px 8px 8px 0;">¥128.00 → ¥102.40</td><td style="padding:8px 8px 8px 0;">-20%</td><td style="padding:8px 8px 8px 0;">11-20 21:00</td><td style="padding:8px 0 8px 0;color:#1a7f37;font-weight:700;">appdetails 回读</td></tr>
+</tbody></table>
+<p style="font-size:13px;color:#6b7280;">同口径：汇总接口只返回滚动的前 10 条，掉出窗口不等于活动结束。核实于 2026-11-17 12:05–12:12。边界：付款前以商店页为准，本站不代下单。</p>
 </details>
 
 <details open>
@@ -208,9 +264,10 @@ description: "2026-11-17 凌晨版 + 早间 06:30–06:46 复核：Epic《斗阵
 <tr><td style="padding:8px 8px 8px 0;"><a href="https://github.com/google-research/paper-orchestra">google-research/paper-orchestra</a></td><td style="padding:8px 8px 8px 0;">1,417（00:22 为 1,194）</td><td style="padding:8px 8px 8px 0;">2026-05-01</td><td style="padding:8px 0 8px 0;">多智能体的 AI 论文自动写作框架，正好对上「写作 + Agent 自动化」这条线</td></tr>
 </tbody></table>
 <p style="font-size:13px;color:#6b7280;">早间窗口另外两条：<a href="https://github.com/DeanChensj/jiangshan-map">DeanChensj/jiangshan-map</a>（江山时序 · 中国历史交互地图时间轴，6,664 star）与 <a href="https://github.com/sveltejs/svelte">sveltejs/svelte</a>（88,950 star），本轮没回到 API 复核，只按抓取原文列出。核实于 2026-11-17 06:45。边界：新库先读 README 与最近提交再决定用不用。</p>
+<p style="font-size:13px;color:#6b7280;"><strong>午间 12:05 又抓了一次 trending 页（HTML 上的 star 计数，不是 API 回读）</strong>：<code>last30days-skill</code> 68,260（06:45 为 68,080，约 +180）、<code>ffmpeg-skill</code> 7,013（6,615，+398）、<code>getarcaneapp/arcane</code> 8,849（8,669，+180）、<code>paper-orchestra</code> 1,697（1,417，+280）、<code>jiangshan-map</code> 7,088（6,664，+424）、<code>sveltejs/svelte</code> 89,051（88,950，+101）。午间窗口新进 <code>tradermonty/claude-trading-skills</code>（6,446）、<code>elementalsouls/Claude-BugHunter</code>（7,579）、<code>NVIDIA/SkillEvaluator</code>（2,864）、<code>google-labs-code/stitch-skills</code>（9,788）与 <code>backnotprop/plannotator</code>（12,685）——Agent Skills / coding agent 仍占榜，但增速已经从“爆发”回落到每小时几十到几百。边界：HTML 计数有缓存，只作趋势，不作事实；新库先读 README 与最近提交。</p>
 </details>
 
-## 观察（8 + 早间 13 组）、币圈那一轮与方法
+## 观察（8 + 早间 13 组 + 午间 10 组）、币圈那一轮与方法
 
 <details>
 <summary><strong>观察：8 条存疑或门槛高的条目</strong> ｜ <span style="color:#6b7280;">未核实的数字不当事实写</span></summary>
@@ -252,9 +309,29 @@ description: "2026-11-17 凌晨版 + 早间 06:30–06:46 复核：Epic《斗阵
 </details>
 
 <details>
-<summary><strong>币圈那一轮：凌晨只通了媒体轴，早间四条轴全通</strong> ｜ <span style="color:#6b7280;">凌晨 11 个源里 2 个可用 → 早间 11 个全绿</span></summary>
+<summary><strong>午间复核新增观察（10 组）</strong> ｜ <span style="color:#6b7280;">11 个源再次被代理挡住，缺一手就不升档</span></summary>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;width:34%;">条目</th><th style="padding:6px 0 6px 0;">存疑原因</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">Steam《女神异闻录３ Reload》-65%（¥268.00 → ¥93.80，11-30 18:00 收）</td><td style="padding:8px 0 8px 0;">只来自 <code>featuredcategories</code> 汇总接口，本轮 <code>appdetails</code> 请求被代理截断，未完成第二层复核</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.idcspy.com/170555.html">CloudCone 美国 VPS 限时促销</a>：1 核 1GB 年付 $16.48 起，洛杉矶 / 圣路易斯可选</td><td style="padding:8px 0 8px 0;">只有美国主机侦探转述，官方站未核续费同价与活动截止时间；缺截止不进「值得」</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.idcspy.com/170551.html">Mondoze 黑五 Mac 独立服务器</a>：$109/月起</td><td style="padding:8px 0 8px 0;">同上，转述；配置档位、带宽与截止时间都未核</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.idcspy.com/170537.html">DMIT 洛杉矶 LAX.EB 电信方向丢包波动</a>，符合条件可申请按比例退款</td><td style="padding:8px 0 8px 0;">转述；退款条件与申请入口以商家公告为准。如果你在用 DMIT，自己登录后台核对工单与补偿口径</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.panewslab.com/zh/articles/01a1e79e-88d7-707b-9c2b-5b01f16be4fa">以太坊 Glamsterdam 升级测试发现漏洞</a>：部分内部支付在交易成功的情况下被跳过</td><td style="padding:8px 0 8px 0;">只有 PANews 转述，未回到以太坊基金会 / 客户端团队的官方公告或测试报告</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.panewslab.com/zh/articles/01a1e78b-2fdd-7111-916f-af86d1f95b2d">Bitget 黑客过去 11 天已清洗约 1.61 亿美元比特币</a></td><td style="padding:8px 0 8px 0;">链上分析转述，未核原始地址与交易所公告；与普通用户无直接操作关系</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.theblock.co/news/regulation/2026-11-16-supreme-court-rejects-custodia-banks-bid-for-fed-master-account-441376">美国最高法院驳回 Custodia Bank 申请美联储主账户</a>；<a href="https://www.theblock.co/news/regulation/2026-11-16-peraire-bueno-brothers-acquitted-ethereum-mev-wire-fraud-441425">Peraire-Bueno 兄弟 MEV 案获判无罪</a></td><td style="padding:8px 0 8px 0;">均为 TheBlock 媒体转述，未读判决书原文；属监管与司法背景，不是操作建议</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.ithome.com/1/028/108.htm">日本超算“富岳”因非法访问暂停运行</a>，用户研究数据及 SSH 私钥可能泄露</td><td style="padding:8px 0 8px 0;">IT之家转述，未回到理化学研究所（RIKEN）官方公告；有富岳账号的按官方通知轮换密钥</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.ithome.com/1/028/158.htm">苹果中国区 App Store 新增 AIGC 合规入口</a>，现有应用须在 2027-01-31 前补齐备案；<a href="https://www.ithome.com/1/028/116.htm">苹果新规遏制 AI 应用“全盘接管”Mac</a></td><td style="padding:8px 0 8px 0;">IT之家转述开发者后台与系统权限变化，未逐条回 Apple 开发者公告原文；做上架与 Mac 权限适配的自己去后台确认</td></tr>
+<tr><td style="padding:8px 8px 8px 0;"><a href="https://xusheng.dev/posts/windows-coding-agent-telemetry/">Windows 11 在收集 coding agent / 开发工具的使用数据</a>（HN 首页）</td><td style="padding:8px 0 8px 0;">个人博客的单机测试与推断，未见微软官方说明；结论只作观察，不当成已证实的系统性监控</td></tr>
+</tbody></table>
+</details>
+
+<details>
+<summary><strong>币圈那一轮：凌晨只通媒体轴 → 早间四条轴全通 → 午间再被挡</strong> ｜ <span style="color:#6b7280;">午间 11 个源仍失败，只有媒体轴 + 情绪指数</span></summary>
 <p>本轮币圈 11 个机器可读源里，只有 <code>theblock</code>（12 条）与 <code>panews</code>（15 条）取到数据，另有 <code>fng</code> 直连取到情绪指数 1 条。<code>binance</code> 公告、<code>exstatus</code>（Coinbase / Kraken 状态）、<code>cgmarkets</code> / <code>coingecko</code> / <code>cmc</code>（行情与热搜）、<code>ethblog</code> / <code>creleases</code>（项目方一手与发版）、<code>coindesk</code> 全部被代理通道挡住，返回 URLError 或被超时截断。所以今天没有交易所上币/下架、充提开关与链上安全事件的一手核对结果；<strong>没有取到不等于没有发生</strong>，涉及资产操作请自行打开交易所公告页确认。</p>
 <p style="font-size:13px;color:#6b7280;"><strong>早间 06:30–06:41 这一轮这四条轴全部通了</strong>（<code>binance</code> 2 条、<code>exstatus</code> 1 条聚合、<code>cgmarkets</code> 6 条、<code>coingecko</code> 热搜 10 条、<code>cmc</code> 6 条、<code>fng</code> 1 条、<code>panews</code> 15 条、<code>coindesk</code> 12 条、<code>theblock</code> 12 条，<code>ethblog</code> / <code>creleases</code> 两天窗口内确无新条目，均非故障），所以上面那句「没有一手核对结果」只对凌晨那一轮成立。交易所一手层的结果是两张卡：Kraken 状态与 Trezor 物流方泄露，都在「值得」里。行情与热搜仍是快照：</p>
+<p style="font-size:13px;color:#6b7280;"><strong>午间 12:03–12:12 这一轮，四条轴又全部退回失败</strong>：<code>binance</code>、<code>exstatus</code>、<code>cgmarkets</code>、<code>coingecko</code>、<code>cmc</code>、<code>coindesk</code>、<code>ethblog</code>、<code>creleases</code> 全部返回 <code>000</code> / URLError，与凌晨的失败清单完全重合；能用的仍只有 <code>panews</code> 15 条、<code>theblock</code> 12 条与 <code>fng</code> 1 条。情绪指数从 10 回到 <strong>12（Extreme Fear）</strong>；PANews 另外转述 BTC 短时突破 65,000 美元、日内 +0.84%，以及 Hyperliquid 股票与大宗商品交易收入增长 6 倍——<strong>这些都没有交易所或行情接口的第二层核对，只当媒体快照，不当信号</strong>。所以午间这版不写「币圈今天发生了什么」，只写「哪些一手源没通、哪些媒体在说什么」。</p>
 <table style="width:100%;border-collapse:collapse;font-size:14px;">
 <thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
 <th style="padding:6px 8px 6px 0;">指标</th><th style="padding:6px 8px 6px 0;width:30%;">06:33 快照</th><th style="padding:6px 0 6px 0;">口径</th></tr></thead>
@@ -269,7 +346,7 @@ description: "2026-11-17 凌晨版 + 早间 06:30–06:46 复核：Epic《斗阵
 </details>
 
 <details>
-<summary><strong>方法与来源健康度：凌晨 25 源里 11 个通道失败 → 早间同一批全部恢复、errors=0</strong> ｜ <span style="color:#6b7280;">含 ERR 原文</span></summary>
+<summary><strong>方法与来源健康度：凌晨 11 源失败 → 早间全恢复 → 午间同样 11 源再失败</strong> ｜ <span style="color:#6b7280;">含 ERR 原文</span></summary>
 <table style="width:100%;border-collapse:collapse;font-size:14px;">
 <thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
 <th style="padding:6px 8px 6px 0;">来源</th><th style="padding:6px 8px 6px 0;width:16%;">本轮条数</th><th style="padding:6px 0 6px 0;">状态 / 备注</th></tr></thead>
@@ -283,5 +360,6 @@ description: "2026-11-17 凌晨版 + 早间 06:30–06:46 复核：Epic《斗阵
 </tbody></table>
 <p style="font-size:13px;color:#6b7280;">取数：<code>radar_fetch.py</code> 25 源，逐源超时隔离执行；成功 12 源，Steam 另行用 curl 补取，合计 121 条。验真：Steam / Epic / alternative.me 均回官方接口核对，IT之家与其他媒体条目按“转述”标注；第三方 VPS 优惠未回官网，全部留在观察段。发布：本地存档 <code>2026-11-17-info-radar.md</code>，GitHub Pages 本篇 <code>/posts/info-radar-2026-11-17/</code>。</p>
 <p style="font-size:13px;color:#6b7280;"><strong>早间第二轮（06:30:45–06:31:52 取数，06:33–06:46 验真）</strong>：<code>SUMMARY fetched=314 fresh=179 sources=25 errors=0</code>，一轮 67 秒、<strong>无一条 ERR</strong>。上表红字那 11 个源这一轮全部返回成功（IT之家 25、HN 25、lobsters 17、PANews 15、Product Hunt 14、CoinDesk 12、The Block 12、v2ex 10、CoinGecko 热搜 10、App Store 7、GitHub Trending 6、CoinGecko 行情 6、CMC 6、Steam 5、IDCSPY 4、币安 2、LowEndBox 1、交易所状态 1、恐惧贪婪 1）；0 条的 6 个源里，Epic 是本周限免已被 <code>history.jsonl</code> 去重命中（数值改由 06:44 直接回官方接口读到，仍是 0 元 / 11-20 00:00），hf、阮一峰、appinn、ethblog、creleases 是两天窗口内确无更新，都不是取数失败。境外源整批挂、境内源全绿这个形态，两轮对照下来确认是代理节点抖动，不是站点集体改版。</p>
+<p style="font-size:13px;color:#6b7280;"><strong>午间第三轮（12:03–12:04 取数，12:05–12:12 验真）</strong>：<code>SUMMARY fetched=148 fresh=148 sources=25 errors=11</code>，失败的 11 个源与凌晨完全相同（v2ex、hf、binance、exstatus、coingecko、cgmarkets、cmc、ethblog、creleases、coindesk、appstore），均为 <code>000</code> / URLError；可用 14 个源（IT之家 25、HN 25、lobsters 约 19、GitHub Trending 15、Product Hunt 15、PANews 15、The Block 12、Steam 10、IDCSPY 7、LowEndBox 2，Epic / 恐惧贪婪 / 阮一峰 / 小众软件各 1）。这一轮同样先跑脚本、再做第二层核对：Steam 三款回 <code>appdetails</code>、Epic 回 <code>freeGamesPromotions</code>、情绪指数回 <code>alternative.me</code>；<code>ethblog</code> 虽由 WebFetch 读到 feed，但内容是 2021 年的旧缓存，不当作今日数据。境外源整批失败、境内源全绿，第三次复现同一形态，仍是代理节点问题，不是站点集体改版；<strong>没有取到不等于没有发生</strong>，涉及资产操作请自行打开交易所公告页确认。</p>
 <p style="font-size:13px;color:#6b7280;">需要点名的一处取数偏差：本次运行里 CSDN 后台的发文统计来自创作中心列表页的 DOM，官方签名接口 <code>phoenix/console/v1/article/list</code> 的 XHR 观测没能装上，所以那几个发文数字不是接口层证据；公众号后台本轮「登录超时」，未取数、也没有代填任何凭据。这两项属于打卡与发文块，不在雷达三段里，但一并写清楚。</p>
 </details>
