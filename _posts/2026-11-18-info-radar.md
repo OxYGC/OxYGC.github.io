@@ -1,11 +1,11 @@
 ---
-title: "资讯雷达 2026-11-18｜Epic《斗阵骑士》0 元、Steam P5R -70%、GitHub Trending 继续被 Agent Skills 占据"
+title: "资讯雷达 2026-11-18｜Epic《斗阵骑士》0 元、Steam 午间换血 CoD -75%、GitHub Trending 继续被 Agent Skills 占据（凌晨 + 早间 + 午间复核）"
 author: OxYGC
 date: 2026-11-18 00:24:00 +0800
 permalink: /posts/info-radar-2026-11-18/
 categories: [Info, Deals]
 tags: [资讯雷达, Steam折扣, Epic限免, GitHub趋势, AI动态, 币圈]
-description: "2026-11-18 当天唯一一篇：Epic《斗阵骑士 Knightica》0 元领取，11-20 00:00 截止；Steam 本轮 P5R -70%（¥268 → ¥80.40）、天国：拯救2 -67%（¥228 → ¥75.24）、隔离区 -40%（¥48 → ¥28.80）等 9 款已逐款回 appdetails 复核；GitHub Trending 继续由 Agent Skills 与 coding agent 占榜；恐惧贪婪指数 12（Extreme Fear）。本轮 25 个来源里 13 个取到数据、11 个被代理通道挡住、1 个本轮无货，加密货币一手行情与交易所公告未取到。"
+description: "2026-11-18 当天唯一一篇，含凌晨版、早间 06:30 与午间 12:03 三轮复核：Epic《斗阵骑士 Knightica》0 元领取，11-20 00:00 截止；Steam 午间窗口换血，《使命召唤：黑色行动冷战 / 黑色行动 III / WWII》三款 -75%（均 ¥298 → ¥74.50）、《Lies of P》-50%（¥298 → ¥149.00）新进前 10，早间在榜的 P5R -70% 与《隔离区》-40% 掉出窗口但 appdetails 复核仍在折扣；GitHub Trending 继续由 Agent Skills 与 coding agent 占榜；恐惧贪婪指数 12（Extreme Fear）。午间这一轮 25 个来源里 14 个取到数据、11 个再次被代理通道挡住，加密货币一手行情与交易所公告未取到。"
 ---
 
 这一轮取数在 2026-11-18 00:10–00:22（北京时间）完成：25 个来源里 13 个取到数据、11 个因代理通道限制未取到、1 个本轮无货（小众软件，属正常）。`SUMMARY fetched=172 fresh=150 sources=25 errors=11`，时间窗内留下 150 条，其中 Steam 10 条、Epic 1 条、IT之家 25 条、Hacker News 25 条、GitHub Trending 15 条。这是当天第一版，也是当天唯一一篇；今天若再跑，只会在本文件内更新，不新增文件。
@@ -13,6 +13,8 @@ description: "2026-11-18 当天唯一一篇：Epic《斗阵骑士 Knightica》0 
 结论先摆前面：**消费侧最近的两个到期点是 Epic《斗阵骑士 Knightica》11-20 00:00 与 Steam《隔离区-丧尸末日生存》11-20 02:00；幅度最大的是《女神异闻录5 皇家版》-70%（¥268.00 → ¥80.40）和《天国：拯救2》-67%（¥228.00 → ¥75.24），这两款都到 12-01 02:00。** 资讯面本轮仍是 Agent Skills / coding agent 占榜，`obra/superpowers` 已到 31.9 万 star；AI 侧有快手可灵 Kling Image 4.0 支持原生 8K、商汤 SenseNova Loop-9B 把部署显存压到 10 GB 内。币圈这一轮只取到媒体转述与情绪指数：恐惧贪婪指数 12（Extreme Fear），PANews 转述 BTC 跌破 64,000 美元、过去 24 小时全网合约爆仓 1.94 亿美元；交易所公告与一手行情源（Binance、CoinGecko、CMC、交易所状态页）本轮全部被代理挡住，相关数字只作语境，不当信号。
 
 **2026-11-18 06:30 早间全量复核（同一篇内追加，不新增文件）**：代理通道已恢复，第二轮 06:30:41 → 06:31:41 跑完 25 个来源，`SUMMARY fetched=311 fresh=170 sources=25 errors=0`——上一轮的 11 个 ERR 全部转绿，包括当时整源失败的 `appstore`（iOS 限免）、`binance`、`exstatus`、`coingecko`、`cgmarkets`、`cmc`、`ethblog`、`creleases`、`coindesk`、`v2ex`、`hf`。所以下面新增的三条「值得」和四条「观察」都是上一轮拿不到的东西：三款国区 iOS 本体限免（已逐条回 iTunes 核到现价 0）、币安全额保证金小额账户清理的公告原文（生效时刻已核对）、以及恢复后的一手行情与交易所状态。上一轮的既有结论不作废，只有 CloudCone 那条从「未回官网核实」推进成了「官网实测与转述不符」。**追加部分同样没有 🔥**：全天没有任何一条落在三小时到期窗口内，新增的时点项在「值得看」第 5、6 两张卡里。
+
+**2026-11-18 12:03–12:30 午间复核（同一篇内追加，不新增文件）**：这一轮 25 个来源里 14 个取到数据、11 个再次被代理通道挡住（v2ex、hf、binance、exstatus、coingecko、cgmarkets、cmc、ethblog、creleases、coindesk、appstore），形态与凌晨一致——境外源整批挂、境内源全绿，仍按代理节点抖动记录。取回 152 条，主要增量在 Steam 窗口换血与四条安全/币圈观察：**Steam 午间前 10 窗口新进《使命召唤：黑色行动冷战》《黑色行动 III》《WWII》三款 -75%（均 ¥298.00 → ¥74.50，12-02 02:00 收）与《Lies of P》-50%（¥298.00 → ¥149.00，12-02 01:00 收）**，四款均已逐款回 `appdetails` 复核；早间在榜的 P5R -70% 与《隔离区》-40% 已掉出前 10 窗口，但接口复核价格未变，按「掉出窗口≠活动结束」保留原结论。Epic 免费位仍是《斗阵骑士 Knightica》0 元、11-20 00:00 换新。**午间同样没有 🔥**：全天没有任何一条落在三小时到期窗口内。
 
 <div style="border:1px solid #e3e6ea;border-radius:10px;padding:16px 18px;background:#fbfcfd;margin:0 0 28px;">
 <strong style="font-size:15px;">这一轮真正会过期、或需要你自己动手的只有这几条</strong>
@@ -49,7 +51,7 @@ description: "2026-11-18 当天唯一一篇：Epic《斗阵骑士 Knightica》0 
 <p style="font-size:12px;color:#8a9099;margin:12px 0 0;">价格为 2026-11-18 00:23–00:31 官方接口实测：Epic <code>freeGamesPromotions</code>、Steam <code>featuredcategories</code> 与逐款 <code>appdetails</code>。Steam 的 <code>discount_expiration</code> 是 epoch 时间，这里已换算成北京时间（比 UTC 多 8 小时）。本站只报道与核实，注册、登录、领取、下单全部由你自己完成。</p>
 </div>
 
-## 值得看（7）
+## 值得看（8）
 
 <details open>
 <summary><strong>Steam 折扣：P5R -70% 与天国：拯救2 -67% 领跑，最近到期是《隔离区》11-20 02:00</strong> ｜ <span style="color:#1a7f37;font-weight:700;">¥18.20 起</span> ｜ <span style="color:#c0392b;font-weight:700;">最近 11-20 02:00 收</span></summary>
@@ -69,6 +71,13 @@ description: "2026-11-18 当天唯一一篇：Epic《斗阵骑士 Knightica》0 
 <tr><td style="padding:8px 8px 8px 0;">Dungeonbound（5200620）</td><td style="padding:8px 8px 8px 0;">¥42.00 → ¥37.80</td><td style="padding:8px 8px 8px 0;">-10%</td><td style="padding:8px 0 8px 0;">12-01 02:00</td></tr>
 </tbody></table>
 <p style="font-size:12px;color:#8a9099;margin:12px 0 0;">核实于 2026-11-18 00:24–00:31，来源为 Steam 官方 <code>appdetails</code>（<code>cc=cn&amp;l=schinese</code>）。折扣页面会滚动换位，掉出榜单不等于活动结束；要买请自己打开商店页确认最终价格。国区价格可能随账号区域与支付方式变化，以结算页为准。</p>
+</details>
+
+<details>
+<summary><strong>午间复核｜Steam 窗口换血：CoD 三款 -75%、Lies of P -50% 新进前 10</strong> ｜ <span style="color:#1a7f37;font-weight:700;">¥74.50 起</span> ｜ <span style="color:#1a7f37;font-weight:700;">均 12-02 到期</span></summary>
+<p>午间 <code>featuredcategories</code> 返回的前 10 条与早间不同：<strong>《使命召唤：黑色行动冷战》《使命召唤：黑色行动 III》《使命召唤：WWII》</strong>三款均为 ¥298.00 → ¥74.50（-75%），<strong>《Lies of P》</strong>¥298.00 → ¥149.00（-50%）。四条都在 12:26–12:29 逐款回 <code>appdetails?cc=cn&amp;l=schinese</code> 复核，<code>initial_formatted / final_formatted / discount_percent</code> 与榜单一致。</p>
+<p>两处要如实写清：第一，早间在榜的《女神异闻录5 皇家版》-70%（¥80.40）与《隔离区-丧尸末日生存》-40%（¥28.80）这一轮已掉出滚动前 10，但 <code>appdetails</code> 回读价格与折扣都还在，<strong>掉出窗口不等于活动结束</strong>；第二，CoD 三款的截止是 <code>2026-12-01T18:00:00Z</code> 折北京时间 <strong>12-02 02:00</strong>，Lies of P 是 <code>2026-12-01T17:00:00Z</code> 即 <strong>12-02 01:00</strong>，以商店页结算为准。</p>
+<p>去哪：<a href="https://store.steampowered.com/app/1985810/">黑色行动冷战</a> ｜ <a href="https://store.steampowered.com/app/311210/">黑色行动 III</a> ｜ <a href="https://store.steampowered.com/app/476600/">WWII</a> ｜ <a href="https://store.steampowered.com/app/1627720/">Lies of P</a> ｜ 核实于 2026-11-18 12:26–12:29</p>
 </details>
 
 <details>
@@ -130,7 +139,7 @@ description: "2026-11-18 当天唯一一篇：Epic《斗阵骑士 Knightica》0 
 <p><strong>jingyaogong/minimind</strong>：65,909 star（GitHub API 实测，非页面读数），从零训练 64M 参数小模型的中文教程。核实于 06:38。<a href="https://github.com/jingyaogong/minimind">仓库</a>——<span style="color:#c0392b;">注意最近一次推送是 2026-10-27</span>，上 trending 不等于今天有更新。</p>
 </details>
 
-## 观察（16）、币圈这一轮与方法
+## 观察（20）、币圈这一轮与方法
 
 <details>
 <summary><strong>观察：12 条存疑或门槛高的条目</strong> ｜ <span style="color:#6b7280;">未核实的数字不当事实写</span></summary>
@@ -208,6 +217,7 @@ ERR source=creleases URLError hint=403 类需走浏览器桥
 ERR source=coindesk URLError hint=403 类需走浏览器桥
 ERR source=appstore URLError hint=403 类需走浏览器桥</pre>
 <p style="font-size:12px;color:#8a9099;margin:12px 0 0;">来源连续 3 天挂同一个错时再考虑改脚本或换源；本轮先按代理节点抖动记录，不做站点改版判断。取数覆盖五条赛道，但因 11 个源失败，本轮实际可用的是优惠/限免（Epic、Steam、idcspy、LowEndBox）、开发与 AI 资讯（HN、Lobsters、GitHub、Product Hunt、阮一峰、IT之家）与币圈媒体轴（PANews、The Block）+ 情绪指数。</p>
+<p><strong>午间 12:03–12:30 复核：</strong>25 源里 14 源有数据、11 源 ERR、<code>appinn</code> 空（业务上允许，非故障），可用源合计 152 条。ERR 集合与凌晨完全一致（v2ex、hf、binance、exstatus、coingecko、cgmarkets、cmc、ethblog、creleases、coindesk、appstore），因此不重复贴表，按代理节点对这组域名再次关闸记录。境内源（Epic、Steam、idcspy、LowEndBox、IT之家、PANews）与 HN / Lobsters / GitHub Trending / Product Hunt 全绿。</p>
 </details>
 
 <details>
@@ -221,6 +231,19 @@ ERR source=appstore URLError hint=403 类需走浏览器桥</pre>
 <tr><td style="padding:8px 8px 8px 0;">CloudCone 1 核 1 GB 年付 16.48 美元（上一轮观察项的后续）</td><td style="padding:8px 8px 8px 0;">官网 <code>/vps</code> 实测 SSD VPS 1（1 vCPU / 1GB dedicated RAM）标价为年付 <strong>28 美元</strong></td><td style="padding:8px 8px 8px 0;">上一轮写的是「未回 CloudCone 官方页核实」。本轮回了：<strong>转述价与官网标价不符</strong>，且 <code>/promo</code> 活动页返回 404，找不到 16.48 美元的出处。同一批转述里的 edgeNAT 官网是 JavaScript 壳、抓不到可核对的价格文本，其余五条（BlueHost、FlyingPress、Astra、HostUS、Mondoze）本轮同样没有回官网核到，全部维持观察。抽查第一条就证伪，是这一整批按未核实对待的理由。</td></tr>
 </tbody></table>
 <p style="font-size:12px;color:#8a9099;margin:12px 0 0;">另两条币安公告（ANTHROPICUSDT 预 IPO 永续提前完成合约规模调整并改名 ANTUSDT，11-17；多个 USDⓈ-M 永续 tick size 变更，11-18）本轮从 <code>binance-ann</code> 取到了，但未逐条回原文核对生效时刻，且只对上合约交易者有意义，一并留在观察。</p>
+</details>
+
+<details>
+<summary><strong>午间复核新增的四条观察</strong> ｜ <span style="color:#6b7280;">安全与资产事件只有二手转述，先自查不夸大</span></summary>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;"><th style="padding:6px 8px 6px 0;width:30%;">条目</th><th style="padding:6px 8px 6px 0;width:24%;">数字 / 说法</th><th style="padding:6px 0 6px 0;width:46%;">为什么只算观察</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.ithome.com/1/028/685.htm">NoisyTCP（CVE-2026-99288）Linux 内核 DoS</a></td><td style="padding:8px 8px 8px 0;">未授权、发送特制 TCP 数据包可致内核崩溃；代码 2015-10 引入，2026-11-03 上游修复，11-16 公开</td><td style="padding:8px 0 8px 0;">IT之家 11-18 11:14 报道，引述研究员在 Openwall 邮件列表的披露与上游修复时间；本轮未直接打开 Openwall 原文与修复 commit，先按观察。自建 Linux 服务器应跟进发行版内核更新，别只信标题。</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.panewslab.com/zh/articles/01a1ec8a-a5ef-76ba-8536-5b5c2070acaa">Ledger 硬件钱包篡改事件蔓延至迪拜</a></td><td style="padding:8px 8px 8px 0;">两用户损失约 60.4 万美元</td><td style="padding:8px 0 8px 0;">PANews 转述，未回 Ledger 官方公告核对事件范围与批次；不点任何「验证钱包 / 恢复资产」链接，硬件钱包只从官方渠道买。</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.panewslab.com/zh/articles/01a1ec7a-b282-70b5-adaf-e7d4b9fde9e9">Cardano 稳定币 DJED 与储备代币 SHEN 停止服务</a></td><td style="padding:8px 8px 8px 0;">2027-01-01 停止服务</td><td style="padding:8px 0 8px 0;">PANews 转述，未回 COTI / DJED 官方公告核对赎回窗口与资产处置方式；持有者需自行确认，不代为操作。</td></tr>
+<tr><td style="padding:8px 8px 8px 0;"><a href="https://www.panewslab.com/zh/articles/01a1ec8f-90b0-719a-a3a3-2a017d711e61">慢雾：iOS 利用链可采集 16 类隐私数据</a></td><td style="padding:8px 8px 8px 0;">建议及时升级系统</td><td style="padding:8px 0 8px 0;">PANews 转述慢雾公告，未回慢雾原文核对受影响版本；升级系统是低风险动作，但仍按观察，不写成「已在野利用」。</td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:12px 0 0;">口径同前：安全事件只认项目方 advisory / 官方博客 / 交易所公告三方之一；本节四条都还停在二手转述或媒体引述，因此不升「值得」，也不给操作建议以外的判断。</p>
 </details>
 
 <p style="font-size:12px;color:#9aa0a8;margin:28px 0 0;">边界声明：本站只收集、核实与报道，不代为注册、不绑卡、不领取、不下单；币圈不连钱包、不签名、不给买卖建议。价格、折扣与截止时间以官方页面结算时为准。</p>
