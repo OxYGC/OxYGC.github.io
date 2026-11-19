@@ -1,7 +1,7 @@
 ---
 title: "资讯雷达 2026-11-20｜Epic《Mark of the Deep》限免、Steam 黑五前哨三款实测价、Gemini 4 Neon 发布与 Ruby 七个 RCE 漏洞"
 author: OxYGC
-date: 2026-11-20 00:22:00 +0800
+date: 2026-11-20 00:18:00 +0800
 permalink: /posts/info-radar-2026-11-20/
 categories: [Info, Deals]
 tags: [资讯雷达, Epic限免, Steam折扣, Gemini 4 Neon, Ruby安全, Anthropic IPO, 币圈]
