@@ -143,4 +143,95 @@ description: "2026-11-20 午夜档：25 个来源取回 165 条、去重后 147 
 <p style="font-size:12px;color:#8a9099;margin:12px 0 0;">聚合口径：<code>SUMMARY fetched=165 fresh=147 sources=25 errors=11</code>。境内源与 HN / Lobsters / GitHub Trending / Steam / Epic 正常；境外交易所与 CoinGecko / CMC 整批被挡，形态与昨晚一致，仍按代理节点抖动记录，不做站点改版判断。App Store 限免层本轮同样没取到，iOS 限免缺位。</p>
 </details>
 
+<p style="margin:34px 0 6px;padding-top:16px;border-top:2px solid #e3e6ea;font-size:16px;font-weight:700;color:#1f2329;">06:30 早间全量复核（同日发布）</p>
+
+<p style="margin:0 0 16px;">午夜那一轮境外通道整批被挡（11 个 <code>ERR URLError</code>，交易所、行情、App Store 三层全空）。06:32 这轮代理恢复，25 个源 <code>errors=0</code>、取回 317 条、去重后新增 187 条，把缺的三层补齐，另外多核到两条软件版本发布与一条羊毛。下面只写增量，午夜档已核实的内容不重复。</p>
+
+<div style="border:1px solid #e6e8eb;border-radius:10px;padding:14px 16px;margin:0 0 24px;">
+<p style="margin:0 0 10px;font-size:14px;font-weight:600;color:#1f2329;">早间增补行动清单</p>
+<table>
+<thead><tr><th>时点</th><th>条目</th><th>价格</th><th>去哪</th></tr></thead>
+<tbody>
+<tr>
+<td><strong style="color:#c0392b;">11-27 08:00 更正</strong><br>北京时间</td>
+<td>Epic 周免《Mark of the Deep》截止口径</td>
+<td><span style="color:#1a7f37;font-weight:600;">0 元</span><br><span style="color:#6b7280;">原价 ¥55.00</span></td>
+<td><a href="https://store.epicgames.com/free-games?lang=zh-CN">Epic 领取页</a></td>
+</tr>
+<tr>
+<td><strong style="color:#c0392b;">12-01 前</strong><br>VIP 上线日</td>
+<td>UU远程：上线前注册可领年卡五折</td>
+<td><span style="color:#6b7280;">年卡 5 折</span></td>
+<td><a href="https://uuyc.163.com/">官方页公告</a></td>
+</tr>
+<tr>
+<td><strong style="color:#c0392b;">进行中</strong><br>起于 11-20 04:06</td>
+<td>Kraken：期货撤单被拒 + API 降级（午夜档缺这个源）</td>
+<td><span style="color:#6b7280;">minor</span></td>
+<td><a href="https://status.kraken.com/">状态页</a></td>
+</tr>
+<tr>
+<td>合约已于 11-19 转换</td>
+<td>币安 ANTUSDT「Pre-IPO 永续」转标准 TradFi 永续</td>
+<td><span style="color:#6b7280;">公告口径</span></td>
+<td><a href="https://www.binance.com/en/support/announcement/detail/89df0df327a3431485ba54a7c03663c3">公告原文</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<details open>
+<summary><strong>🔥 早间唯一新增紧急：Kraken 服务部分降级（含期货与 API）</strong> —— <span style="color:#c0392b;">状态页 identified，起于 11-20 04:06</span></summary>
+<p>11-20 06:41 回读 Statuspage：<code>indicator=minor</code>、<code>description=Partially Degraded Service</code>。现行事件「Futures cancel-after-timeout requests rejected」状态 identified，创建于 2026-11-19T20:06:33Z（北京时间 11-20 04:06）。组件层面 Kraken Derivatives / Kraken API / Unified WebSocket / Digital Currency Funding 为 degraded_performance，REST / WebSocket / Kraken Prime API 挂 under_maintenance。<br>列成紧急的理由：午夜档 <code>exstatus</code> 整源失败，这个状态当时根本看不到；而它在「服务状态非 none」这一档，直接决定在 Kraken 的撤单、行情与充提入口是否可用。<strong>你要做的</strong>：登进 Kraken 确认没有在途订单依赖 WebSocket，有仓位就复核风控单是否还挂得住。同轮 Coinbase <code>indicator=none</code>（All Systems Operational）。<a href="https://status.kraken.com/">status.kraken.com</a> ｜ 核实于 2026-11-20 06:41</p>
+</details>
+
+<details>
+<summary><strong>⭐ 早间新增值得（5）</strong> —— iOS 本体免费 3 条、UU远程羊毛、PG 19 与 PHP 8.6</summary>
+<p><strong>App Store 本体免费（午夜档 <code>appstore</code> 整源未取到，这轮补上）</strong>：汇总频道 11-19 播报「本体限免」，iTunes lookup 按 id 核到国区现价 0 的有三条 —— <a href="https://apps.apple.com/cn/app/id6827505184">Andarium（id 6827505184）</a>、<a href="https://apps.apple.com/cn/app/id1381194246">AiZIP - AI时代压缩包工作台（id 1381194246）</a>、<a href="https://apps.apple.com/cn/app/id6770079462">AuraRead 本地小说听书阅读器（id 6770079462）</a>。口径照旧：核到现价 0 只写「下载不花钱」，接口分不出本就免费与促销中，不等于「限免仍在」；<strong>Apple 不公布限免截止时间</strong>。<br>反例两条，说明为什么必须按 id 核：<a href="https://apps.apple.com/cn/app/id6832136677">Remind &amp; Record</a> 国区现价 ¥8.00、<a href="https://apps.apple.com/cn/app/id6821917560">AudayWatch 全天AI录音</a> 现价 ¥38.00 —— 播报的限免已失效或已改价。<br>核实于 2026-11-20 06:32（取数轮）。</p>
+<p><strong>UU远程：VIP 上线前注册可领年卡五折 ｜ <span style="color:#c0392b;">截止 12-01</span></strong>。官方页公告（2026-11-19）原文：「基础远控保持『免费』」「基础远控将持续免费，且不限次、不限时、不排队、无广告」「在 2026 年 12 月 1 日 VIP 服务上线前注册成功的用户，还可领取年卡五折专属优惠」。核到的是这条免费承诺与五折条件；小众软件那篇写的「24元/月起、免费版只剩 1080P 30帧」本轮没回官方页对上档位价格，挂在下面的观察。<a href="https://uuyc.163.com/">uuyc.163.com</a> ｜ 核实于 2026-11-20 06:42。</p>
+<p><strong>PostgreSQL 19 正式发布 / PHP 8.6 发布</strong>：官方新闻页 H1「PostgreSQL 19 Released!」（页面日期 2026-11-19）与 <a href="https://www.postgresql.org/about/news/postgresql-19-released-3449/">postgresql.org 公告</a>；PHP <a href="https://www.php.net/releases/8.6/en.php">8.6 release 页</a>主题「Faster, Safer, More Powerful」。两条都是主版本节点，值得排的是兼容性自查而不是新功能。<br>核实于 2026-11-20 06:43。</p>
+<p><strong>币圈一手：币安把 USDⓈ 本位 ANTUSDT「Pre-IPO 永续」转为标准 TradFi 永续</strong>，公告明写 2026-11-19 生效（<a href="https://www.binance.com/en/support/announcement/detail/89df0df327a3431485ba54a7c03663c3">公告原文</a>）。若账户还持有该永续仓位或挂单，转换后合约规格与标记价口径会变。<strong>这不是买卖建议</strong>，本轮对 ANT 及任何币种不写方向与目标价。另有 6 条 Anthropic（ANTB / ANT）bStocks 公告（上币、加抵押品、Wallet 活动）属新产品与活动口径，与在用资产可得性无关，列在观察。核实于 2026-11-20 06:32。</p>
+</details>
+
+<details>
+<summary><strong>👀 早间新增观察（12）与一处口径更正</strong></summary>
+<p><strong>更正</strong>：午夜档写《Mark of the Deep》「11-27 00:00 截止」，官方接口 <code>endDate=2026-11-26T16:00Z</code> 换算北京时间是 <strong>11-27 08:00</strong>，以这轮回读为准。原价 ¥55.00、<code>discountPrice=0</code> 两条与午夜档一致。</p>
+<table>
+<thead><tr><th>条目</th><th>为什么只算观察</th></tr></thead>
+<tbody>
+<tr><td>《The Last of Us Part II Remastered》¥231.15（-33%，12-02 02:00 截止）</td><td>抓到的字段与站内活动一致，但本轮没单独回官方页核这一条，只作榜单转述</td></tr>
+<tr><td>Epic 下一周免预告《火之石 – 放置点击英雄RPG》</td><td>官方接口给的是 upcoming 档期 11-27 08:00 ~ 12-04 08:00（北京时间），还没开始，不催领</td></tr>
+<tr><td>App Store：Infinite Canvas / 物有记（内购限免）</td><td>前者按 id 查不到上架记录、后者播报正文没有直链无从取 id；内购解锁价不体现在下载价上，只算频道转述</td></tr>
+<tr><td>UU远程「24元/月起、免费版只剩 1080P 30帧」</td><td>官方页只确认免费承诺与五折条件，档位价格是小众软件转述，未核实</td></tr>
+<tr><td>Nginx 曝出 10 项安全漏洞（美国主机侦探转述）</td><td>只核到官方 advisories 页在线（累计 77 个唯一 CVE 编号），没逐条对上「10 项」指哪批；跑 nginx 的自己按版本过一遍。午夜档另有一条 Ruby 修 7 个含 RCE PoC 漏洞，同源口径</td></tr>
+<tr><td>GitHub Trending：firecrawl / Ghost-Downloader-3 / autoclip / opensre 等 8 库</td><td>trending 无发布时间戳，只说明当天热度，未逐个读 README 判断是否解决你手上的问题</td></tr>
+<tr><td>币安 Anthropic（ANTB / ANT）bStocks 系列 6 条公告</td><td>上币、加抵押品、Wallet 活动更新，与在用资产可得性无关，只列存在</td></tr>
+<tr><td>行情与热度快照（截至 11-20 06:32，来源 CoinGecko / CMC / alternative.me）</td><td>BTC $62,075（-0.6%）、ETH $1,756.81（-0.3%）、BNB $580.18（+0.4%）；热搜前列 BTC / Sky / Pepe / Zcash；恐惧贪婪指数 10（Extreme Fear）。是数字不是信息，不构成任何操作建议</td></tr>
+<tr><td>市值榜 24h 异动：Bitway +19.6% / Pieverse -16.0% / Pearl +8.6%</td><td>门槛是 rank ≤300 且绝对涨跌 ≥8%，纯行情，不给 ⭐</td></tr>
+<tr><td>Coinbase 状态 All Systems Operational</td><td>11-20 06:41 实测 <code>indicator=none</code>，只为对照 Kraken 记录</td></tr>
+<tr><td>Solana 客户端 anza-xyz/agave 发 v5.0.0-alpha.1</td><td>项目方一手发版（11-20 04:57 北京时间），alpha 版本，非运行中验证节点无需动作</td></tr>
+<tr><td>LowEndBox 黑五预热「抽 $100 + 2GB Ryzen VPS $22.99/年」</td><td>抽奖软文属性，未回厂商页核价，不作值得</td></tr>
+</tbody>
+</table>
+</details>
+
+<details>
+<summary><strong>早间这轮来源健康度：25 个 key 全绿</strong> ｜ <span style="color:#6b7280;">06:32 完成，约 55 秒</span></summary>
+<table>
+<thead><tr><th>来源</th><th>条数</th><th>状态</th></tr></thead>
+<tbody>
+<tr><td>hackernews / ithome</td><td>25 / 25</td><td style="color:#1a7f37;">OK</td></tr>
+<tr><td>panews / lobsters / producthunt</td><td>15 / 14 / 14</td><td style="color:#1a7f37;">OK（lobsters 出 PG19、PHP8.6）</td></tr>
+<tr><td>coindesk / theblock</td><td>12 / 12</td><td style="color:#1a7f37;">OK（午夜档这两个只通一个）</td></tr>
+<tr><td>v2ex / coingecko-trending / github-trending</td><td>10 / 10 / 8</td><td style="color:#1a7f37;">OK（v2ex 午夜档 ERR，本轮恢复）</td></tr>
+<tr><td>appstore-ios</td><td>8</td><td style="color:#1a7f37;">OK（午夜档整源缺位；3 条现价 0 进取，5 条进观察）</td></tr>
+<tr><td>binance-ann / idcspy / coinmarketcap-search</td><td>7 / 6 / 6</td><td style="color:#1a7f37;">OK（境外交易所源本轮恢复）</td></tr>
+<tr><td>steam / coingecko-markets / epic-store</td><td>4 / 4 / 1</td><td style="color:#1a7f37;">OK（Steam 走 <code>cc=cn</code> 核国区价）</td></tr>
+<tr><td>hf-daily-papers / lowendbox / crypto-release</td><td>1 / 1 / 1 / 1</td><td style="color:#1a7f37;">OK</td></tr>
+<tr><td>exchange-status / appinn / fng-index</td><td>1 / 1 / 1</td><td style="color:#1a7f37;">OK（Kraken minor、Coinbase none）</td></tr>
+<tr><td>ethblog</td><td>0</td><td style="color:#1a7f37;">OK（<code>--days 2</code> 窗口内无新帖，非故障）</td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:12px 0 0;">聚合口径：<code>SUMMARY fetched=317 fresh=187 sources=25 errors=0</code>，本轮没有一条 <code>ERR source=</code>。午夜档那 11 个 <code>URLError</code> 全部恢复，印证当时的判断：是代理节点抖动，不是站点改版。</p>
+</details>
+
 <p style="font-size:12px;color:#9aa0a8;margin:28px 0 0;">边界声明：本站只收集、核实与报道，不代为注册、不绑卡、不领取、不下单；币圈不连钱包、不签名、不给买卖建议。价格、折扣与截止时间以官方页面结算时为准。</p>
