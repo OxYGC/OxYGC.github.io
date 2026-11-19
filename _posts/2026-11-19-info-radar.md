@@ -1,14 +1,14 @@
 ---
-title: "资讯雷达 2026-11-19｜Epic《斗阵骑士》最后一天、Steam 黑五前哨 GTA 三部曲 -67%、GitHub 今日榜被 Agent Skills 占满（凌晨版）"
+title: "资讯雷达 2026-11-19｜Epic《斗阵骑士》最后一天、Steam 午间换血 FF7 双作 -82%/-85%、Nginx 官方确认 HTTP/2 漏洞（凌晨 + 午间复核）"
 author: OxYGC
 date: 2026-11-19 08:20:00 +0800
 permalink: /posts/info-radar-2026-11-19/
 categories: [Info, Deals]
 tags: [资讯雷达, Steam折扣, Epic限免, GitHub趋势, AI动态, 币圈]
-description: "2026-11-19 当天第一版：Epic《斗阵骑士 Knightica》0 元领取进入最后一天，11-20 00:00 截止；Steam 黑五前哨里 GTA 三部曲 -67%（¥279.00 → ¥92.07，11-20 02:00 收）、Overcooked! 2 -66%（¥98.00 → ¥33.32，11-20 01:00 收）、隔离区 -40%，Black Ops Cold War -75% 与 P5R -70% 仍在榜；GitHub 今日榜前五里四个与 Agent Skills 相关，Claude-BugHunter 单日 +2,322 star；一手行情 BTC 63,012（24h -1.96%）、ETH 1,768.1、SOL 73.466，恐惧贪婪指数 11（Extreme Fear）；25 个来源里 15 个取到数据、9 个被代理通道挡住。"
+description: "2026-11-19 当天唯一一篇，含凌晨与午间 12:03 两轮复核：Epic《斗阵骑士 Knightica》0 元领取进入最后一天，11-20 00:00 截止，下一档《Mark of the Deep》11-20 00:00 接档；Steam 午间前 10 窗口整体换血，《FF7 重制版 INTERGRADE》-82%（¥198.00 → ¥35.64）与《FF7 重生》-85%（¥248.00 → ¥37.20）双双进场、均 12-03 02:00 收，GTA 三部曲 -67%（¥279.00 → ¥92.07，11-20 02:00 收）、Overcooked! 2 -66%（¥98.00 → ¥33.32，11-20 01:00 收）、隔离区 -40% 复核仍在折扣；Nginx 官方安全公告确认 CVE-2026-123007（HTTP/2 流控内存破坏，major，1.31.8 及以下受影响），HN 头条 Wiz 研究即此条；GitHub Trending 榜首换成 AI 写论文框架 paper-orchestra 单日 +1,524，Agent Skills 仍占前八的 5 席；一手行情 BTC 63,509.7（24h -1.37%）、ETH 1,802.83、SOL 74.56，恐惧贪婪指数 10（Extreme Fear）；午间 22 个来源里 12 个取到数据、10 个异常。"
 ---
 
-这一轮取数在 2026-11-19 08:02–08:12（北京时间）完成：25 个来源里 15 个取到数据、9 个因代理通道限制未取到、1 个（`appstore`）没有可用的限免汇总数据。`SUMMARY fetched=223 fresh=193 sources=25 errors=9`，时间窗内留下 193 条，其中 Steam 10 条、Epic 1 条、IT之家 25 条、Hacker News 30 条、GitHub Trending 20 条、PANews 25 条、The Block 20 条。这是当天第一版；今天若再跑，只会在本文件内更新，不新增文件。
+这一轮取数在 2026-11-19 08:02–08:12（北京时间）完成：25 个来源里 15 个取到数据、9 个因代理通道限制未取到、1 个（`appstore`）没有可用的限免汇总数据。`SUMMARY fetched=223 fresh=193 sources=25 errors=9`，时间窗内留下 193 条，其中 Steam 10 条、Epic 1 条、IT之家 25 条、Hacker News 30 条、GitHub Trending 20 条、PANews 25 条、The Block 20 条。这是当天第一版；今天若再跑，只会在本文件内更新，不新增文件。**2026-11-19 12:03–12:08 已完成午间复核，增量见文末「午间复核」章节。**
 
 结论先摆前面：**消费侧最近的两个到期点都在 11-20——Epic《斗阵骑士 Knightica》11-20 00:00、Steam《Overcooked! 2》11-20 01:00 与《GTA：三部曲 最终版》11-20 02:00；今天榜上幅度最大的是《使命召唤：黑色行动冷战》-75%（¥298.00 → ¥74.50）和《女神异闻录5 皇家版》-70%（¥268.00 → ¥80.40），两款都到 12 月初。** 资讯面被 Agent Skills 继续统治：`elementalsouls/Claude-BugHunter` 单日 +2,322 star，`obra/superpowers` 已到 31.98 万 star；安全侧 HN 头条是 Java4Shell（OpenJDK 处理 Base64 时的 RCE），但目前仍只有发现者与安全厂商两边转述，没看到 Oracle / OpenJDK 官方 advisory，按观察处理。币圈这一轮拿到了一手行情：BTC 63,012 美元（24h -1.96%）、ETH 1,768.1、SOL 73.466（+0.96%），恐惧贪婪指数 11（Extreme Fear）；交易所公告、CoinGecko / CMC、交易所状态页仍被代理挡住，相关转述只作语境。
 
@@ -188,6 +188,150 @@ ERR source=cmc URLError hint=SSL handshake / 403 类需走浏览器桥
 ERR source=ethblog URLError hint=SSL handshake / 403 类需走浏览器桥
 ERR source=coindesk URLError hint=SSL handshake / 403 类需走浏览器桥</pre>
 <p style="font-size:12px;color:#8a9099;margin:12px 0 0;">来源连续 3 天挂同一个错时再考虑改脚本或换源；本轮先按代理节点抖动记录，不做站点改版判断。取数覆盖五条赛道，但因 9 个源失败，本轮实际可用的是优惠/限免（Epic、Steam、idcspy、LowEndBox）、开发与 AI 资讯（HN、Lobsters、GitHub、Product Hunt、阮一峰、IT之家、小众软件）与币圈媒体轴（PANews、The Block）+ Bitfinex 一手行情 + 情绪指数。</p>
+</details>
+
+## 午间复核（12:03–12:08）
+
+**同一篇内追加，不新增文件。** 这一轮 22 个来源里 12 个取到数据、10 个异常，取回 145 条：`steam` 10、`epic` 1（另有 1 条下周档期）、`github-trending` 12、`hackernews` 30、`ithome` 30、`lobsters` 20、`appinn` 10、`lowendbox` 10、`theblock` 15、`ruanyifeng` 3、`fng` 1、`gateio` 3。异常集合与凌晨基本重合：`panews`（RSS 返回 HTML 页面）、`producthunt`（Atom 解析为 0 条），以及 `v2ex`、`huggingface`、`coingecko`、`cmc`、`binance`、`okx`、`bybit`、`kraken`（SSL / 代理通道）。
+
+**先说结论：** 凌晨那批到期点没有变化——Epic《斗阵骑士 Knightica》仍在 0 元位（11-20 00:00 收），`Overcooked! 2`（-66%，¥98.00 → ¥33.32）、`隔离区`（-40%，¥48.00 → ¥28.80）回 `appdetails` 复核仍在折扣，《GTA 三部曲 最终版》-67% 的 `appdetails` 回读继续超时、价格仍未二次核实，三款分别在 11-20 01:00–02:00 收。变的是 Steam 前 10 窗口整体换血：**《FF7 重制版 INTERGRADE》-82%（¥198.00 → ¥35.64）与《FF7 重生》-85%（¥248.00 → ¥37.20）双双进场，均到 12-03 02:00；《NieR:Automata》-60%（¥274.00 → ¥109.60）同一批到 12-03 02:00。** 另外，Nginx 官方安全公告确认了 CVE-2026-123007（HTTP/2 流控内存破坏，major），HN 头条那篇 Wiz 研究讲的就是这条，这次有一手 advisory 可核。
+
+<div style="border:1px solid #e3e6ea;border-radius:10px;padding:16px 18px;background:#fbfcfd;margin:0 0 28px;">
+<strong style="font-size:15px;">午间复核后，今天剩下会过期的只有这几个点</strong>
+<table style="width:100%;border-collapse:collapse;margin-top:12px;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;width:24%;">时点（北京时间）</th><th style="padding:6px 8px 6px 0;">条目</th><th style="padding:6px 8px 6px 0;width:18%;">价格</th><th style="padding:6px 0 6px 0;width:20%;">复核状态</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;">
+<td style="padding:9px 8px 9px 0;color:#c0392b;font-weight:700;">11-20 00:00 收</td>
+<td style="padding:9px 8px 9px 0;">Epic《斗阵骑士 Knightica》0 元领取永久入库</td>
+<td style="padding:9px 8px 9px 0;">¥47.00 → 0 元</td>
+<td style="padding:9px 0 9px 0;">官方接口 12:05 复核，仍在活动内</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;">
+<td style="padding:9px 8px 9px 0;color:#c0392b;font-weight:700;">11-20 00:00 接档</td>
+<td style="padding:9px 8px 9px 0;">Epic《Mark of the Deep》进入 0 元档，至 11-27 00:00</td>
+<td style="padding:9px 8px 9px 0;">¥55.00 → 0 元（下周档）</td>
+<td style="padding:9px 0 9px 0;">官方接口 <code>upcomingPromotionalOffers</code></td></tr>
+<tr style="border-bottom:1px solid #eef0f2;">
+<td style="padding:9px 8px 9px 0;color:#c0392b;font-weight:700;">11-20 01:00 收</td>
+<td style="padding:9px 8px 9px 0;">Steam《Overcooked! 2》-66%（已掉出前 10 窗口）</td>
+<td style="padding:9px 8px 9px 0;">¥98.00 → ¥33.32</td>
+<td style="padding:9px 0 9px 0;color:#1a7f37;">appdetails 12:07 复核仍在折扣</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;">
+<td style="padding:9px 8px 9px 0;color:#c0392b;font-weight:700;">11-20 02:00 收</td>
+<td style="padding:9px 8px 9px 0;">Steam《GTA：三部曲 最终版》-67%</td>
+<td style="padding:9px 8px 9px 0;">¥279.00 → ¥92.07</td>
+<td style="padding:9px 0 9px 0;color:#c0392b;">appdetails 连续超时，价格未二次核实</td></tr>
+<tr>
+<td style="padding:9px 8px 9px 0;color:#c0392b;font-weight:700;">11-20 02:00 收</td>
+<td style="padding:9px 8px 9px 0;">Steam《隔离区-丧尸末日生存》-40%（已掉出前 10 窗口）</td>
+<td style="padding:9px 8px 9px 0;">¥48.00 → ¥28.80</td>
+<td style="padding:9px 0 9px 0;color:#1a7f37;">appdetails 12:07 复核仍在折扣</td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:12px 0 0;">「掉出窗口 ≠ 活动结束」：Steam 的 <code>featuredcategories</code> 只返回当下主推的 10 条，过期时间要逐款回 <code>appdetails</code> 才算数。上面两款已掉出窗口但复核仍在折扣，所以保留原截止时间；《GTA 三部曲》因 <code>appdetails</code> 连续超时，截止时间沿用凌晨版，购买前请以结算页为准。本站只报道与核实，注册、领取、下单全部由你自己完成。</p>
+</div>
+
+<details open>
+<summary><strong>Steam 午间窗口换血：FF7 双作 -82% / -85% 领跑，前 10 里 9 款已逐款回读</strong> ｜ <span style="color:#1a7f37;font-weight:700;">¥18.20 起</span> ｜ <span style="color:#c0392b;font-weight:700;">最近 11-20 02:00 收</span></summary>
+<p>12:05 取 <code>featuredcategories?cc=CN&amp;l=schinese</code>，12:06–12:08 逐款回 <code>appdetails?cc=cn&amp;l=schinese</code> 复核 <code>initial_formatted / final_formatted / discount_percent</code>。10 条里 9 条三项一致，只有《GTA：三部曲 最终版》连续三次超时，按未二次核实标注。</p>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">游戏（appid）</th><th style="padding:6px 8px 6px 0;">国区价</th><th style="padding:6px 8px 6px 0;">折扣</th><th style="padding:6px 8px 6px 0;">截止（北京时间）</th><th style="padding:6px 0 6px 0;width:14%;">回读</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">FINAL FANTASY VII REBIRTH（2909400）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">¥248.00 → ¥37.20</td><td style="padding:8px 8px 8px 0;">-85%</td><td style="padding:8px 8px 8px 0;">12-03 02:00</td><td style="padding:8px 0 8px 0;color:#1a7f37;">一致</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">FINAL FANTASY VII REMAKE INTERGRADE（1462040）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">¥198.00 → ¥35.64</td><td style="padding:8px 8px 8px 0;">-82%</td><td style="padding:8px 8px 8px 0;">12-03 02:00</td><td style="padding:8px 0 8px 0;color:#1a7f37;">一致</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">NieR:Automata™（524220）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">¥274.00 → ¥109.60</td><td style="padding:8px 8px 8px 0;">-60%</td><td style="padding:8px 8px 8px 0;">12-03 02:00</td><td style="padding:8px 0 8px 0;color:#1a7f37;">一致</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">使命召唤：黑色行动冷战（1985810）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">¥298.00 → ¥74.50</td><td style="padding:8px 8px 8px 0;">-75%</td><td style="padding:8px 8px 8px 0;">12-02 02:00</td><td style="padding:8px 0 8px 0;color:#1a7f37;">一致</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">天国：拯救2（1771300）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">¥228.00 → ¥75.24</td><td style="padding:8px 8px 8px 0;">-67%</td><td style="padding:8px 8px 8px 0;">12-01 02:00</td><td style="padding:8px 0 8px 0;color:#1a7f37;">一致</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">GTA：三部曲 最终版（817628）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">¥279.00 → ¥92.07</td><td style="padding:8px 8px 8px 0;">-67%</td><td style="padding:8px 8px 8px 0;color:#c0392b;font-weight:700;">11-20 02:00</td><td style="padding:8px 0 8px 0;color:#c0392b;">超时</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">红色沙漠：增强版（3321460）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">¥268.00 → ¥214.40</td><td style="padding:8px 8px 8px 0;">-20%</td><td style="padding:8px 8px 8px 0;">11-30 16:00</td><td style="padding:8px 0 8px 0;color:#1a7f37;">一致</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">我带过的最差一届（5175310）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">¥28.00 → ¥18.20</td><td style="padding:8px 8px 8px 0;">-35%</td><td style="padding:8px 8px 8px 0;">11-24 02:00</td><td style="padding:8px 0 8px 0;color:#1a7f37;">一致</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">Bodycam（2406770）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">¥128.00 → ¥102.40</td><td style="padding:8px 8px 8px 0;">-20%</td><td style="padding:8px 8px 8px 0;">11-21 05:00</td><td style="padding:8px 0 8px 0;color:#1a7f37;">一致</td></tr>
+<tr><td style="padding:8px 8px 8px 0;">转运军团 - Slotbound（4459590）</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">¥42.00 → ¥37.80</td><td style="padding:8px 8px 8px 0;">-10%</td><td style="padding:8px 8px 8px 0;">11-27 02:00</td><td style="padding:8px 0 8px 0;color:#1a7f37;">一致</td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:12px 0 0;">与 08:04 那一轮相比，P5R -70% 与《Overcooked! 2》-66% 已掉出前 10 窗口，但 12:07 回读两款价格仍是 ¥268.00 → ¥80.40 与 ¥98.00 → ¥33.32，活动没结束。FF7 两作与 NieR 是这一轮新面孔，折扣幅度也是今天最大的三条。</p>
+</details>
+
+<details open>
+<summary><strong>Nginx 官方公告确认 CVE-2026-123007：HTTP/2 流控内存破坏，1.31.8 及以下受影响</strong> ｜ <span style="color:#c0392b;font-weight:700;">major</span> ｜ <span style="color:#6b7280;">修在 1.31.9 / 1.30.7</span></summary>
+<p>这次不是二手转述：<a href="https://nginx.org/en/security_advisories.html">nginx.org 安全公告页</a>原文写着 <code>Memory corruption in HTTP/2 flow control</code>，<code>Severity: major</code>，<code>Advisory CVE-2026-123007</code>，<code>Not vulnerable: 1.31.9+, 1.30.7+</code>，<code>Vulnerable: 1.9.5-1.31.8</code>。HN 头条那篇 <a href="https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities">Wiz 研究</a>（1,203 分、当日第一）描述的未授权远程代码执行就是围绕这条，小众软件同日报道时给出的 CVSS 是 8.1。</p>
+<p>同一页还列着另外 9 条公告，包括 resolver 响应处理的 use-after-free（CVE-2026-123634）、HTTP/3 的 use-after-free（CVE-2026-121810）、TLS 1.3 下读取请求体的无限循环（CVE-2026-118899，major）、mail proxy 的 use-after-free（CVE-2026-113425，major），修法一致：升到 1.31.9+ 或 1.30.7+。自建 nginx 的直接升级；用发行版包的等包管理器更新；一时升不了，先把 <code>http2</code> 关掉或至少把暴露面收进反向代理与限流之后。本站不提供利用代码，也不建议在生产上复现。</p>
+</details>
+
+<details>
+<summary><strong>GitHub 今日榜：榜首换成 AI 写论文框架 paper-orchestra，Agent Skills 仍占前八的 5 席</strong> ｜ <span style="color:#6b7280;">12:05 快照</span></summary>
+<p><code>github.com/trending?since=daily</code> 抓到 19 个仓库，前 12 名里 <code>google-research/paper-orchestra</code> 单日 +1,524 star 排第一，<code>mvanhorn/last30days-skill</code> +1,059 第二；Agent Skills / MCP / coding agent 相关仍占 5 席：<code>last30days-skill</code>、<code>NVIDIA/SkillEvaluator</code>、<code>google-labs-code/stitch-skills</code>、<code>cursor/plugins</code>、<code>HKUDS/CLI-Anything</code>。与凌晨版相比，Claude-BugHunter 与 superpowers 已掉出日榜，属于榜单正常轮换，不代表热度归零。</p>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;"><th style="padding:6px 8px 6px 0;">仓库</th><th style="padding:6px 8px 6px 0;">语言</th><th style="padding:6px 8px 6px 0;">总 star</th><th style="padding:6px 0 6px 0;">今日</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">google-research/paper-orchestra</td><td style="padding:8px 8px 8px 0;">Python</td><td style="padding:8px 8px 8px 0;">4,425</td><td style="padding:8px 0 8px 0;color:#1a7f37;font-weight:700;">+1,524</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">mvanhorn/last30days-skill</td><td style="padding:8px 8px 8px 0;">Python</td><td style="padding:8px 8px 8px 0;">70,158</td><td style="padding:8px 0 8px 0;color:#1a7f37;font-weight:700;">+1,059</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">sveltejs/svelte</td><td style="padding:8px 8px 8px 0;">JavaScript</td><td style="padding:8px 8px 8px 0;">89,653</td><td style="padding:8px 0 8px 0;color:#1a7f37;font-weight:700;">+692</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">getarcaneapp/arcane</td><td style="padding:8px 8px 8px 0;">Go</td><td style="padding:8px 8px 8px 0;">9,880</td><td style="padding:8px 0 8px 0;color:#1a7f37;font-weight:700;">+547</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">HKUDS/CLI-Anything</td><td style="padding:8px 8px 8px 0;">Python</td><td style="padding:8px 8px 8px 0;">59,899</td><td style="padding:8px 0 8px 0;">+389</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">google-labs-code/stitch-skills</td><td style="padding:8px 8px 8px 0;">TypeScript</td><td style="padding:8px 8px 8px 0;">10,454</td><td style="padding:8px 0 8px 0;">+365</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">cursor/plugins</td><td style="padding:8px 8px 8px 0;">TypeScript</td><td style="padding:8px 8px 8px 0;">17,284</td><td style="padding:8px 0 8px 0;">+314</td></tr>
+<tr><td style="padding:8px 8px 8px 0;">NVIDIA/SkillEvaluator</td><td style="padding:8px 8px 8px 0;">Python</td><td style="padding:8px 8px 8px 0;">3,808</td><td style="padding:8px 0 8px 0;">+312</td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:12px 0 0;">总 star 与「今日新增」均为榜单页 12:05 快照，和 GitHub API 实时值可能差几十，属正常波动。榜单只反映当天的 star 增量，不等于质量评价。</p>
+</details>
+
+<details>
+<summary><strong>午间新增观察（7 条）</strong> ｜ <span style="color:#6b7280;">含一条充电器安全与一条停服时间表</span></summary>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;"><th style="padding:6px 8px 6px 0;width:28%;">条目</th><th style="padding:6px 8px 6px 0;width:30%;">数字 / 说法</th><th style="padding:6px 0 6px 0;width:42%;">为什么只算观察</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.ithome.com/1/029/209.htm">酷态科 10 Ultra 充电器（AD1204U）低压设备损坏隐患</a></td><td style="padding:8px 8px 8px 0;">极低概率协议芯片不响应，端口可能未经协商维持 20V；修复固件 11-18 已 OTA；手机 / 笔记本等耐压 20V 以上设备不受影响</td><td style="padding:8px 0 8px 0;">IT之家 11-19 11:24 转述厂商回应，本轮没回酷态科官网公告与固件版本号。手上有这只充电头的，先确认固件已更新，别再用它长期给耳机、键鼠这类低压设备供电；损坏索赔按官方售后鉴定走，不点社交平台上的「代为理赔」链接。</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.appinn.com/microsoft-to-do-shutdown-2027/">微软宣布关闭 Microsoft To Do</a></td><td style="padding:8px 8px 8px 0;">小众软件称 2027 年停服，To Do 与当年收购的 Wunderlist 先后退场</td><td style="padding:8px 0 8px 0;">本轮没回微软官方公告核实具体停服日期与数据导出窗口。重度用户现在就该把任务列表导出备份，别等停服通知。</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.theblock.co/news/business/2026-11-18-binance-freezing-court-order-adgm-crypto-october-hack-443491">币安获阿布扎比法院 65 亿美元冻结令</a></td><td style="padding:8px 8px 8px 0;">用于追索 10 月被盗资产，The Block 11-18 报道</td><td style="padding:8px 0 8px 0;">媒体转述，未回法院文书或币安公告。属于执法进展，不构成任何资产操作建议。</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.theblock.co/news/business/2026-11-18-kraken-parent-payward-tribe-capital-443522">Kraken 母公司 Payward 收购 Tribe Capital</a></td><td style="padding:8px 8px 8px 0;">交易金额未披露，意在扩展私募市场业务</td><td style="padding:8px 0 8px 0;">The Block 转述，未回双方公告核对交割条件；并购消息不影响普通用户当下操作。</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://social.anoxinon.de/@Codeberg/117636454915265360">Codeberg 域名从账号消失、站点不可达</a></td><td style="padding:8px 8px 8px 0;">Lobsters 188 分、当日第一，Codeberg 官方 Mastodon 账号发布</td><td style="padding:8px 0 8px 0;">虽有官方社媒帖，但本轮没回 codeberg.org 状态页与注册商记录，域名问题可能仍在处置中。把仓库同时镜像到别处的用户按兵不动，别趁乱改 DNS。</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://lowendbox.com/blog/the-dedirock-high-ram-vps-is-here-at-last-omg-8gb-ram-for-24-99-year/">DediRock 8GB RAM VPS 年付 24.99 美元</a></td><td style="padding:8px 8px 8px 0;">LowEndBox 11-18 促销稿，标称 8GB 内存</td><td style="padding:8px 0 8px 0;">属商家促销稿，本轮没回官网核配置、带宽、续费价与退款条款。低价年付先看备份与迁移成本，别把唯一副本放上去。</td></tr>
+<tr><td style="padding:8px 8px 8px 0;"><a href="https://www.ithome.com/1/029/243.htm">黄仁勋离任后续三条</a></td><td style="padding:8px 8px 8px 0;">优步联合创始人卡兰尼克呼吁其回归并称要去总部抗议；彭博社称猎头已接触 Arm CEO 哈斯；英伟达回应供货按计划推进</td><td style="padding:8px 0 8px 0;">三条均为 IT之家当日转述，涉及公司治理与人事的部分没有英伟达官方原文可核，只作语境跟踪，不推断股价与供应链结论。</td></tr>
+</tbody></table>
+</details>
+
+<details>
+<summary><strong>午间行情快照与情绪指数</strong> ｜ <span style="color:#6b7280;">Gate.io 12:06 一手报价</span></summary>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;"><th style="padding:6px 8px 6px 0;">标的</th><th style="padding:6px 8px 6px 0;">最新价（USDT）</th><th style="padding:6px 8px 6px 0;">24h 涨跌</th><th style="padding:6px 8px 6px 0;">24h 高 / 低</th><th style="padding:6px 0 6px 0;">来源</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">BTC</td><td style="padding:8px 8px 8px 0;">63,509.7</td><td style="padding:8px 8px 8px 0;color:#c0392b;">-1.37%</td><td style="padding:8px 8px 8px 0;">64,953.9 / 62,062</td><td style="padding:8px 0 8px 0;">Gate.io 现货</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">ETH</td><td style="padding:8px 8px 8px 0;">1,802.83</td><td style="padding:8px 8px 8px 0;color:#6b7280;">0.00%</td><td style="padding:8px 8px 8px 0;">1,819.55 / 1,733</td><td style="padding:8px 0 8px 0;">Gate.io 现货</td></tr>
+<tr><td style="padding:8px 8px 8px 0;">SOL</td><td style="padding:8px 8px 8px 0;">74.56</td><td style="padding:8px 8px 8px 0;color:#c0392b;">-0.14%</td><td style="padding:8px 8px 8px 0;">75.65 / 72.22</td><td style="padding:8px 0 8px 0;">Gate.io 现货</td></tr>
+</tbody></table>
+<p style="font-size:13px;color:#6b7280;margin:12px 0 0;">恐惧贪婪指数当日 08:00 快照为 <strong>10（Extreme Fear）</strong>，来源 alternative.me；凌晨版写的 11 对应更早一次快照，两个数都只作语境底数。与凌晨的 63,012 相比 BTC 略有回升，仍在 6.2 万–6.5 万美元的 24 小时区间内震荡。<strong>行情与情绪指数一律不构成买卖建议</strong>，本轮也不写支撑位与目标价。凌晨被挡的 CoinGecko / CMC / 币安公告这一轮仍没通，异动榜与热搜本轮缺位，上面三行是唯一的一手价格。</p>
+</details>
+
+<details>
+<summary><strong>午间取数：22 个来源，12 个正常、10 个异常</strong> ｜ <span style="color:#6b7280;">12:03–12:08 实测</span></summary>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;"><th style="padding:6px 8px 6px 0;">来源</th><th style="padding:6px 8px 6px 0;">条数</th><th style="padding:6px 0 6px 0;">状态</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;">steam</td><td style="padding:5px 8px 5px 0;">10</td><td style="padding:5px 0 5px 0;color:#1a7f37;">OK（9/10 回读一致）</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;">epic</td><td style="padding:5px 8px 5px 0;">1 + 1 下周档</td><td style="padding:5px 0 5px 0;color:#1a7f37;">OK</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;">github-trending</td><td style="padding:5px 8px 5px 0;">12</td><td style="padding:5px 0 5px 0;color:#1a7f37;">OK</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;">hackernews</td><td style="padding:5px 8px 5px 0;">30</td><td style="padding:5px 0 5px 0;color:#1a7f37;">OK</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;">ithome</td><td style="padding:5px 8px 5px 0;">30</td><td style="padding:5px 0 5px 0;color:#1a7f37;">OK</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;">lobsters</td><td style="padding:5px 8px 5px 0;">20</td><td style="padding:5px 0 5px 0;color:#1a7f37;">OK</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;">appinn</td><td style="padding:5px 8px 5px 0;">10</td><td style="padding:5px 0 5px 0;color:#1a7f37;">OK</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;">lowendbox</td><td style="padding:5px 8px 5px 0;">10</td><td style="padding:5px 0 5px 0;color:#1a7f37;">OK</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;">theblock</td><td style="padding:5px 8px 5px 0;">15</td><td style="padding:5px 0 5px 0;color:#1a7f37;">OK</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;">ruanyifeng</td><td style="padding:5px 8px 5px 0;">3</td><td style="padding:5px 0 5px 0;color:#1a7f37;">OK</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;">fng</td><td style="padding:5px 8px 5px 0;">1</td><td style="padding:5px 0 5px 0;color:#1a7f37;">OK</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;">gateio</td><td style="padding:5px 8px 5px 0;">3</td><td style="padding:5px 0 5px 0;color:#1a7f37;">OK（一手行情）</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;color:#c0392b;">panews</td><td style="padding:5px 8px 5px 0;color:#c0392b;">0</td><td style="padding:5px 0 5px 0;color:#c0392b;">ERR RSS 返回 HTML 页面</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;color:#c0392b;">producthunt</td><td style="padding:5px 8px 5px 0;color:#c0392b;">0</td><td style="padding:5px 0 5px 0;color:#c0392b;">ERR Atom 解析为 0 条</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;color:#c0392b;">v2ex</td><td style="padding:5px 8px 5px 0;color:#c0392b;">0</td><td style="padding:5px 0 5px 0;color:#c0392b;">ERR SSL</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;color:#c0392b;">huggingface</td><td style="padding:5px 8px 5px 0;color:#c0392b;">0</td><td style="padding:5px 0 5px 0;color:#c0392b;">ERR SSL</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;color:#c0392b;">coingecko</td><td style="padding:5px 8px 5px 0;color:#c0392b;">0</td><td style="padding:5px 0 5px 0;color:#c0392b;">ERR 连接超时</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;color:#c0392b;">cmc</td><td style="padding:5px 8px 5px 0;color:#c0392b;">0</td><td style="padding:5px 0 5px 0;color:#c0392b;">ERR 连接超时</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;color:#c0392b;">binance</td><td style="padding:5px 8px 5px 0;color:#c0392b;">0</td><td style="padding:5px 0 5px 0;color:#c0392b;">ERR SSL</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;color:#c0392b;">okx</td><td style="padding:5px 8px 5px 0;color:#c0392b;">0</td><td style="padding:5px 0 5px 0;color:#c0392b;">ERR SSL</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:5px 8px 5px 0;color:#c0392b;">bybit</td><td style="padding:5px 8px 5px 0;color:#c0392b;">0</td><td style="padding:5px 0 5px 0;color:#c0392b;">ERR SSL</td></tr>
+<tr><td style="padding:5px 8px 5px 0;color:#c0392b;">kraken</td><td style="padding:5px 8px 5px 0;color:#c0392b;">0</td><td style="padding:5px 0 5px 0;color:#c0392b;">ERR SSL</td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:12px 0 0;">境内源与 HN / Lobsters / GitHub Trending / Steam / Epic 全绿；境外交易所与 CoinGecko / CMC 整批被挡，形态与凌晨一致，仍按代理节点抖动记录，不做站点改版判断。PANews 这轮换成 RSS 依然是 HTML 页面，和凌晨版的现象相同；下一轮若还这样，就直接弃用该源的自动抓取，只保留人工核对。</p>
 </details>
 
 <p style="font-size:12px;color:#9aa0a8;margin:28px 0 0;">边界声明：本站只收集、核实与报道，不代为注册、不绑卡、不领取、不下单；币圈不连钱包、不签名、不给买卖建议。价格、折扣与截止时间以官方页面结算时为准。</p>
