@@ -5,7 +5,7 @@ date: 2026-11-21 00:20:00 +0800
 permalink: /posts/info-radar-2026-11-21/
 categories: [Info, Deals]
 tags: [资讯雷达, Epic限免, Steam黑五, 战地, 比特币, 黎曼猜想, GitHub趋势]
-description: "2026-11-21 当天唯一一篇（00:03–00:12 取数）：Epic《Mark of the Deep》¥55→0 限免至 11-27 00:00，下周《Bread and Fred》¥47→0 接档；Steam 黑五 10 款特惠全部经 appdetails 回读，战地 1 / 战地风云 5 双双 -95%（¥9.90 / ¥11.40），《双人成行》-80%（¥39.60），《FF7 重生》-85%、《FF7 重制版》-82%，均 12 月初收；BTC 59,073.5（24h -6.43%）跌破 6 万、ETH 1,636.96（-8.1%）、SOL 68.26（-7.38%），恐惧贪婪指数 12（Extreme Fear）；HN 头条为 Anthropic 数学家宣称与 Claude 合作证明黎曼猜想；GitHub Trending 由 Claude-BugHunter 单日 +1,660 领跑；20 个来源里 16 个取到数据、4 个异常。"
+description: "2026-11-21 当天唯一一篇（午夜 00:03–00:12 取数 + 早间 06:30 全量复核）：Epic《Mark of the Deep》¥55→0 限免至 11-27 00:00（早间重查接口 endDate=2026-11-26T16:00Z，反向更正昨日误算的 08:00）；Steam 黑五 10 款全部经 appdetails 回读，战地 1 / 战地风云 5 双双 -95%；早间这一轮 25 个来源取回 305 条、新增 169 条、errors=1（appstore 首轮 URLError，单源重跑补齐 iOS 限免），补上 Kraken 充提与衍生品降级的复查（状态页 06:04 更新，仍未 resolve）、两条国区 iOS 本体免费（PDF编辑器 / 一生声迹，iTunes 按 id 核到现价 0），以及午夜档截稿后的 Tao 博客、OpenComputer、DreamCoder 三条一手材料。"
 ---
 
 这一轮取数在 2026-11-21 00:03–00:12（北京时间）完成：20 个来源里 16 个取到数据、3 个被代理通道挡住、1 个（`panews`）RSS 已退化为 HTML 订阅页。`SUMMARY fetched=240 fresh=203 sources=20 errors=4`。异常集中在需要境外通道的行情接口：`bitfinex`、`binance`、`okx`、`coingecko`、`coinbase`、`kraken`、`bybit` 全部超时或被 SSL 拒绝，本轮改走 Gate.io 拿到一手价格；GitHub REST API 因共享出口 IP 触发限流（403），Trending 页面的 star 数与今日增量仍为现抓。**这是 2026-11-21 当天第一版；今天若再跑，只会在本文件内更新，不新增文件。**
@@ -181,4 +181,79 @@ description: "2026-11-21 当天唯一一篇（00:03–00:12 取数）：Epic《M
 <summary><strong>方法与免责声明</strong></summary>
 <p>本轮取数窗口为 2026-11-21 00:03–00:12（北京时间）。价格口径：Steam 为 <code>appdetails?cc=cn&amp;l=schinese</code> 的 <code>initial / final / discount_percent</code>，截止时间为 <code>featuredcategories.discount_expiration</code> 的 epoch 换算；Epic 为 <code>freeGamesPromotions?locale=zh-CN&amp;country=CN</code> 的 <code>originalPrice / discountPrice / endDate</code>。行情为 Gate.io 公开 ticker 快照，情绪指数来自 alternative.me。</p>
 <p>本站只做信息聚合与核实，不代注册、不代下单、不构成投资建议。价格、库存、活动时间都可能随时变化，执行前请回官方页面确认。</p>
+</details>
+
+<p style="margin:34px 0 6px;padding-top:16px;border-top:2px solid #e3e6ea;font-size:16px;font-weight:700;color:#1f2329;">06:30 早间全量复核（同日发布）</p>
+
+<p style="margin:0 0 16px;">午夜那一轮 00:03–00:12 取数，把 Steam 黑五、Epic 周免、GitHub Trending 与行情快照都核实了一遍。06:30 这一轮跑满 25 个来源，取回 305 条、去重后新增 169 条，<code>errors=1</code>——唯一异常是 <code>appstore</code>（iOS 限免层）报 <code>URLError</code>，06:35 实测发现层 <code>t.me/s/TossTF</code> 直连仍 000、走代理 200，判为当轮瞬时失败而非改版或代理整体失效，06:37 单源重跑 <code>fetched=18 fresh=18 errors=0</code>，iOS 这一层没有缺位。下面只写增量：Kraken 的降级复查、两条国区本体限免、午夜档截稿后才出现的一手技术材料，以及一处截止时间的反向更正。午夜档已核实的 Steam 与 Epic 结论不作废，本轮重抓逐条一致。</p>
+
+<div style="border:1px solid #e6e8eb;border-radius:10px;padding:14px 16px;margin:0 0 24px;">
+<p style="margin:0 0 10px;font-size:14px;font-weight:600;color:#1f2329;">早间增补行动清单</p>
+<table>
+<thead><tr><th>时点</th><th>条目</th><th>价格</th><th>去哪</th></tr></thead>
+<tbody>
+<tr>
+<td><strong style="color:#c0392b;">进行中</strong><br>状态页 06:04 更新</td>
+<td>Kraken：充提与衍生品仍在降级窗口（午夜档缺这个源）</td>
+<td><span style="color:#6b7280;">minor</span></td>
+<td><a href="https://status.kraken.com/">状态页</a></td>
+</tr>
+<tr>
+<td><strong style="color:#c0392b;">Apple 不公布</strong><br>限免截止时间</td>
+<td>App Store 本体免费：PDF编辑器（id 6450979125）</td>
+<td><span style="color:#1a7f37;font-weight:600;">0 元</span><br><span style="color:#6b7280;">下载不花钱</span></td>
+<td><a href="https://apps.apple.com/cn/app/id6450979125">商店页</a></td>
+</tr>
+<tr>
+<td><strong style="color:#c0392b;">Apple 不公布</strong><br>限免截止时间</td>
+<td>App Store 本体免费：一生声迹（id 6825671043）</td>
+<td><span style="color:#1a7f37;font-weight:600;">0 元</span><br><span style="color:#6b7280;">下载不花钱</span></td>
+<td><a href="https://apps.apple.com/cn/app/id6825671043">商店页</a></td>
+</tr>
+<tr>
+<td><strong style="color:#c0392b;">11-27 00:00</strong><br>北京时间（反向更正）</td>
+<td>Epic《Mark of the Deep》截止口径回到午夜档的值</td>
+<td><span style="color:#1a7f37;font-weight:600;">0 元</span><br><span style="color:#6b7280;">原价 ¥55.00</span></td>
+<td><a href="https://store.epicgames.com/free-games?lang=zh-CN">Epic 领取页</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<details open>
+<summary><strong>🔥 早间唯一紧急：Kraken 充提与衍生品降级，11-20 报过、本轮复查仍未 resolve</strong> —— <span style="color:#c0392b;">状态页最后更新 11-21 06:04（北京时间）</span></summary>
+<p>06:34 回读 Statuspage 三份原文：<code>status.json</code> 为 <code>indicator=minor</code> / <code>Partially Degraded Service</code>，页面 <code>updated_at=2026-11-20T22:04:40Z</code>（北京 11-21 06:04，即本轮取数前三十分钟）。<code>components.json</code> 里非 operational 的是 <code>User Interface</code>、<code>Kraken Derivatives</code>、<code>Digital Currency Funding</code>（充提入口）与 <code>MemeCore (M) - BNB Chain</code>、<code>Osmosis (OSMO)</code>、<code>Stablr Euro (EURR) - Ethereum</code>、<code>Stablr USD (USDR) - Ethereum</code> 七个组件，全部 <code>degraded_performance</code>。<br><code>incidents/unresolved.json</code> 现行三条：<strong>Stablr USD (USDR) 与 Stablr Euro (EURR) 的 Funding Methods Halted</strong>（identified，起于 05-24 14:19 北京，最后更新 07-01 22:03）；<strong>MemeCore (M) Deposits Disabled</strong>（monitoring，起于 08-19 16:20 北京，提现已恢复、充值仍关闭）；<strong>Osmosis (OSMO) Funding Delays</strong>（investigating，起于 11-14 19:02 北京，公告原文「Deposits and withdrawals may be delayed」）。<br>列紧急的理由照 11-20 的口径不变：它落在「服务状态非 none」这一档，直接决定在 Kraken 的充提入口与衍生品撤单是否可用；而午夜档那轮 <code>exchange-status</code> 没有进增量，这个状态当时看不到。<strong>你要做的</strong>：只有在 Kraken 有资产、跑 API 或挂着衍生品仓位才需要动作——不要在降级窗口做充提与撤单，动手前先确认状态页已 resolved；本轮没有证据表明你在用 Kraken，若确实没有，这条只是背景。同轮 Coinbase <code>indicator=none</code>（All Systems Operational）。<a href="https://status.kraken.com/">status.kraken.com</a> ｜ 核实于 2026-11-21 06:34</p>
+</details>
+
+<details>
+<summary><strong>⭐ 早间新增值得（5）</strong> —— 国区 iOS 本体免费 2 条 + 午夜档截稿后的 3 条一手技术材料</summary>
+<p><strong>App Store 本体免费（记法照旧：认 id 不认名字）</strong>：汇总频道 11-20 播报「本体限免」，iTunes lookup 按 id 核到国区现价 0 的有两条——<a href="https://apps.apple.com/cn/app/id6450979125">PDF编辑器 - 合并拆分与签名盖章（id 6450979125，合并/拆分/签名盖章）</a>、<a href="https://apps.apple.com/cn/app/id6825671043">一生声迹（id 6825671043）</a>。06:38 又用 <code>--lookup</code> 逐个按 id 复核了一遍，两条均为「免费 ← 现价为 0」。口径边界：<strong>核到现价 0 只等于「今天下载不花钱」，接口分不出本就免费与促销中，不等于「限免仍在」；Apple 不公布限免截止时间</strong>，这一栏不补日期。昨天已报过的 AuraRead（id 6770079462）与 AiZIP（id 1381194246）本轮重抓仍为 0，按同 id 不重推。<br>核实于 2026-11-21 06:38。</p>
+<p><strong>Terence Tao：Navier–Stokes 有限时间 blow-up 与广义黎曼猜想</strong>——一手博客发布于 11-20 17:21 UTC＝北京 11-21 01:21，<strong>晚于午夜档 00:12 的截稿</strong>，是黎曼猜想这条线当天最新的原始材料，而不是媒体转述；06:43 页面 200 可达。<a href="https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/">原文</a> ｜ 核实于 2026-11-21 06:43。</p>
+<p><strong>Show HN: OpenComputer（diggerhq）——Devin 的开源替代</strong>：仓库描述原文「An open-source, faster Devin alternative」，06:44 页面 200 可达，与在跑的 Agent 编码工具同赛道，值得自查架构与授权方式；本轮没有跑过它，不评价完成度。<a href="https://github.com/diggerhq/opencomputer">仓库</a> ｜ 核实于 2026-11-21 06:44。</p>
+<p><strong>DreamCoder：《Mastering Emacs》作者的 coding harness / IDE</strong>：作者本人发布的一手博客，06:43 页面 200 可达，编辑器与自动化方向可直接评估。<a href="https://www.masteringemacs.org/article/announcing-dreamcoder">原文</a> ｜ 核实于 2026-11-21 06:43。</p>
+<p><strong>反向更正一处：Epic《Mark of the Deep》的截止时间</strong>。本轮重查官方促销接口 <code>endDate=2026-11-26T16:00:00Z</code>，换算北京时间是 <strong>11-27 00:00</strong>，与午夜档一致。而 <a href="https://oxygc.github.io/posts/info-radar-2026-11-20/">11-20 那篇</a>的早间复核把这一条「更正」成了 08:00——那次更正本身算错了，同一段里写的 UTC 11-26 16:00 是对的，换算应得 00:00。以本行为准：<strong>11-27 00:00（北京时间）截止，原价 ¥55.00、<code>discountPrice=0</code> 两条与午夜档相同</strong>。 ｜ 核实于 2026-11-21 06:35</p>
+</details>
+
+<details>
+<summary><strong>👀 早间新增观察（11）与本轮取数健康度</strong></summary>
+<p><strong>阿里云 Token Plan＋Qoder CN「首月 34.4 元起 / 最高 65,000 Credits」</strong>——只有美国主机侦探（<code>idcspy</code> 11-20 15:01）一条转述。本轮回官方定价页 <a href="https://www.aliyun.com/product/qoder">aliyun.com/product/qoder</a> 实测到的是企业版 <strong>Teams ¥300.00/席位/月含 3,000 Credits</strong>、<strong>Teams 年包 ¥3,060.00/席位/年（年付 85 折）</strong>，<strong>没有核到 34.4 元首月档，也没有核到 65,000 Credits 这个额度</strong>；<code>qoder.com/pricing</code> 直取只回 35 字节（JS 壳）。未核实，要下手先自己登录官方权益页确认档位。</p>
+<p><strong>币安 4 条公告（11-20）</strong>——TradFi USDⓈ 本位永续上新、SNDKUSDT「Last Price Protected」期结束、SNDKUSDT 合约规模调整提前完成、Monitoring Tag 扩展至 BANK/INIT/MITO/ONE/THE/ZIL 并移除 MORPHO/HYPE 的 Seed Tag。只取到公告目录标题，未逐条回正文核生效时间与合约地址；<strong>标签变化不等于下架或充提暂停</strong>，与在用资产可得性无关，只列存在。<a href="https://www.binance.com/en/support/announcement">公告目录</a> ｜ 核实于 2026-11-21 06:32（仅标题层）。</p>
+<table>
+<thead><tr><th>条目</th><th>为什么只算观察</th></tr></thead>
+<tbody>
+<tr><td>App Store 内购限免 5 条：大明万年历 6769966541、惠普打印机 6814182997、择光 6826511163、NuSSH 6757864341、PocketADB 6828068983</td><td>iTunes 国区下载价实测均为 0，但内购解锁价不体现在下载价上，「本体免费」证明不了「内购已限免」，只算频道转述</td></tr>
+<tr><td>App Store 兑换码型限免：Luggzy</td><td>兑换码不转载，只留原帖 <a href="https://t.me/TossTF/3984">TossTF/3984</a> 自取；播报没有 App Store 直链，未走核价</td></tr>
+<tr><td>App Store 查不到上架记录：FinalLook 6809647256、Axon 6450880876、App Launcher 6831404723；另「鼠标·键盘」无直链</td><td>06:38 逐个 <code>--lookup</code> 复核，国区商店均返回查无此 id ⇒ 价格未核实；最后一条连 id 都取不到</td></tr>
+<tr><td>Google DeepMind 新建 <code>math-horizon</code> 仓库（北京 05:42）</td><td>06:44 确实 200 在线，但 GitHub 描述为空、本轮没读 README 判断用途，只能确认「存在」，不能替它定性</td></tr>
+<tr><td>Nvidia 会计问题受 SEC 调查（北京 04:22）</td><td>HN 标题口径是 "sources say"，通讯社转述未经手，未核 SEC 原文或 Nvidia 回应</td></tr>
+<tr><td>伦敦交通局遭网络攻击、26.5 万张 Oyster 卡用户数据泄露</td><td>IT之家单源转述，未回 TfL / NCSC 一手公告核影响范围与时间</td></tr>
+<tr><td>Fast Moose 黑五早鸟：共享主机 $15.99/年、不限账号数与带宽</td><td>LowEndBox 促销帖带软文属性，未回商家官网核续费价与是否续费同价</td></tr>
+<tr><td>Steam 黑五重抓 3 条：漫威蜘蛛侠 重制版 ¥165.60（-60%，12-02 02:00 收）、战地风云 5 ¥11.40、战地 1 ¥9.90（-95%，12-04 02:00 收）</td><td>06:32 <code>appdetails</code> 价格与截止与午夜档逐条一致，同一活动同一 URL，按「旧活动不重推」过滤，不进值得</td></tr>
+<tr><td>Remind &amp; Record（6832136677）现价 ¥8.00、AudayWatch（6821917560）¥38.00</td><td>播报「本体限免」与国区实价不符，判为已失效或已改价，昨日已列同一结论</td></tr>
+<tr><td>PostgreSQL 19 浏览器可运行示例教程（北京 01:08）</td><td>与午夜档报的 PG19 发布是两条内容，本轮没读全文判断质量，只在评估升级路径时作辅助材料</td></tr>
+<tr><td>v2ex 生活闲聊 10 条、IT之家车企与手机口水稿 15 条</td><td>与五条赛道无关，计入统计不进正文</td></tr>
+</tbody>
+</table>
+<p><strong>行情与热度快照（截至 11-21 06:32 取数，来源 CoinGecko / CMC / alternative.me）</strong>：BTC $59,059（-4.9%）、ETH $1,621.87（-7.7%）、BNB $539.93（-7.0%）、USDT $0.9986、USDC $0.9994；异动榜 Pearl $1.87（-18.6%，rank 79）、Zcash $738.25（-17.0%，rank 11）、Lighter $2.34（-16.4%，rank 90）；热搜 BTC / HYPE / SOL / SUI / PENGU / TRUMP；恐惧贪婪指数 12（Extreme Fear）。这些是数字不是信息，不构成任何操作建议，本段不写方向与目标价。</p>
+<p><strong>本轮取数健康度</strong>：<code>SUMMARY fetched=305 fresh=169 sources=25 errors=1</code>。18 个来源取到新条目（hackernews 25、ithome 25、producthunt 15、panews 15、lobsters 14、coindesk 12、theblock 12、v2ex 10、coingecko-trending 10、coingecko-markets 7、idcspy 7、coinmarketcap-search 6、binance-ann 4、steam 3、lowendbox 1、ruanyifeng-weekly 1、exchange-status 1、fng-index 1）。唯一 <code>ERR source=appstore URLError</code> 已在 06:37 单源重跑补救（<code>fetched=18 fresh=18 errors=0</code>，核价额度 15 条用满）；<code>epic-store</code>、<code>github-trending</code>、<code>hf-daily-papers</code>、<code>ethblog</code>、<code>crypto-release</code>、<code>appinn</code> 六源本轮无新增条目，属午夜档已报或周更节奏，不是故障。<strong>境外源没有出现整批被挡的形态</strong>（coindesk / theblock / binance / CoinGecko 全绿），代理节点这一轮正常。</p>
 </details>
