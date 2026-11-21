@@ -1,11 +1,11 @@
 ---
-title: "资讯雷达 2026-11-21｜BTC 跌破 5.9 万、Epic《Mark of the Deep》限免、Steam 黑五战地双作 -95%"
+title: "资讯雷达 2026-11-21｜BTC 午间跌至 5.62 万、Epic《Mark of the Deep》限免、Steam 黑五战地双作 -95%"
 author: OxYGC
 date: 2026-11-21 00:20:00 +0800
 permalink: /posts/info-radar-2026-11-21/
 categories: [Info, Deals]
 tags: [资讯雷达, Epic限免, Steam黑五, 战地, 比特币, 黎曼猜想, GitHub趋势]
-description: "2026-11-21 当天唯一一篇（午夜 00:03–00:12 取数 + 早间 06:30 全量复核）：Epic《Mark of the Deep》¥55→0 限免至 11-27 00:00（早间重查接口 endDate=2026-11-26T16:00Z，反向更正昨日误算的 08:00）；Steam 黑五 10 款全部经 appdetails 回读，战地 1 / 战地风云 5 双双 -95%；早间这一轮 25 个来源取回 305 条、新增 169 条、errors=1（appstore 首轮 URLError，单源重跑补齐 iOS 限免），补上 Kraken 充提与衍生品降级的复查（状态页 06:04 更新，仍未 resolve）、两条国区 iOS 本体免费（PDF编辑器 / 一生声迹，iTunes 按 id 核到现价 0），以及午夜档截稿后的 Tao 博客、OpenComputer、DreamCoder 三条一手材料。"
+description: "2026-11-21 当天唯一一篇（午夜 00:03–00:12 取数 + 早间 06:30 全量复核）：Epic《Mark of the Deep》¥55→0 限免至 11-27 00:00（早间重查接口 endDate=2026-11-26T16:00Z，反向更正昨日误算的 08:00）；Steam 黑五 10 款全部经 appdetails 回读，战地 1 / 战地风云 5 双双 -95%；早间这一轮 25 个来源取回 305 条、新增 169 条、errors=1（appstore 首轮 URLError，单源重跑补齐 iOS 限免），补上 Kraken 充提与衍生品降级的复查（状态页 06:04 更新，仍未 resolve）、两条国区 iOS 本体免费（PDF编辑器 / 一生声迹，iTunes 按 id 核到现价 0），以及午夜档截稿后的 Tao 博客、OpenComputer、DreamCoder 三条一手材料。午间 12:05 追加一轮增量复核（同一文件更新，不新增文章）：BTC 续跌至 $56,191（-9.25%）、ETH $1,564.77（-9.92%）、恐惧贪婪指数 12；Epic 官方接口补上下周第二款 0 元《火之石 – 放置点击英雄RPG》（11-27 00:00 起，与 Bread and Fred 同档）；Steam 黑五 10 款逐条复核并新增《极限竞速：地平线 6》-25%；GitHub Trending 16 条、firecrawl 单日 +1,241；OpenAI 反蒸馏把 GPT-6.2 Astra 思路链提取成功率从 54.0% 压到 0.2%；腾讯混元姚顺雨团队 Hy4 AMA；CoinGecko / V2EX / Binance / Kraken 状态页 4 源被 SSL 拒绝。"
 ---
 
 这一轮取数在 2026-11-21 00:03–00:12（北京时间）完成：20 个来源里 16 个取到数据、3 个被代理通道挡住、1 个（`panews`）RSS 已退化为 HTML 订阅页。`SUMMARY fetched=240 fresh=203 sources=20 errors=4`。异常集中在需要境外通道的行情接口：`bitfinex`、`binance`、`okx`、`coingecko`、`coinbase`、`kraken`、`bybit` 全部超时或被 SSL 拒绝，本轮改走 Gate.io 拿到一手价格；GitHub REST API 因共享出口 IP 触发限流（403），Trending 页面的 star 数与今日增量仍为现抓。**这是 2026-11-21 当天第一版；今天若再跑，只会在本文件内更新，不新增文件。**
@@ -257,3 +257,96 @@ description: "2026-11-21 当天唯一一篇（午夜 00:03–00:12 取数 + 早�
 <p><strong>行情与热度快照（截至 11-21 06:32 取数，来源 CoinGecko / CMC / alternative.me）</strong>：BTC $59,059（-4.9%）、ETH $1,621.87（-7.7%）、BNB $539.93（-7.0%）、USDT $0.9986、USDC $0.9994；异动榜 Pearl $1.87（-18.6%，rank 79）、Zcash $738.25（-17.0%，rank 11）、Lighter $2.34（-16.4%，rank 90）；热搜 BTC / HYPE / SOL / SUI / PENGU / TRUMP；恐惧贪婪指数 12（Extreme Fear）。这些是数字不是信息，不构成任何操作建议，本段不写方向与目标价。</p>
 <p><strong>本轮取数健康度</strong>：<code>SUMMARY fetched=305 fresh=169 sources=25 errors=1</code>。18 个来源取到新条目（hackernews 25、ithome 25、producthunt 15、panews 15、lobsters 14、coindesk 12、theblock 12、v2ex 10、coingecko-trending 10、coingecko-markets 7、idcspy 7、coinmarketcap-search 6、binance-ann 4、steam 3、lowendbox 1、ruanyifeng-weekly 1、exchange-status 1、fng-index 1）。唯一 <code>ERR source=appstore URLError</code> 已在 06:37 单源重跑补救（<code>fetched=18 fresh=18 errors=0</code>，核价额度 15 条用满）；<code>epic-store</code>、<code>github-trending</code>、<code>hf-daily-papers</code>、<code>ethblog</code>、<code>crypto-release</code>、<code>appinn</code> 六源本轮无新增条目，属午夜档已报或周更节奏，不是故障。<strong>境外源没有出现整批被挡的形态</strong>（coindesk / theblock / binance / CoinGecko 全绿），代理节点这一轮正常。</p>
 </details>
+
+<hr>
+
+<h2>午间复核（12:05 追加）</h2>
+
+<p>12:00–12:08（北京时间）又跑了一轮增量，<strong>仍然写在本文件，不新增当天的第二篇</strong>。这一轮只做两件事：把会过期的价格与截止时间重新回读，把 06:30 之后新出现的条目补进来。`SUMMARY fetched=147 fresh=58 sources=12 errors=4`。取到数据的源：hackernews 25、ithome 30、github-trending 16、epic-store 12、steam 10、producthunt 50（feed 最新条目停在 11-19，0 条新增）、gateio 3、fng 1；失败源：<code>coingecko</code>、<code>v2ex</code>、<code>binance</code>、<code>kraken-status</code> 全部 `SSL_ERROR_SYSCALL`。早间那轮“境外源全绿”的结论在午间不成立，代理节点出现波动，所以下面<strong>行情只用 Gate.io 的单点快照</strong>，不再与 CMC / CoinGecko 交叉验证；Kraken 状态页本轮也没能打开，早间“仍未 resolve”的结论沿用，不做新判断。</p>
+
+<details open>
+<summary><strong>行情：BTC 从早间 5.91 万续跌到 5.62 万，ETH -9.92%，恐惧贪婪仍是 12</strong> —— <span style="color:#c0392b;">Gate.io 快照，截至 12:06</span></summary>
+<p>Gate.io 现价：<strong>BTC $56,191.2（24h -9.25%，24h 高 $62,344.7 / 低 $55,850.3）</strong>、<strong>ETH $1,564.77（-9.92%）</strong>、<strong>SOL $66.07（-9.14%）</strong>；alternative.me 恐惧贪婪指数仍是 <strong>12（Extreme Fear）</strong>，与早间同一读数，没有继续下探。<br>和 06:32 那组数字对比：BTC $59,059（-4.9%）→ $56,191（-9.25%），约 5.5 小时又跌了 4.9%；ETH $1,621.87（-7.7%）→ $1,564.77（-9.92%）。<strong>这是价格与情绪的数字，不是结论，也不构成任何操作建议</strong>；没有 CoinGecko / CMC 的第二来源，涨跌幅只代表 Gate.io 单家口径，可能与其他交易所存在细微差异。<br>核实于 2026-11-21 12:06。</p>
+</details>
+
+<details open>
+<summary><strong>Epic 下周免费补上第二款：《火之石 – 放置点击英雄RPG》，与《Bread and Fred》同档 11-27 00:00</strong></summary>
+<p>午间重查官方 <code>freeGamesPromotions</code>（locale=zh-CN、country=CN）：本周在架仍是 <strong>《Mark of the Deep》</strong>，<code>discountPrice=0</code>，<code>startDate=2026-11-19T16:00:00Z</code>、<code>endDate=2026-11-26T16:00:00Z</code>，即<strong>北京时间 11-27 00:00 截止</strong>，与早间复核一致。<br>下周档 <code>upcomingPromotionalOffers</code> 里有两款 <code>discountPercentage=0</code>：<a href="https://store.epicgames.com/zh-CN/free-games">《火之石 – 放置点击英雄RPG》</a>（id <code>0623017cf9f341efbe07557f46beb4e8</code>）与 <a href="https://store.epicgames.com/zh-CN/free-games">《Bread and Fred》</a>（id <code>f0a333114190492c84a9decd2bb43875</code>），两者 <code>startDate</code> 都是 <code>2026-11-26T16:00:00Z</code>＝<strong>北京时间 11-27 00:00</strong>，到 <code>2026-12-03T16:00:00Z</code>。早间只写了 Bread and Fred，这一轮补上第一款。<br>同一次返回里还有一批“下周起的折扣”而不是 0 元：Eternal Threads -20%（11-27 16:00Z 起）、TerraScape -70%（<strong>11-21 16:00Z 起＝明天 00:00</strong>，至 12-21 16:00Z）、幽灵行者 2 -20% / LISA: Definitive Edition -55% / 纪念碑谷 -35% / Bread and Fred -40%（均为 12-10 16:00Z 起）。这些不是免费，单独列出以免和 0 元档混在一起。<br>核实于 2026-11-21 12:04。</p>
+</details>
+
+<details>
+<summary><strong>Steam 黑五 10 款复核：价格与截止全部一致，新增《极限竞速：地平线 6》-25%</strong></summary>
+<p>官方 <code>featuredcategories</code>（cc=cn、l=schinese）本轮一次返回 10 条 specials，没有再出现早间的并发超时。所有金额从“分”换算成人民币，<code>discount_expiration</code> 的 epoch 已换算成北京时间：</p>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">条目</th><th style="padding:6px 8px 6px 0;">原价 → 现价</th><th style="padding:6px 8px 6px 0;">折扣</th><th style="padding:6px 0;">截止（北京时间）</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">战地风云 5</td><td>¥228.00 → ¥11.40</td><td>-95%</td><td>12-04 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">Battlefield 1</td><td>¥198.00 → ¥9.90</td><td>-95%</td><td>12-04 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">FINAL FANTASY VII REBIRTH</td><td>¥248.00 → ¥37.20</td><td>-85%</td><td>12-03 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">FINAL FANTASY VII REMAKE INTERGRADE</td><td>¥198.00 → ¥35.64</td><td>-82%</td><td>12-03 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">双人成行</td><td>¥198.00 → ¥39.60</td><td>-80%</td><td>12-04 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">Marvel’s Spider-Man Remastered</td><td>¥414.00 → ¥165.60</td><td>-60%</td><td>12-02 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">极限竞速：地平线 5</td><td>¥198.00 → ¥79.20</td><td>-60%</td><td>12-04 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">Ghost of Tsushima 导演剪辑版</td><td>¥398.00 → ¥199.00</td><td>-50%</td><td>12-02 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">我带过的最差一届</td><td>¥28.00 → ¥18.20</td><td>-35%</td><td><span style="color:#c0392b;font-weight:700;">11-24 02:00</span></td></tr>
+<tr><td style="padding:8px 8px 8px 0;">极限竞速：地平线 6（本轮新增）</td><td>¥298.00 → ¥223.50</td><td>-25%</td><td>12-04 02:00</td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:10px 0 0;">早间已报的 9 款价格与截止逐条一致，未出现改价；《极限竞速：地平线 6》是新增条目，按“旧活动不重推、新条目补入”的口径放进来。<strong>最近到期点仍是 11-24 02:00 的《我带过的最差一届》</strong>，其余都在 12-02 之后。核实于 2026-11-21 12:04。</p>
+</details>
+
+<details>
+<summary><strong>HN 午间新增 4 条：一篇《Re: Riemann》读者评论、NINLIVE、Hera 小行星、冰岛网络攻击</strong></summary>
+<p>Algolia 前 25 条里，创建时间晚于早间截稿点（11-20 22:30Z＝北京 06:30）的新帖有 4 条：</p>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">条目</th><th style="padding:6px 8px 6px 0;">发布（北京）</th><th style="padding:6px 8px 6px 0;">分数</th><th style="padding:6px 0;">说明</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://borretti.me/article/re-riemann">Re: Riemann</a></td><td style="white-space:nowrap;">11-21 07:42</td><td>169</td><td>Fernando Borretti 的评论文章，11-21 发布；开篇直接引用 Alpöge 公告原文，讨论这次“与 Claude 合作”的证明表述。<strong>是读者视角的评论，不是独立验证</strong>，也没有给出新的数学证明。</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://ninlive.com/">NINLIVE: The Nine Inch Nails live archive</a></td><td style="white-space:nowrap;">11-21 06:30</td><td>161</td><td>Nine Inch Nails 现场录音档案站，页面标题与描述一致；卡在早间截稿点，午间才进榜。仅页面可达性核实。</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid">Sir Brian May adds new dimension to Hera asteroid</a></td><td style="white-space:nowrap;">11-21 07:19</td><td>54</td><td>ESA 官方文章标题，讲 Brian May 与 Hera 小行星任务；<strong>只核到标题与来源域名</strong>，没读正文细节。</td></tr>
+<tr><td style="padding:8px 8px 8px 0;"><a href="https://www.ruv.is/english/2026-11-20-serious-cyberattack-thought-backed-by-wealthy-operators-493411">Serious cyberattack thought backed by wealthy operators</a></td><td style="white-space:nowrap;">11-21 07:29</td><td>29</td><td>冰岛 RÚV 英文稿标题；<strong>未回原始通报核影响范围</strong>，只记录“HN 上出现了这条”。</td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:10px 0 0;">榜单前两名仍是早间已报的 Alpöge 黎曼猜想（2,433 分）与 Masullo 公告（1,712 分），分数继续上涨但内容没有变化，按“旧条目不重推”不重复展开。核实于 2026-11-21 12:03。</p>
+</details>
+
+<details>
+<summary><strong>GitHub Trending 12:05 快照：Agent Skills 与下载 / 剪辑工具占前排</strong></summary>
+<p>Trending 页面现抓 16 条，以下是今日增量最高的 10 条（star 增量来自页面 “stars today”，不是 API，避免早间的 403 限流）：</p>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">仓库</th><th style="padding:6px 8px 6px 0;">今日 +star</th><th style="padding:6px 8px 6px 0;">语言</th><th style="padding:6px 0;">页面描述（原文要点）</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">elementalsouls/Claude-BugHunter</td><td>1,622</td><td>Python</td><td>Claude Code 技能包：82 个 skills、15 个 slash commands，面向漏洞挖掘与外部红队</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">firecrawl/firecrawl</td><td>1,241</td><td>TypeScript</td><td>给 Agent 用的搜索 / 抓取基础设施，接入 550+ 数据源</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">XiaoYouChR/Ghost-Downloader-3</td><td>1,082</td><td>Python</td><td>“下载器的集大成者”</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">zhouxiaoka/autoclip</td><td>979</td><td>Python</td><td>开源 AI 视频剪辑桌面工具：长视频自动切短视频，生成字幕、封面与发布文案</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">obra/superpowers</td><td>890</td><td>Shell</td><td>Agentic skills 框架与软件开发方法论</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">mjmirza/app-store-compliance</td><td>869</td><td>Shell</td><td>App Store / Google Play 审核避坑手册与提审前检查</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">jingyaogong/minimind</td><td>847</td><td>Python</td><td>两小时从 0 训出 64M 大模型</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">HKUDS/CLI-Anything</td><td>773</td><td>Python</td><td>“Making ALL Software Agent-Native”，含 CLI-Hub</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">toeverything/AFFiNE</td><td>676</td><td>TypeScript</td><td>Notion + Miro 的开源替代</td></tr>
+<tr><td style="padding:8px 8px 8px 0;">cathrynlavery/diagram-design</td><td>636</td><td>HTML</td><td>给 Claude Code / Codex / Copilot / Cursor 等用的编辑级图表设计</td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:10px 0 0;">前 10 里 5 条与 Agent Skills / 编码工具有关（Claude-BugHunter、superpowers、CLI-Anything、diagram-design、stitch-skills），说明今天的 Trending 仍被“技能包”占住；其余是下载、剪辑、提审这类具体工具。只记录榜单与描述，<strong>本轮没有逐个 clone 评测</strong>。核实于 2026-11-21 12:05。</p>
+</details>
+
+<details>
+<summary><strong>IT之家 08:00–11:46：OpenAI 反蒸馏、混元 Hy4 AMA、Nvidia 热修复驱动</strong></summary>
+<p><strong>已读正文的两条</strong>：</p>
+<p><strong>① OpenAI 反蒸馏防护</strong>（IT之家 11-21 09:45）：OpenAI 当地时间 11-20 发布公告，称已加强 <strong>GPT-6.2 Astra 与 GPT-6.2 Sol</strong> 对内部推理思考链（CoT）的保护。内部自适应黑盒红队测试中，针对<strong>此前请求</strong>的推理内容提取成功率从 54.0% 降到 <strong>0.2%</strong>，针对<strong>当前请求</strong>从 22.9% 降到 <strong>0.9%</strong>，汇总了 6 个攻击模型。措施包括对抗训练、输入/输出分类器与 API 限制。<a href="https://www.ithome.com/1/030/319.htm">原文</a></p>
+<p><strong>② 腾讯混元姚顺雨团队 Hy4 AMA</strong>（IT之家 11-21 11:24）：11-21 凌晨在 Reddit 做了 120 分钟 AMA。团队称 Hy3 / Hy4 表明“做得扎实的小模型也能超过更大的模型”，成本更低；但 <strong>Hy4 仍有很大改进空间</strong>，重点在大规模强化学习与后训练，<strong>计划训练更大规模的模型</strong>；24B–31B 稠密模型“有可能、正在考虑”，100B 以下专做编程的模型“大概不会”。<a href="https://www.ithome.com/1/030/338.htm">原文</a></p>
+<p><strong>只取到标题、未读正文的条目</strong>（按站点口径记录，不做二次解读）：</p>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">时间（北京）</th><th style="padding:6px 8px 6px 0;">标题</th><th style="padding:6px 0;">为什么只算观察</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;white-space:nowrap;">10:55</td><td style="padding:8px 8px 8px 0;">英伟达发布 GeForce 621.35 热修复驱动，修复 SSD 后台异常写入问题</td><td style="padding:8px 0;">未回 Nvidia 发布说明核驱动版本与受影响型号</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;white-space:nowrap;">10:59</td><td style="padding:8px 8px 8px 0;">Win11 将推 AI 整理“下载”文件夹，授权后可查找 / 分类 / 移动 / 重命名</td><td style="padding:8px 0;">未核是 Insider 预览还是正式版，也未核是否默认开启</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;white-space:nowrap;">08:53</td><td style="padding:8px 8px 8px 0;">Anthropic 研究员预测 2027 年底 AI 在几乎所有领域超越顶尖专家</td><td style="padding:8px 0;">个人预测，非 Anthropic 官方立场；未读原访谈</td></tr>
+<tr><td style="padding:8px 8px 8px 0;white-space:nowrap;">10:09</td><td style="padding:8px 8px 8px 0;">华为 Mate X8 大折叠黑白双色亮相，11 月 24 日发布</td><td style="padding:8px 0;">与五条赛道无关的硬件发布，只记录时间点</td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:10px 0 0;">其余即时零售、世界杯转播权、车企与手机口水稿等 20 余条，与本雷达的五条赛道无关，计入 fetched 但不进正文。核实于 2026-11-21 12:06。</p>
+</details>
+
+<p><strong>午间结论</strong>：会过期的结论没有变化——最近到期点仍是 <strong>11-24 02:00</strong> 的 Steam《我带过的最差一届》-35%，Epic 本周 0 元仍是《Mark of the Deep》到 <strong>11-27 00:00</strong>；真正变化的是行情，BTC 午间跌到 <strong>$56,191（-9.25%）</strong>、ETH <strong>$1,564.77（-9.92%）</strong>，恐惧贪婪仍是 <strong>12</strong>。技术侧新增的两条硬信息是 OpenAI 把 GPT-6.2 Astra 的思路链提取率压到 0.2%，以及混元明确“Hy4 还会继续改、计划训练更大模型”。本轮 <code>errors=4</code>（CoinGecko / V2EX / Binance / Kraken 状态页均为 SSL 失败），所以价格只有 Gate.io 单来源，跨所一致性没有复核。</p>
