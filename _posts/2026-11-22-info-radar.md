@@ -5,7 +5,7 @@ date: 2026-11-22 00:10:00 +0800
 permalink: /posts/info-radar-2026-11-22/
 categories: [Info, Deals]
 tags: [资讯雷达, Epic限免, Steam黑五, 比特币, 黎曼猜想, GitHub趋势]
-description: "2026-11-22 当天唯一一篇（00:03–00:06 取数）：BTC 从 24 小时低点 55,123 反弹回 59,943.9（+1.59%），ETH 1,682.58（+3.06%），恐惧贪婪指数仍为 12；Epic《深渊之印》¥55→0 限免至 11-27 00:00，下周《Bread and Fred》¥47→0 接档；Steam 黑五 10 款全部经 featuredcategories 回读，战地风云 5 -95% 至 ¥11.40；HN 被广义黎曼猜想的三份手稿占住（Alpöge 2,779 分、Masullo 2,272 分、Tao 499 分），AI 抛售令纳指回吐 2026 年全部涨幅；GitHub Trending 由 Agent Skills 类仓库霸榜，Claude-BugHunter 单日 +1,794 star。"
+description: "2026-11-22 当天唯一一篇，含两轮取数：00:03–00:06 那轮 17 源（7 个异常，行情走 Gate.io 兜底），06:31–06:33 早间全量复核 25 源全绿、fetched=323 / fresh=137，BTC 快照 60,148（+1.9%）、恐惧贪婪 12。Epic《深渊之印》¥55→0 截止 11-27 00:00；Steam 黑五地平线 5 ¥198→¥79.20、地平线 6 ¥298→¥223.50，两款均经 appdetails?cc=cn 逐条核到国区价与 12-03 18:00 截止。复核新增 4 条 ⭐：GPGME CVE-2026-129975、Ghostscript CVE-2026-125396、C++26 行程报告、gopgext；🔥 0 条（本机实测 gpg/gs/convert/magick 未安装，Kraken 降级不涉及充提暂停）。iOS 限免 6 条全部只到观察，Apple 不公布截止时间。"
 ---
 
 这一轮取数在 2026-11-22 00:03–00:06（北京时间）完成：17 个来源里 10 个取到数据、7 个被代理通道或接口方挡住。`SUMMARY fetched=100 fresh=100 sources=17 errors=7`。异常集中在需要境外直连的行情接口：`binance`、`okx`、`coingecko` 全部超时，`v2ex` 与 HN 官方 Firebase 接口无响应，`36kr` 的 RSS 返回空条目、`techcrunch` 的 feed 为空；本轮行情改走 Gate.io，技术资讯改走 HN Algolia 镜像与 ITHome / Solidot / 少数派 RSS。**这是 2026-11-22 当天第一版；今天若再跑，只会在本文件内更新，不新增文件。**
@@ -179,6 +179,72 @@ description: "2026-11-22 当天唯一一篇（00:03–00:06 取数）：BTC 从 
 - **成功（10）**：Gate.io（6 个交易对）、alternative.me、Epic <code>freeGamesPromotions</code>、Steam <code>featuredcategories</code>、GitHub Trending、HN Algolia、ITHome RSS、Solidot RSS、少数派 RSS、Cointelegraph RSS。
 - **失败（7）**：Binance / OKX / CoinGecko（超时，未取到价格）、V2EX（接口无响应）、HN Firebase 官方接口（无响应）、36Kr RSS（返回空条目）、TechCrunch RSS（空 feed）。
 - **口径说明**：本轮的 Steam 价格只回读了 <code>featuredcategories</code> 一次，没有像上一轮那样逐款 <code>appdetails</code> 二次核对；Epic 的时间全部以接口返回的 UTC 时间换算，未做“提前/延后”的人为修正。凡是接口没有给出的数字（例如总 star、历史最低价），本文不补。
+
+<p style="margin:34px 0 6px;padding-top:16px;border-top:2px solid #e3e6ea;font-size:16px;font-weight:700;color:#1f2329;">06:30 早间全量复核（同日发布）</p>
+
+<p>这一轮在 2026-11-22 06:31–06:33（北京时间）按 info-task-gc 的标准 25 源口径重跑：<code>SUMMARY fetched=323 fresh=137 sources=25 errors=0</code>，境外源全部经本机代理成功。<strong>午夜档的 7 个异常源（binance / okx / coingecko / v2ex / HN 官方 Firebase 接口 / 36kr / techcrunch）本轮没有一个报 ERR</strong>，行情因此回到 CoinGecko 官方接口口径：BTC $60,148（24h +1.9%）、ETH $1,680.22（+3.7%）、BNB $547.99（+1.5%）、USDT $0.998499、USDC $0.999302，恐惧贪婪指数仍为 <strong>12（Extreme Fear）</strong>——与午夜档 Gate.io 的 59,943.9 同向，差别只来自取数时刻（快照 06:33，来源 CoinGecko）。<strong>需要立刻处理维持 0 条。</strong></p>
+
+<p><strong>新增「值得」四条（午夜档没有的一手材料）</strong>：</p>
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<thead>
+<tr style="border-bottom:1px solid #eef0f2;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:7px 6px;">条目</th><th style="padding:7px 6px;">一手核实到的事实</th><th style="padding:7px 6px;">直链与核实时间</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;">
+<td style="padding:7px 6px;">GPGME 2.3.1 修复 <strong>CVE-2026-129975</strong>（内部编号 T8557）</td>
+<td style="padding:7px 6px;">GnuPG 官方 announce（Werner Koch，2026-11-20 19:01 CET）原文：含特制超长 user id 的 OpenPGP 密钥触发 double free，可被用于从应用中外泄数据，"挂载 RCE 攻击不能排除"，官方措辞 <em>an immediate update is highly suggested</em>；漏洞由 Johan Carlsson 发现，GitLab 2026-11-12 通报，原定 11-25 协同披露、因 Ruby2Shell 事件提前到 11-20 公开。同批更新 Gpg4win / GnuPG Desktop / GnuPG VS-Desktop</td>
+<td style="padding:7px 6px;"><a href="https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html">gnupg-announce 000517</a> ｜ 核实于 2026-11-22 06:37</td>
+</tr>
+<tr style="border-bottom:1px solid #eef0f2;">
+<td style="padding:7px 6px;">Ghostscript Type 1 字体加载器 use-after-free，<strong>CVE-2026-125396</strong>（研究方称 Upload2Shell）</td>
+<td style="padding:7px 6px;">特制文档可越过 <code>-dSAFER</code> 沙箱、改写原生路径控制并以渲染进程身份执行命令；研究方列出打印 / 邮件 / 上传 / 预览链路下的受影响路径，并指出命名为 <code>.png</code> / <code>.jpg</code> 的文件仍可能经图片转换进到 Ghostscript。NVD 已收录（published 2026-11-10，<code>vulnStatus: Awaiting Analysis</code>）；<strong>Ghostscript 官方安全公告本轮未核到</strong>，修复版本以发行版与上游公告为准</td>
+<td style="padding:7px 6px;"><a href="https://pwn.ai/upload2shell">pwn.ai/upload2shell</a> ｜ 核实于 2026-11-22 06:38</td>
+</tr>
+<tr style="border-bottom:1px solid #eef0f2;">
+<td style="padding:7px 6px;">C++26 技术内容"再次"完成（11 月 ISO 会议出差报告）</td>
+<td style="padding:7px 6px;">3 月已完成的技术内容被重新打开后再次完成；六天会议主要用于处理第二批国际评审意见，焦点是 contracts 语言特性；下一步是把更新后的文本重新提交第二轮批准投票</td>
+<td style="padding:7px 6px;"><a href="https://herbsutter.com/2026-11-21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/">herbsutter.com</a> ｜ 核实于 2026-11-22 06:37</td>
+</tr>
+<tr>
+<td style="padding:7px 6px;">gopgext：用 Go 写 PostgreSQL 扩展</td>
+<td style="padding:7px 6px;">实验性框架，扩展点覆盖 FDW、索引方法（gin / gist / spgist / brin）、聚合、选择率钩子、触发器、共享内存、subscript、tablesample，带文档与示例；生产使用前先读它的 Limitations</td>
+<td style="padding:7px 6px;"><a href="https://jespino.github.io/gopgext/">jespino.github.io/gopgext</a> ｜ 核实于 2026-11-22 06:37</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>两条安全披露为什么没有升成紧急</strong>：2026-11-22 06:39 在本机实测 <code>gpg</code>、<code>gpgconf</code>、<code>gs</code>、<code>convert</code>、<code>magick</code> 五个命令<strong>全部未安装</strong>，"影响在用服务"这个成立条件不存在。换一台装了 GPGME 或 Ghostscript 的机器（尤其是跑图片转换与预览链路的服务器），这两条就应排在最前面。<strong>本雷达不代为升级、不代为执行任何操作。</strong></p>
+
+<p><strong>补做午夜档自己留的缺口（Steam 逐款二次核对）</strong>：午夜档在「取数与异常」一节写明那一轮只回读了一次 <code>featuredcategories</code>、没有逐款 <code>appdetails</code> 复核。本轮对两款《极限竞速：地平线》补齐——<a href="https://store.steampowered.com/app/1551360/?l=schinese">《极限竞速：地平线 5》</a> 国区 <span style="color:#1a7f37;">¥198.00 → ¥79.20（-60%）</span>、<a href="https://store.steampowered.com/app/2483190/?l=schinese">《极限竞速：地平线 6》</a> 国区 <span style="color:#1a7f37;">¥298.00 → ¥223.50（-25%）</span>，两者 <code>discount_expiration=1796320800</code> 即 <strong>2026-12-03 18:00（北京时间）</strong>收。核实于 2026-11-22 06:36。<em>顺带记一处通道现象：不带 <code>cc=cn</code> 时官方接口按出口 IP 返回日元价（本轮代理出口在日本），本篇与午夜档的人民币价都以 <code>cc=cn</code> 为准。</em></p>
+
+<p><strong>Epic 截止时间复核（与午夜档一致，不改）</strong>：06:38 回读官方 <code>freeGamesPromotions</code>，《深渊之印 / Mark of the Deep》<code>endDate=2026-11-26T16:00:00Z</code> ⇒ 北京时间 <strong>11-27 00:00</strong> 收，原价 ¥55.00、现价 0 元。同 id 此前已报道，本轮不重推，只留复查提示。</p>
+
+<p><strong>App Store iOS 限免（06:32 取数 + 逐条回 iTunes 按 id 核价）</strong>：6 条播报里没有一条能进「值得」——<a href="https://apps.apple.com/cn/app/castkeeper-for-podcasts/id6760909808">CastKeeper</a>、<a href="https://apps.apple.com/cn/app/id6824264781">阿默</a>、<a href="https://apps.apple.com/cn/app/id6502558762">提醒清单</a>三条核到国区下载价为 0，但都是<strong>内购限免</strong>（内购解锁价不体现在下载价上，只算转述），且核到 0 只能写"下载不花钱"、分不出本就免费与促销中；LifeCue（id 6801134535）与 Inventarioteca（id 6820461445）<strong>按 id 查不到上架记录 ⇒ 价格未核实</strong>；「浮现」是<strong>兑换码型</strong>，按边界不转载兑换码，只留<a href="https://t.me/TossTF/4002">频道原帖</a>由你自取。<strong>Apple 不公布限免截止时间</strong>，这几条都不补日期。</p>
+
+<p><strong>交易所与链上一手复查</strong>：Kraken 状态页 06:35 读 <code>status.json</code> / <code>components.json</code> / <code>incidents/unresolved.json</code>——仍为 <code>minor</code> / Partially Degraded Service（页面更新 11-21 21:54 UTC ≈ 北京 11-22 05:54），非运营组件 8 个：User Interface、Kraken Derivatives、Digital Currency Funding，以及 Cyber (CYBER)-Optimism、MemeCore-M BNB Chain、Osmosis、Stablr EURR、Stablr USDR；未解决事件 "Cyber (CYBER) Funding Delays"（11-21 19:59 UTC 起，identified，impact minor）原文为 "Deposits may be delayed…All other funding methods are operating normally"。Coinbase 同期 <code>none</code> / All Systems Operational。<a href="https://status.kraken.com">状态页</a> ｜ 降级项里没有充提暂停，且没有在用 Kraken 的证据 ⇒ 维持观察。</p>
+
+<p><strong>Chainflip 被盗的一手核对（本轮最实质的一次降级判断）</strong>：中英文媒体 11-21 均报"金库被抽走约 $4.86M、FLIP 跌 30~34%、协议进入全面安全模式并暂停所有操作"（<a href="https://www.theblock.co/news/defi/2026-11-21-chainflips-flip-drops-34-after-attacker-drains-4-86-million-from-vault-with-suspected-key-compromise-444804">The Block</a> ／ <a href="https://www.coindesk.com/business/2026-11-21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain">CoinDesk</a> ／ <a href="https://www.panewslab.com/zh/articles/01a1fed7-9ee1-7480-b8d3-c5b72dff8a12">PANews</a>）。06:37 回到项目方一手页 <code>chainflip.io/blog</code>：<strong>最新公告只到 11-18（Coinbase cbBTC 上线），没有任何 11-21 事件的说明</strong>；GitHub org advisory 接口返回 404，X 没有机器可读通道。按"安全事件只认项目方 advisory / 官方博客 / 交易所公告三方"的口径，这条<strong>维持观察、不升紧急</strong>；若你在用 FLIP 或该协议，只按官方公告撤销授权，不自行发挥。同类的还有 Upbit / Bithumb 冻结转账一说（仅 The Block 单家转述，未见两所一手公告）。</p>
+
+<p><strong>新增「观察」条目与不升级的理由</strong>：</p>
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 6px;width:34%;"><a href="https://lowendbox.com/blog/a-little-more-room-before-black-friday-100-giveaway-4gb-ryzen-i9-vps/">ServerHost 4GB Ryzen/i9 VPS</a></td><td style="padding:7px 6px;">$55 USD/年（年付），优惠码 <code>OCTRYZI94GB</code>，06:35 读到原文数字</td><td style="padding:7px 6px;"><strong>帖内未给该套餐的截止时间</strong>，按发布门槛"优惠必须有截止时间"不能进值得；厂商为 LowEndBox 广告主，未独立核服务商官网</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 6px;">同帖 $100 店铺余额抽奖</td><td style="padding:7px 6px;">最后参与日 <strong>11-25（周三）</strong>，方式是在 LowEndTalk 回帖</td><td style="padding:7px 6px;">抽奖型收益不确定 + 需要论坛账号 ⇒ 门槛高</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 6px;">v2ex 黑五两条（Enconvo"7 折 + 送 10 个终身版"、哈基米"到 26 号半价"）</td><td style="padding:7px 6px;">论坛内厂商自我推广帖与用户转述</td><td style="padding:7px 6px;">无官方定价页核实 ⇒ 软文与转述，未核实</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 6px;"><a href="https://www.idcspy.com/170746.html">RakSmart VPS 升降级操作步骤</a></td><td style="padding:7px 6px;">美国主机侦探的使用教程</td><td style="padding:7px 6px;">不是优惠：帖内无价格与截止时间</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 6px;">链上大额转移（PANews 三条）</td><td style="padding:7px 6px;">称 Tether 向未知钱包转约 1.43 亿 USDT、向 Bitfinex 转入 1.25 亿 USDT；Kraken 转出 1214 枚 BTC</td><td style="padding:7px 6px;">无一手链上标签说明 ⇒ 不作任何方向判断</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 6px;">Kalshi 纽约周一听证</td><td style="padding:7px 6px;"><a href="https://www.theblock.co/news/regulation/2026-11-21-kalshi-faces-monday-hearing-on-new-york-order-it-says-would-shut-down-its-exchange-nationwide-444813">The Block</a> / <a href="https://www.coindesk.com/policy/2026-11-20/kalshi-races-to-get-ahead-of-new-york-order-that-could-shut-down-exchange">CoinDesk</a> 两条</td><td style="padding:7px 6px;">未取到纽约监管原文 ⇒ 未核实</td></tr>
+<tr><td style="padding:7px 6px;">"比特币节点可被重复同一个 ID 五万次拖慢"（<a href="https://www.coindesk.com/markets/2026-11-21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug">CoinDesk</a>）</td><td style="padding:7px 6px;">与 GPGME 公告里"超长 ID 触发缺陷"属同类报道</td><td style="padding:7px 6px;">未核到比特币核心官方安全说明（<code>bitcoincore.org/en/security/</code> 直取 404、<code>bitcoin/bitcoin</code> 的 GH advisory 接口 404）⇒ 未核实</td></tr>
+</tbody>
+</table>
+
+<p><strong>被过滤、未写进任何段落的一条</strong>：PANews 的"币安 Alpha 上线 STBL，开放 1675 枚空投领取"——要求连接钱包才能领取的形态按边界属 ❌ 过滤，不转载、不评价。本轮币圈共 50 条（新闻 26 / 行情 23 / 交易所状态 1），行情、涨跌幅、热搜与情绪指数一律落在观察：它们是数字不是信息，<strong>不构成任何操作建议，也不预测价格</strong>；产物里不出现钱包地址、私钥、助记词与带推广参数的邀请链接。</p>
+
+<p><strong>早间这轮 25 源健康度</strong>：hackernews 17、ithome 25、lobsters 11、v2ex 10、producthunt 14、panews 15、coindesk 7、theblock 4、coingecko 趋势 10、coingecko 市值异动 6、cmc 热搜 6、fng 1、appstore-ios 6、lowendbox 1、idcspy 1、steam 2、exchange-status 1；epic / appinn / binance / 阮一峰 / GitHub Trending / 项目方一手等抓到但被 <code>--days 2</code> 或 <code>history.jsonl</code> 去重为 0 新条，<code>SUMMARY</code> 未出现任何 <code>ERR source=</code>。<strong>合计 0 异常，代理节点无故障形态。</strong></p>
+
+<p style="font-size:12px;color:#8a9099;">早间复核补充的兑现边界同上：只收集、核实、报告，不注册、不绑卡、不代领券、不下单，币圈不连钱包、不签名、不代为充提。本地存档 <code>~/aigc/info-radar/daily/2026-11-22.md</code>（六段结构，含早间这轮的完整分级）。</p>
 
 ## 免责声明
 
