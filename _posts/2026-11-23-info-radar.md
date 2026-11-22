@@ -178,4 +178,53 @@ description: "2026-11-23 当天唯一一篇：本轮 25 个来源取回 174 条�
 <p style="font-size:12.5px;color:#6b7280;margin:10px 0 0;">取数窗口：2026-11-23 00:10–00:22（北京时间）。价格口径：Steam 为 <code>appdetails?cc=cn&amp;l=schinese</code> 的 <code>initial / final / discount_percent</code>；Epic 为 <code>freeGamesPromotions?locale=zh-CN&amp;country=CN</code> 的 <code>originalPrice / discountPrice / endDate</code>；行情为 Gate.io <code>/spot/tickers</code> 00:22 快照，情绪指数来自 alternative.me。本站只做信息聚合与核实，不代注册、不绑卡、不代领券、不下单；币圈不连钱包、不签名、不代为充提，不提供买卖建议或目标价。</p>
 </details>
 
+
+<p style="margin:34px 0 6px;padding-top:16px;border-top:2px solid #e3e6ea;font-size:16px;font-weight:700;color:#1f2329;">06:30 早间全量复核（同日发布）</p>
+
+<p>这一轮在 2026-11-23 06:30:19–06:31:10（北京时间）按 info-task-gc 的标准 25 源口径重跑：<code>SUMMARY fetched=318 fresh=134 sources=25 errors=0</code>，一轮约 51 秒。<strong>午夜档报 <code>URLError</code> 的 11 个源（binance / exstatus / coingecko / cgmarkets / cmc / ethblog / creleases / coindesk / v2ex / hf / appstore）本轮没有一个再失败</strong>，代理通道已恢复正常，行情因此从午夜档的 Gate.io 补位口径回到 CoinGecko 官方接口：06:31 快照 BTC $60,693（+0.8%）、ETH $1,710.31（+1.7%）、BNB $554.59（+1.1%）、USDT $0.998462、USDC $0.999165，恐惧贪婪指数 <strong>11（Extreme Fear）</strong>，与午夜档 00:22 的 61,146.8 相差约 0.7%，差别只来自取数时刻。<strong>需要立刻处理维持 0 条</strong>：最近一个硬截止仍是《我带过的最差一届》11-24 02:00（剩约 19 小时）。</p>
+
+<p><strong>把午夜档的一处「未核实」做实了</strong>：午夜档在「取数与异常」里写《The Escapists 2 - Game of the Year Edition》因 <code>appdetails</code> 未返回该包体、价格未能二次核实，已移出「值得」。本轮查清了根因——<code>featuredcategories</code> 里这条的 <code>type=1</code>，它是<strong>订阅包（subscription）不是 app</strong>，用 <code>appdetails?appids=1066581</code> 去核本来就用错接口（实测确实返回 <code>success:false</code>）。同一份官方接口给全了三个字段：<code>original_price=11999</code>、<code>final_price=1199</code>、<code>discount_percent=90</code>、<code>discount_expiration=1796493600</code>。<strong>结论：国区 ¥119.99 → ¥11.99（-90%），2026-12-06 02:00（北京时间）收</strong>，直链应指 <a href="https://store.steampowered.com/sub/1066581/?l=schinese">/sub/1066581</a>（实测 200），而不是雷达原始输出里那个 <a href="https://store.steampowered.com/app/1066581/?l=schinese">/app/1066581</a>（实测 302）。核实于 2026-11-23 06:33。<em>顺带一条待改的脚本口径：取数层对 <code>type=1</code> 的条目仍按 <code>/app/&lt;id&gt;/</code> 拼链接，会让订阅包类折扣给出错链。</em></p>
+
+<p><strong>本轮新增「值得」两条（均为一手原文）</strong>：</p>
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<thead>
+<tr style="border-bottom:1px solid #eef0f2;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:7px 6px;">条目</th><th style="padding:7px 6px;">一手核实到的事实</th><th style="padding:7px 6px;">直链与核实时间</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;">
+<td style="padding:7px 6px;">GitHub Actions 接受非法 YAML</td>
+<td style="padding:10px 8px;">作者实测：Actions 会接受若干违反 YAML 规范的写法（典型案例是 <code>with:</code> 下用多行流式字符串塞 JSON），结果是<strong>用严格符合规范的 YAML 解析器反而读不了真实世界的 workflow / action 定义</strong>；这与 <code>zizmor#1116</code> 那个拖了一年半的问题同源。对拿 Actions 做部署的项目（包括本站）是自查入口：写审计与校验脚本时不能假设输入一定是合法 YAML</td>
+<td style="padding:7px 6px;"><a href="https://yossarian.net/til/post/github-actions-accepts-invalid-yaml/">yossarian.net TIL</a> ｜ 核实于 2026-11-23 06:38</td>
+</tr>
+<tr>
+<td style="padding:7px 6px;">OpenAI《Perplexity and Intelligence》</td>
+<td style="padding:10px 8px;">首席科学家 Jakub Pachocki 于 2026-11-22 发布：主张把<strong>困惑度 / 交叉熵损失</strong>确立为跨模型厂商可横向比较的指标，作为共享安全标准的基础，论点是当代 AI 的进展主要来自「在超大语料上训练压缩器」这一个过程，而不是各家具体的技术路线。做模型评测与 Agent 方向的读者，这是一手立场文而非媒体转述</td>
+<td style="padding:7px 6px;"><a href="https://openai.com/index/perplexity-and-intelligence/">openai.com/index/perplexity-and-intelligence</a> ｜ 核实于 2026-11-23 06:38</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>午夜档两条「未核实」复查后维持原级，不升级</strong>：<a href="https://lowendbox.com/blog/racknerd-black-friday-2026-the-takeover-is-live-adminbolt-hosting-ctrl-and-hundreds-of-giveaways/">RackNerd 黑五</a> 这轮回到商家官网 <a href="https://www.racknerd.com/BlackFriday/">racknerd.com/BlackFriday/</a> 逐档读到 KVM VPS $15.98/年、AdminBolt Shared $9.49/年、Reseller $29.88/年、Dedicated $64/月，FAQ 原文 <em>These RackNerd VPS specials are lifetime recurring. You can renew at the same rate for as long as you keep the service</em>——价格与续费同价都做实了，<strong>但官方页不公布活动截止时间</strong>（页面上「Complete your order within: 00 Days : 05 Minutes : 52 Seconds」是购物车保留倒计时，抽奖另有 12-11 / 12-30 Pacific 两个节点，都不是套餐截止）。按发布门槛「优惠必须有截止时间」，这条只能留在观察，<strong>不为过门槛编日期</strong>。Ghostscript「Upload2Shell」（CVE-2026-125396）与 Herb Sutter 的 C++26 出差报告在 11-22 早间档已作为一手材料报道过，本轮按「换 URL 重推即旧闻」判定<strong>不重推</strong>；06:35 复核原文仍在、结论未变，本机 <code>gs</code> / <code>convert</code> / <code>magick</code> / <code>gpg</code> 仍未安装。</p>
+
+<p><strong>App Store 限免层（午夜档整源失败，本轮恢复）</strong>：新增播报只有 2 条，<strong>都没有核到价格，全留观察</strong>。「浮现」（<a href="https://t.me/TossTF/4007">t.me/TossTF/4007</a>）是<strong>兑换码型限免</strong>，按边界不转载兑换码，只留原帖由你自取；「Simple URL」（<a href="https://t.me/TossTF/4008">t.me/TossTF/4008</a>）的播报正文里没有 App Store 直链，<strong>拿不到 <code>trackId</code> 就无法回 iTunes 核价</strong>——这里不用 app 名去搜索凑数，国区会改名，按名字匹配会把别人的免费价安到这条上。<strong>Apple 不公布限免截止时间</strong>，两条都不补日期。</p>
+
+<p><strong>交易所与链上一手复查</strong>：Kraken <a href="https://status.kraken.com/api/v2/status.json">官方 Statuspage</a> 06:37 读 <code>status.json</code>（页面更新 2026-11-22T20:56Z ≈ 北京 11-23 04:56）与 <code>incidents/unresolved.json</code>——仍为 <code>minor</code> / Partially Degraded Service，未解决事件 4 条全部 impact=minor：Cyber (CYBER)-Optimism 入金延迟（11-21 19:59Z 起，identified）、Osmosis (OSMO) 入金延迟（11-14 起，investigating）、MemeCore (M) 充值关闭（8-19 起）、Stablr USDR/EURR 停止（5-24 起）。<strong>降级项里没有主流资产充提暂停</strong>，Coinbase 同期 <code>none</code> / All Systems Operational；本雷达不掌握你在哪家交易所有什么资产，所以维持观察。安全类两条同样维持：Fusionist (ACE) 跨链桥被利用、攻击者铸造超 6 万亿枚 ACE（PANews 两条 + CMC 热搜第 2）——06:39 试回一手，<code>fusionist.io</code> 首页 200 但无公告位、<code>/blog</code> 返回 404、X 没有机器可读通道 ⇒ <strong>未核到一手</strong>；Chainflip 损失增至约 $1,200 万、披露 122.9 BTC 被盗并开 10% 赏金（The Block / PANews）——06:39 回 <code>chainflip.io/blog</code>，Knowledge hub 最新仍只到 11-18 的 cbBTC 上线 ⇒ 与 11-22、午夜档同一结论。若你持有 ACE / FLIP，只按项目方公告处置，本雷达不代为操作、不给买卖建议。</p>
+
+<p><strong>本轮新增「观察」条目与不升级的理由</strong>：</p>
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 6px;width:34%;"><a href="https://store.steampowered.com/app/2292800/?l=schinese">Steam《铁匠大师 / Blacksmith Master》首发 5 折</a></td><td style="padding:7px 6px;">06:36 <code>appdetails?cc=cn</code> 核到 ¥59.00 → ¥29.50（-50%）</td><td style="padding:7px 6px;"><strong><code>price_overview</code> 不返回 <code>expiration</code></strong> ⇒ 缺截止时间，不能进值得</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 6px;">罗技 MX Master 3S Lite 699 → 278 元「政府补贴大破价」；iPhone Duo 百亿补贴 14499 元起（IT之家 11-22 两条）</td><td style="padding:7px 6px;">资讯源转述的到手价</td><td style="padding:7px 6px;">未回电商与品牌官方页核到手价、补贴门槛与截止时间 ⇒ 未核实</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 6px;">v2ex 黑五两条（Google 黑五 1 年 $100 与 App 内 $15/3 个月能否叠加；Gemini 黑五订阅流程）</td><td style="padding:7px 6px;">论坛用户实测帖</td><td style="padding:7px 6px;">报价要登录后才可见，无官方页核实 ⇒ 门槛高、未核实</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 6px;">Ars Technica「研究者在 AI 供应链种了 200 万枚 canary，暴露二级数据外泄」（Lobsters 11-21）</td><td style="padding:7px 6px;">06:36 取原文</td><td style="padding:7px 6px;">直连与代理均返回 <strong>403</strong>，本轮未完成一手复核 ⇒ 未核实</td></tr>
+<tr><td style="padding:7px 6px;"><a href="https://www.idcspy.com/170756.html">LinkFox 接入 WorkBuddy（跨境电商调研、选品与图片视频生成）</a></td><td style="padding:7px 6px;">美国主机侦探 11-22 帖</td><td style="padding:7px 6px;">产品接入新闻，帖内无价格与截止 ⇒ 不是优惠，不进值得</td></tr>
+</tbody>
+</table>
+
+<p><strong>行情与热度只作快照</strong>：06:31 CoinGecko 市值榜 24h 绝对波动 ≥8% 的五款——Rain -11.8%、Bitway +10.4%、Pieverse +9.4%、Midnight +9.3%、Pump.fun +9.0%；CoinGecko 热搜含 Wanted Star +19.8%、Popo The Turtle +51.5%、Venice Token +9.1% 等 10 条，CMC 搜索榜前六为 Pieverse、Fusionist、Midnight、EVAA、DGrid AI、Momentum。这些是数字不是信息，一律落观察，不构成任何操作建议。</p>
+
+<p><strong>口径照旧四步</strong>：取数（25 源，NDJSON 归一化，跨轮 <code>history.jsonl</code> 去重）→ 验真（价格与截止回官方接口或原文，核不到就降观察并写「未核实」）→ 分级（🔥 / ⭐ / 👀 / ❌，宁严勿松）→ 落点（本地存档 + 本篇 Pages 稿）。边界：只收集与报告，不注册、不绑卡、不代领券、不下单；iOS 兑换码型不转载兑换码；币圈不连钱包、不签名、不导私钥、不代充代提，不写买卖建议与目标价，产物内不出现钱包地址与带邀请返利参数的链接。</p>
+
 <p style="margin:28px 0 0;font-size:14px;color:#4b5158;">本文所有价格、折扣与截止时间均来自 2026-11-23 00:10–00:24 的接口实际返回，价格随时可能变动，领取与下单前请以官方页面为准。数学与安全部分请注意“预印本 / 未经同行评审”“研究方披露、官方公告未核到”的前提。</p>
