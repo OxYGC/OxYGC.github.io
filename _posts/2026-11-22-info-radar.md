@@ -5,7 +5,7 @@ date: 2026-11-22 00:10:00 +0800
 permalink: /posts/info-radar-2026-11-22/
 categories: [Info, Deals]
 tags: [资讯雷达, Epic限免, Steam黑五, 比特币, 黎曼猜想, GitHub趋势]
-description: "2026-11-22 当天唯一一篇，含两轮取数：00:03–00:06 那轮 17 源（7 个异常，行情走 Gate.io 兜底），06:31–06:33 早间全量复核 25 源全绿、fetched=323 / fresh=137，BTC 快照 60,148（+1.9%）、恐惧贪婪 12。Epic《深渊之印》¥55→0 截止 11-27 00:00；Steam 黑五地平线 5 ¥198→¥79.20、地平线 6 ¥298→¥223.50，两款均经 appdetails?cc=cn 逐条核到国区价与 12-03 18:00 截止。复核新增 4 条 ⭐：GPGME CVE-2026-129975、Ghostscript CVE-2026-125396、C++26 行程报告、gopgext；🔥 0 条（本机实测 gpg/gs/convert/magick 未安装，Kraken 降级不涉及充提暂停）。iOS 限免 6 条全部只到观察，Apple 不公布截止时间。"
+description: "2026-11-22 当天唯一一篇，含三轮取数：00:03–00:06（17 源、7 个异常）、06:31–06:33（25 源全绿、fetched=323 / fresh=137）、12:04–12:07（27 源、9 个异常、fetched=440 / fresh=224）。午间 BTC 59,508（+6.94%）、ETH 1,665.24（+7.89%），Gate.io 与 Binance 双源交叉；恐惧贪婪从 12 降到 11，出现“反弹但情绪恶化”的背离。Epic《深渊之印》¥55→0 截止 11-27 00:00；Steam 战地风云 5 -95% ¥11.40、双人成行 -80% ¥39.60，最近截止《我带过的最差一届》11-24 02:00。午间新增 Steam《红色沙漠：增强版》-20%、EA SPORTS FC 27 -50%。安全面：本轮实机为 GPGME 1.18.0、Ghostscript 10.02.1、ImageMagick 6.9.12-98，早间“本机未装 gpg/gs/convert”的结论需按环境区分——GPGME 不适用 CVE-2026-129975，但 Ghostscript 的 Upload2Shell 成立条件在本机存在。"
 ---
 
 这一轮取数在 2026-11-22 00:03–00:06（北京时间）完成：17 个来源里 10 个取到数据、7 个被代理通道或接口方挡住。`SUMMARY fetched=100 fresh=100 sources=17 errors=7`。异常集中在需要境外直连的行情接口：`binance`、`okx`、`coingecko` 全部超时，`v2ex` 与 HN 官方 Firebase 接口无响应，`36kr` 的 RSS 返回空条目、`techcrunch` 的 feed 为空；本轮行情改走 Gate.io，技术资讯改走 HN Algolia 镜像与 ITHome / Solidot / 少数派 RSS。**这是 2026-11-22 当天第一版；今天若再跑，只会在本文件内更新，不新增文件。**
@@ -246,6 +246,67 @@ description: "2026-11-22 当天唯一一篇，含两轮取数：00:03–00:06 �
 
 <p style="font-size:12px;color:#8a9099;">早间复核补充的兑现边界同上：只收集、核实、报告，不注册、不绑卡、不代领券、不下单，币圈不连钱包、不签名、不代为充提。本地存档 <code>~/aigc/info-radar/daily/2026-11-22.md</code>（六段结构，含早间这轮的完整分级）。</p>
 
+<p style="margin:34px 0 6px;padding-top:16px;border-top:2px solid #e3e6ea;font-size:16px;font-weight:700;color:#1f2329;">12:05 午间复核（同日发布）</p>
+
+<p>这一轮在 2026-11-22 12:04–12:07（北京时间）按同一套口径重跑：<code>SUMMARY fetched=440 fresh=224 sources=27 errors=9</code>。取到数据的 18 个源包括 HN 首页 30 条与按时间 60 条、Steam 60 条（特惠 / 热销 / 新品 / 即将发售）、Epic 12 条、GitHub Trending 16 条、ITHome 60 条、Solidot 20 条、少数派 10 条、小众软件 10 条、Lobsters 25 条、Product Hunt 50 条、The Block 20 条、TechCrunch 20 条、LowEndBox 20 条、IDCSpy 10 条、阮一峰 3 条，以及 Gate.io 与 Binance 的 6 个交易对、alternative.me 恐惧贪婪 2 条。失败的 9 个源里，CoinGecko / OKX / Kraken 状态页 / Coinbase 状态页 / V2EX / CoinDesk RSS / CoinMarketCap 是握手被出口阻断；PANews 与 36Kr 返回的是 HTML 而不是 feed（36Kr 仍是空条目）。<strong>本轮不重复早间已核过的结论，只写“相对 06:30 有变化的部分”。</strong></p>
+
+<p><strong>一句话结论：价格在涨，情绪在跌。</strong> BTC 从早间的 60,148 回落到 59,508，但 24 小时涨幅仍有 <strong>+6.94%</strong>；ETH +7.89%、SOL +6.52%、BNB +6.12%、XRP +5.95%、DOGE +6.56%，六个主流币全部上涨。与此同时 alternative.me 恐惧贪婪指数从 12 降到 <strong>11（Extreme Fear）</strong>，是今天第一次出现“反弹 + 情绪恶化”的背离。Gate.io 与 Binance 两个独立接口的读数差都在 0.15% 以内，说明这不是单一交易所的报价问题。</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">资产</th><th style="padding:6px 8px 6px 0;width:18%;">Gate.io（12:05）</th><th style="padding:6px 8px 6px 0;width:16%;">24h 涨跌</th><th style="padding:6px 0 6px 0;width:24%;">Binance 交叉（12:06）</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">BTC</td><td style="padding:8px 8px 8px 0;font-weight:700;">59,508</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">+6.94%</td><td style="padding:8px 0;">59,491.26（+6.68%）</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">ETH</td><td style="padding:8px 8px 8px 0;font-weight:700;">1,665.24</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">+7.89%</td><td style="padding:8px 0;">1,665.60（+7.91%）</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">SOL</td><td style="padding:8px 8px 8px 0;font-weight:700;">69.55</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">+6.52%</td><td style="padding:8px 0;">69.64（+6.53%）</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">BNB</td><td style="padding:8px 8px 8px 0;font-weight:700;">542.3</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">+6.12%</td><td style="padding:8px 0;">542.44（+6.03%）</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;">XRP</td><td style="padding:8px 8px 8px 0;font-weight:700;">0.9200</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">+5.95%</td><td style="padding:8px 0;">0.9213（+5.67%）</td></tr>
+<tr><td style="padding:8px 8px 8px 0;">DOGE</td><td style="padding:8px 8px 8px 0;font-weight:700;">0.05437</td><td style="padding:8px 8px 8px 0;color:#1a7f37;font-weight:700;">+6.56%</td><td style="padding:8px 0;">0.05444（+6.41%）</td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:8px 0 20px;">Gate.io <code>api/v4/spot/tickers</code> 与 Binance <code>data-api.binance.vision</code> 同一分钟各取一次；BTC 24h 区间 55,123–60,989.5（Gate）／55,130–60,996（Binance）。恐惧贪婪 11，数据时间 2026-11-22 08:00（北京时间）。</p>
+
+<p><strong>相对 06:30 新增的六条（按核实时间排序）</strong>：</p>
+<ol>
+<li><strong>黎曼猜想进入“形式化核验”阶段，但仍不是“已证明”</strong>：HN 首页第二条是 Lean 社区博客《Lean verification of the Riemann Hypothesis》（897 分、754 评论，11-21 22:36），MIT 数学系页面同时上线《Verification files for the Lean proof of the Riemann Hypothesis》（106 分，11-21 23:54）；ITHome 11:31 的标题仍带问号——“Anthropic 数学家 AI 攻克黎曼猜想？Lean 社区通过核验，数十人报告代码库编译正确”。<strong>Lean 编译通过只说明代码与所陈述的命题一致，不等于命题就是黎曼猜想、也不等于证明没有未声明公理</strong>；早间“手稿、未经同行评审”的前提不变。</li>
+<li><strong>胰腺癌药物 daraxonrasib 的 3 期结果上了 HN 头条</strong>：Guardian 报道《Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'》（763 分，11-21 05:03）。这是媒体转述研究者措辞；本轮没有核到论文原文与完整数据，按“先记录、不背书”处理。</li>
+<li><strong>Inkling-2-Mini 已被社区压到 5.4GB 内存运行</strong>：HN 条目《Inkling-2 Mini in 5.4 GB Memory》（386 分，11-22 02:02），指向一个 GitHub 实现仓库。早间只记录了官方发布，本轮补到工程侧证据；仍未核到独立 benchmark 与量化损失。</li>
+<li><strong>OpenRouter 通报推理供应商的数据处理事件</strong>：官方博客《Data Processing Incidents on Inference Providers》（42 分，11-22 10:14）。只记录“已通报”这一事实；受影响范围与处置需读原文，本轮不转述。</li>
+<li><strong>国内侧密集更新</strong>：有爆料称华为 Mate 80 系列终端销量破 1,000 万台、标准版占比近 58%（ITHome 11:56，原文用“曝”）；韩国高考 AI 作弊事件发酵、教育部长引咎辞职（11:21）；《我的世界》PC 版国区价格 110.99 元 → 76.99 元（11:19，<strong>属于永久调价，不是限时优惠</strong>）；特斯拉 FSD v15 可视化 UI 引热议（11:12）；部分 PS5 玩家反馈《GTA6》CE-108255-1 崩溃（11:07）；少数派 09:05 发布《从深圳到上海，少数派的共创故事还在继续》。</li>
+<li><strong>海外科技与加密</strong>：Signal 限制移动端截图以应对 AI 监控（TechCrunch 11-21 21:37）；Bending Spoons 以 36.8 亿美元收购 Mailchimp（11-21 16:16）；特朗普称 FBI 数据库被黑“not good”（11-21 18:44）。The Block 侧：Cyber 跨链桥疑似 100 万美元被盗、Upbit 与 Bithumb 冻结转账（11-21 18:51）；Kalshi 周一纽约听证（11-21 21:17）；Chainflip 4.86M 事件项目方仍无公告，维持观察；美国现货 BTC ETF 单日净流出 5.82 亿美元（11-20 12:29）。</li>
+</ol>
+
+<p><strong>优惠复核：Steam 10 条特惠逐一回读，结论与早间一致，另补两条</strong>：新增《红色沙漠：增强版》-20%，¥268 → ¥214.40，<strong>11-30 16:00 收</strong>；《EA SPORTS FC 27》-50%，¥248 → ¥124.00，<strong>12-04 02:00 收</strong>（在热销榜第 6，不在特惠榜 10 条内）。其余维持：战地风云 5 -95% ¥11.40、双人成行 -80% ¥39.60、地平线 5 -60% ¥79.20、地平线 6 -25% ¥223.50、FF7 重制版 -82% ¥35.64、FF7 重生 -85% ¥37.20、蜘蛛侠 重制版 -60% ¥165.60、对马岛 -50% ¥199.00；<strong>最近截止仍是《我带过的最差一届》11-24 02:00（¥18.20）</strong>。</p>
+
+<p><strong>Epic 侧</strong>：《深渊之印 / Mark of the Deep》0 元维持到 <strong>11-27 00:00</strong>；《TerraScape》-70%，¥53.00 → ¥37.10，窗口到 <strong>12-22 00:00</strong>；下周《Bread and Fred》0 元仍是 11-27 00:00 至 12-04 00:00。本轮新读到《Eternal Threads》11-28 00:00–12-01 23:00 打 8 折（接口原价 ¥62.00，按折扣推算 ¥49.60，<em>未逐项回读结算价</em>），以及 12-10 起的第二波预定：纪念碑谷 -35%、LISA: Definitive Edition -55%、幽灵行者 2 -20%。</p>
+
+<p><strong>GitHub Trending 12:05 复读：头部 10 个仓库的“今日 star”12 小时只变化个位数</strong>，说明该字段是滚动窗口而不是严格自然日增量，真正的换手来自新进榜的 6 个仓库：</p>
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;width:40%;">仓库</th><th style="padding:6px 8px 6px 0;width:14%;">今日 star</th><th style="padding:6px 8px 6px 0;width:14%;">对比 00:04</th><th style="padding:6px 0;width:14%;">语言</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/elementalsouls/Claude-BugHunter">elementalsouls/Claude-BugHunter</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+1,803</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+9</td><td style="padding:7px 0;">Python</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+1,006</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+7</td><td style="padding:7px 0;">TypeScript</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/obra/superpowers">obra/superpowers</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+883</td><td style="padding:7px 8px 7px 0;color:#c0392b;">-1</td><td style="padding:7px 0;">Shell</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/XiaoYouChR/Ghost-Downloader-3">XiaoYouChR/Ghost-Downloader-3</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+779</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+5</td><td style="padding:7px 0;">Python</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/HKUDS/CLI-Anything">HKUDS/CLI-Anything</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+769</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+2</td><td style="padding:7px 0;">Python</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/mjmirza/app-store-compliance">mjmirza/app-store-compliance</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+720</td><td style="padding:7px 8px 7px 0;color:#c0392b;">-4</td><td style="padding:7px 0;">Shell</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/zhouxiaoka/autoclip">zhouxiaoka/autoclip</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+683</td><td style="padding:7px 8px 7px 0;color:#c0392b;">-6</td><td style="padding:7px 0;">Python</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/cathrynlavery/diagram-design">cathrynlavery/diagram-design</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+583</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+1</td><td style="padding:7px 0;">HTML</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/toeverything/AFFiNE">toeverything/AFFiNE</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+574</td><td style="padding:7px 8px 7px 0;color:#c0392b;">-3</td><td style="padding:7px 0;">TypeScript</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/mvanhorn/last30days-skill">mvanhorn/last30days-skill</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+560</td><td style="padding:7px 8px 7px 0;color:#c0392b;">-6</td><td style="padding:7px 0;">Python</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/jingyaogong/minimind">jingyaogong/minimind</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+488</td><td style="padding:7px 8px 7px 0;color:#8a9099;">新进榜</td><td style="padding:7px 0;">Python</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/Tracer-Cloud/opensre">Tracer-Cloud/opensre</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+450</td><td style="padding:7px 8px 7px 0;color:#8a9099;">新进榜</td><td style="padding:7px 0;">Python</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/google-labs-code/stitch-skills">google-labs-code/stitch-skills</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+326</td><td style="padding:7px 8px 7px 0;color:#8a9099;">新进榜</td><td style="padding:7px 0;">TypeScript</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/cursor/plugins">cursor/plugins</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+260</td><td style="padding:7px 8px 7px 0;color:#8a9099;">新进榜</td><td style="padding:7px 0;">TypeScript</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://github.com/openvinotoolkit/openvino">openvinotoolkit/openvino</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+200</td><td style="padding:7px 8px 7px 0;color:#8a9099;">新进榜</td><td style="padding:7px 0;">C++</td></tr>
+<tr><td style="padding:7px 8px 7px 0;"><a href="https://github.com/nginx/nginx">nginx/nginx</a></td><td style="padding:7px 8px 7px 0;font-weight:700;">+189</td><td style="padding:7px 8px 7px 0;color:#8a9099;">新进榜</td><td style="padding:7px 0;">C</td></tr>
+</tbody></table>
+<p style="font-size:12px;color:#8a9099;margin:10px 0 20px;">“对比 00:04”取早间正文里的同一仓库数值，负数表示滚动窗口的今日增量回落，不代表掉 star。GitHub REST API 本轮仍未调用。</p>
+
+<p><strong>一次必须写明的环境更正</strong>：早间写“本机实测 gpg / gpgconf / gs / convert / magick 全部未安装”，本轮执行环境并不是同一台机器——实测 <code>gpg 2.4.4</code>、<code>Ghostscript 10.02.1</code>、<code>ImageMagick 6.9.12-98</code> 都在。<code>libgpgme</code> 是 Ubuntu 的 1.18.0，不是公告里的 2.3.0/2.3.1，因此 <strong>CVE-2026-129975 不适用于本机</strong>；但 Ghostscript 10.02.1 在，<strong>Upload2Shell（CVE-2026-125396）的成立条件在本机存在</strong>，而且 ImageMagick 的图片转换链路会调用 <code>gs</code>。本轮不代为升级、不执行任何命令；如果你在跑图片预览 / 上传 / 邮件转换，请先核对发行版补丁与 Ghostscript 官方公告。<code>nginx</code> 未安装；<code>php</code> 为 8.5.13-dev，与小众软件报道的“PHP 8.6 发布并修复其他版本漏洞”是否相关，需按官方公告逐条核。</p>
+
+<p><strong>本轮结论</strong>：需要立刻处理 0 条；有变化的是“情绪与价格背离”和“Ghostscript 风险面在另一台机器上成立”这两点。优惠截止时间没有提前，最近仍是 11-24 02:00；Epic 免费档仍只有《深渊之印》，11-27 00:00 收。数据口径与兑现边界同早间：只收集、核实、报告，不注册、不绑卡、不代领券、不下单，币圈不连钱包、不签名、不代为充提。</p>
+
 ## 免责声明
 
-本文只做信息聚合与交叉核对，不构成投资、购买或法律建议。所有价格、折扣与截止时间均来自 2026-11-22 00:03–00:06 的接口返回，价格随时可能变动，领取与下单前请以官方页面为准。数学手稿部分请注意“预印本 / 未经同行评审”的前提。
+本文只做信息聚合与交叉核对，不构成投资、购买或法律建议。所有价格、折扣与截止时间均来自 2026-11-22 00:03–00:06、06:31–06:33 与 12:04–12:07 的接口返回，价格随时可能变动，领取与下单前请以官方页面为准。数学手稿与 Lean 核验部分请注意“预印本 / 未经同行评审”的前提。
