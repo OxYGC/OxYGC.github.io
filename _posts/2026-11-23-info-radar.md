@@ -5,7 +5,7 @@ date: 2026-11-23 00:20:00 +0800
 permalink: /posts/info-radar-2026-11-23/
 categories: [Info, Deals]
 tags: [资讯雷达, Epic限免, Steam黑五, 比特币, 黎曼猜想, GitHub趋势]
-description: "2026-11-23 当天唯一一篇：本轮 25 个来源取回 174 条、去重后 130 条、11 个异常。Epic《深渊之印》¥55→0 至 11-27 00:00；Steam 黑五 9 款逐一回读 appdetails，战地风云 5 -95% ¥11.40、双人成行 -80% ¥39.60、《我带过的最差一届》-35% ¥18.20 最近 11-24 02:00 收。BTC 00:22 Gate.io 快照 61,146.8（+2.06%），恐惧贪婪 11（Extreme Fear）。HN 头条仍是 Lean 社区对黎曼猜想的“形式化核验”（1,147 分），但编译通过不等于命题已证明；GitHub Trending 16 条继续被 Agent Skills 类仓库占据。失败的 11 个源集中在境外行情与交易所接口（binance / coingecko / cgmarkets / cmc / exstatus / ethblog / creleases / coindesk / v2ex / hf / appstore），行情因此改走 Gate.io 补位。"
+description: "2026-11-23 当天唯一一篇：午夜档 25 个来源取回 174 条、去重后 130 条、11 个异常；12:05 午间增量复核再取回 267 条，10 个境外源仍 URLError，Panews RSS 退化为 HTML。Epic《深渊之印》¥55→0 至 11-27 00:00；Steam 黑五 9 款逐一回读 appdetails，战地风云 5 -95% ¥11.40、双人成行 -80% ¥39.60、《我带过的最差一届》-35% ¥18.20 最近 11-24 02:00 收。BTC 00:22 Gate.io 快照 61,146.8（+2.06%），恐惧贪婪 11（Extreme Fear）。HN 头条仍是 Lean 社区对黎曼猜想的“形式化核验”（1,147 分），但编译通过不等于命题已证明；GitHub Trending 16 条继续被 Agent Skills 类仓库占据。失败的 11 个源集中在境外行情与交易所接口（binance / coingecko / cgmarkets / cmc / exstatus / ethblog / creleases / coindesk / v2ex / hf / appstore），行情因此改走 Gate.io 补位。"
 ---
 
 这一轮取数在 2026-11-23 00:10–00:22（北京时间）完成：25 个来源里 14 个取到数据（含 1 个合法空档），11 个报错。`SUMMARY fetched=174 fresh=130 sources=25 errors=11`。异常几乎全部集中在需要境外通道的行情与交易所接口——`binance`、`exstatus`、`coingecko`、`cgmarkets`、`cmc`、`ethblog`、`creleases`、`coindesk` 都报 `URLError`，`v2ex` 与 `hf` 也未能握手，`appstore`（iOS 限免层）单源重跑两次仍是 `URLError`。行情因此改走 Gate.io 公开 ticker 补位，技术资讯靠 HN、Lobsters、GitHub Trending、ITHome、阮一峰与 Product Hunt 支撑。**这是 2026-11-23 当天唯一一篇；今天若再跑，只会在本文件内更新，不新增文件。**
@@ -227,4 +227,77 @@ description: "2026-11-23 当天唯一一篇：本轮 25 个来源取回 174 条�
 
 <p><strong>口径照旧四步</strong>：取数（25 源，NDJSON 归一化，跨轮 <code>history.jsonl</code> 去重）→ 验真（价格与截止回官方接口或原文，核不到就降观察并写「未核实」）→ 分级（🔥 / ⭐ / 👀 / ❌，宁严勿松）→ 落点（本地存档 + 本篇 Pages 稿）。边界：只收集与报告，不注册、不绑卡、不代领券、不下单；iOS 兑换码型不转载兑换码；币圈不连钱包、不签名、不导私钥、不代充代提，不写买卖建议与目标价，产物内不出现钱包地址与带邀请返利参数的链接。</p>
 
-<p style="margin:28px 0 0;font-size:14px;color:#4b5158;">本文所有价格、折扣与截止时间均来自 2026-11-23 00:10–00:24 的接口实际返回，价格随时可能变动，领取与下单前请以官方页面为准。数学与安全部分请注意“预印本 / 未经同行评审”“研究方披露、官方公告未核到”的前提。</p>
+<p style="margin:34px 0 6px;padding-top:16px;border-top:2px solid #e3e6ea;font-size:16px;font-weight:700;color:#1f2329;">12:05 午间增量复核（同日发布）</p>
+
+<p>这一轮在 2026-11-23 12:05–12:18（北京时间）按 info-task-gc 的 25 源口径复跑：<code>SUMMARY fetched=267 sources=25 errors=10 abnormal=1</code>，成功 14 源。失败仍集中在境外 HTTPS 接口——<code>v2ex</code>、<code>hf</code>、<code>appstore</code>、<code>binance</code>、<code>exstatus</code>、<code>coingecko</code>、<code>cgmarkets</code>、<code>cmc</code>、<code>ethblog</code>、<code>coindesk</code> 全部 <code>URLError</code>；<code>panews</code> 的 RSS 地址这次返回 HTML 首页而不是 feed（0 条），按“异常”单列。今天仍只有这一篇，本次只在原文件内追加，没有新增文件。</p>
+
+<p><strong>需要立刻处理的仍是 1 条</strong>：Steam《我带过的最差一届》-35%（¥28.00 → ¥18.20）<strong>11-24 02:00 截止</strong>，到 12:05 只剩约 14 小时。Epic《深渊之印》0 元（原价 ¥55.00）<strong>11-27 00:00 截止</strong>，还剩约 3 天半。<strong>本轮没有新增硬截止，也没有把任何媒体转述的时间当成官方截止。</strong></p>
+
+<table style="width:100%;border-collapse:collapse;font-size:13.5px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:7px 8px 7px 0;">条目</th><th style="padding:7px 8px 7px 0;width:16%;">12:07 实测价</th><th style="padding:7px 8px 7px 0;width:20%;">截止（北京时间）</th><th style="padding:7px 0;width:16%;">状态</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/5175310/?l=schinese">Steam《我带过的最差一届》-35%</a></td><td style="padding:8px 8px 8px 0;">¥18.20 / ¥28.00</td><td style="padding:8px 8px 8px 0;color:#c0392b;font-weight:700;">11-24 02:00（约 14 小时）</td><td style="padding:8px 0;">官方接口 · 🔥</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/sub/1066581/?l=schinese">Steam Escapists 2 GOTY -90%（订阅包）</a></td><td style="padding:8px 8px 8px 0;">¥11.99 / ¥119.99</td><td style="padding:8px 8px 8px 0;">12-06 02:00</td><td style="padding:8px 0;">早间已核实，榜单复现 · ⭐</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1238810/?l=schinese">Steam 战地风云 5 -95%</a></td><td style="padding:8px 8px 8px 0;">¥11.40 / ¥228.00</td><td style="padding:8px 8px 8px 0;">12-04 02:00</td><td style="padding:8px 0;">官方接口 · ⭐</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1426210/?l=schinese">Steam 双人成行 -80%</a></td><td style="padding:8px 8px 8px 0;">¥39.60 / ¥198.00</td><td style="padding:8px 8px 8px 0;">12-04 02:00</td><td style="padding:8px 0;">官方接口 · ⭐</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.epicgames.com/zh-CN/p/mark-of-the-deep-f7dc08">Epic《深渊之印》0 元</a></td><td style="padding:8px 8px 8px 0;">0 / ¥55.00</td><td style="padding:8px 8px 8px 0;">11-27 00:00</td><td style="padding:8px 0;">官方接口 · ⭐</td></tr>
+<tr><td style="padding:8px 8px 8px 0;"><a href="https://store.epicgames.com/zh-CN/p/terrascape-2b12b1">Epic《TerraScape》-70%</a></td><td style="padding:8px 8px 8px 0;">¥37.10 / ¥53.00</td><td style="padding:8px 8px 8px 0;">12-22 00:00</td><td style="padding:8px 0;">官方接口 · 👀</td></tr>
+</tbody></table>
+
+<p style="font-size:12.5px;color:#8a9099;margin:10px 0 0;">除 Escapists 2 外，其余五条由 <code>featuredcategories?cc=cn</code> 在 12:07–12:10 重新回读；Escapists 2 是订阅包，沿用早间档以 <code>/sub/1066581</code> 核实的结果，<code>appdetails</code> 按 <code>/app/</code> 查不到属正常。Epic 侧本轮没有新的限免接档，「火之石」在接口里是 <code>0 → 0</code> 的免费游戏，不是限时赠送。Appinn / idcspy 提到的折扣因为核不到“固定价 + 官方截止时间”，全部留在观察。</p>
+
+<p><strong>行情：BTC 24 小时涨幅扩大到 +2.90%，情绪仍停在 11。</strong> Gate.io <code>/spot/tickers</code> 12:06 快照：BTC/USDT <strong>61,277.5</strong>，24 小时 <strong>+2.90%</strong>，区间 58,766.9 – 61,958.8，成交额约 <strong>9.59 亿 USDT</strong>。与午夜档 00:22 的 61,146.8（+2.06%）相比，价格只高约 0.2%，24 小时涨幅读数却扩大了，说明被替换掉的是更早的低点。alternative.me 恐惧贪婪指数仍是 <strong>11（Extreme Fear）</strong>。CoinGecko / Binance / CMC 本轮仍不可达，因此不与 06:31 的 CoinGecko 快照逐点比较；行情只作时刻记录，不构成买卖建议。</p>
+
+<p><strong>资讯面：HN 头条换人，OpenAI 那篇被顶到第二。</strong> HN 首页 12:06 读数：<a href="https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/">Toyota, Nissan, and Honda to standardize parts to lower costs</a> <strong>1,213 分 / 685 评论</strong>居首；早间作为一手材料记录过的 <a href="https://openai.com/index/perplexity-and-intelligence/">OpenAI《Perplexity and Intelligence》</a> 升到 <strong>518 分 / 357 评论</strong>；其后是 <em>What Happened to Silicon Valley?</em>（493）、GTA 6 鸟类观察（394）、本地 AI 入门（318）与 Show HN「我是 LLM 的 subagent」（284）。</p>
+
+<p><strong>黎曼猜想相关条目换成了「进度图」，但仍不是证明。</strong> HN 第 10 位是 <a href="https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3">Progress map for the Lean formalization of Alessandro Masullo's manuscript</a>（175 分 / 151 评论）。这是 claude.ai 的 artifact 页，12:08 直连返回 <strong>302</strong>，未登录拿不到正文；按“拿不到一手正文就不升级”的口径，只记“话题在继续推进”，维持午夜档判断：<strong>形式化核验 / 进度图 ≠ 黎曼猜想已被证明</strong>。</p>
+
+<p><strong>GitHub Trending：Agent Skills 仍占前排，基础设施与桌面工具开始回榜。</strong> 12:06 抓取 16 条，与 00:12 同一榜单对比（同一字段口径）：</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:7px 8px 7px 0;width:38%;">仓库</th><th style="padding:7px 8px 7px 0;width:16%;">12:06 总 star</th><th style="padding:7px 8px 7px 0;width:14%;">较 00:12</th><th style="padding:7px 0;">说明</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">Claude-BugHunter</td><td style="padding:7px 8px 7px 0;">18,114</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+937</td><td style="padding:7px 0;">Claude Code 漏洞狩猎技能包</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">obra/superpowers</td><td style="padding:7px 8px 7px 0;">324,284</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+338</td><td style="padding:7px 0;">Agentic skills 框架</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">HKUDS/CLI-Anything</td><td style="padding:7px 8px 7px 0;">62,906</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+339</td><td style="padding:7px 0;">把软件做成 Agent 可调用的 CLI</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">firecrawl/firecrawl</td><td style="padding:7px 8px 7px 0;">207,155</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+415</td><td style="padding:7px 0;">Agent 抓取 / 搜索基础设施</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">jingyaogong/minimind</td><td style="padding:7px 8px 7px 0;">68,849</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+350</td><td style="padding:7px 0;">2 小时从 0 训 64M 小模型</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">zhouxiaoka/autoclip</td><td style="padding:7px 8px 7px 0;">13,639</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+362</td><td style="padding:7px 0;">长视频一键剪短视频</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">mvanhorn/last30days-skill</td><td style="padding:7px 8px 7px 0;">72,862</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+339</td><td style="padding:7px 0;">跨 Reddit / X / YouTube 研究技能</td></tr>
+<tr><td style="padding:7px 8px 7px 0;">cathrynlavery/diagram-design</td><td style="padding:7px 8px 7px 0;">70,415</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+268</td><td style="padding:7px 0;">45 种图表的 Agent 设计技能</td></tr>
+</tbody></table>
+
+<p style="font-size:12.5px;color:#8a9099;margin:10px 0 0;">新进榜的是 <strong>nginx/nginx</strong>（32,913）、<strong>openvinotoolkit/openvino</strong>（12,119）、<strong>mjmirza/app-store-compliance</strong>（4,115）与 <strong>XiaoYouChR/Ghost-Downloader-3</strong>（15,380）。前四名仍是 Agent / Skills 类，但基础设施（nginx、OpenVINO）和桌面工具回榜，说明热度不是只往一个方向走。star 是 12:06 页面读数，不是官方增量接口。</p>
+
+<p><strong>国内与产品侧（均为媒体转述，不进「值得」）</strong>：IT之家 12:05 前的新条目包括 <a href="https://www.ithome.com/1/030/803.htm">黑客 Voices38 声称已破解《影之刃零》D 加密</a>、<a href="https://www.ithome.com/1/030/797.htm">消息称亚马逊接近 75 亿美元收购 Decart</a>、<a href="https://www.ithome.com/1/030/799.htm">蚂蚁 CEO 称阿福已有 1.5 亿用户</a>、<a href="https://www.ithome.com/1/030/796.htm">工信部通报 YY、快看漫画等 23 款 App 及 SDK</a>、<a href="https://www.ithome.com/1/030/800.htm">紫光展锐发布全球首款 5G 开源“派”</a> 与 <a href="https://www.ithome.com/1/030/798.htm">虚幻引擎 5.9 预览版 2</a>。Appinn 侧值得注意的三条：<a href="https://www.appinn.com/parallels-desktop-27/">Parallels Desktop 27 黑五 249 元/年</a>、<a href="https://www.appinn.com/google-ai-pro-black-friday-2026/">Gemini 黑五 AI Pro 约 100 美元/年</a>、<a href="https://www.appinn.com/gta-6-pc-port-leonida/">GTA 6 早期 PC 开源移植项目 Leonida</a>。以上都没有回到官方活动页核到“固定价 + 明确截止”，按门槛只作观察。</p>
+
+<p><strong>本轮新增观察与过滤</strong>：</p>
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:7px 8px 7px 0;width:34%;">条目</th><th style="padding:7px 8px 7px 0;width:30%;">拿到的事实</th><th style="padding:7px 0;">为什么停在观察 / 过滤</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">Parallels Desktop 27 黑五 249 元/年</td><td style="padding:7px 8px 7px 0;">Appinn 转述</td><td style="padding:7px 0;">未回 Parallels 官方页核截止与续费价</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">Gemini AI Pro 黑五约 100 美元/年</td><td style="padding:7px 8px 7px 0;">Appinn 转述</td><td style="padding:7px 0;">地区 / 账号资格与截止未核</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">《影之刃零》D 加密被破解（声称）</td><td style="padding:7px 8px 7px 0;">IT之家转述 Voices38</td><td style="padding:7px 0;">未回破解组织或发行商原文</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">亚马逊接近 75 亿美元收购 Decart</td><td style="padding:7px 8px 7px 0;">IT之家转述</td><td style="padding:7px 0;">双方均未公告</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;"><a href="https://www.idcspy.com/170785.html">Dynadot 黑五 .com 转入 $10.49</a></td><td style="padding:7px 8px 7px 0;">idcspy 转述</td><td style="padding:7px 0;">未回注册商活动页核截止</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">阿里云 Token Plan 首月 34.4 元 / 65000 Credits</td><td style="padding:7px 8px 7px 0;">idcspy 转述</td><td style="padding:7px 0;">含推荐 / 返利口径，未核官方适用条件</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">Lean 形式化「进度图」</td><td style="padding:7px 8px 7px 0;">HN 175 分</td><td style="padding:7px 0;">claude.ai artifact 302，正文不可读</td></tr>
+<tr><td style="padding:7px 8px 7px 0;">Epic「火之石」0 元</td><td style="padding:7px 8px 7px 0;">接口 <code>0 → 0</code></td><td style="padding:7px 0;">本身是免费游戏，不是限时赠送</td></tr>
+</tbody></table>
+
+<p><strong>源健康度（12:05–12:18）</strong>：</p>
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:7px 8px 7px 0;width:14%;">组</th><th style="padding:7px 8px 7px 0;width:46%;">成功</th><th style="padding:7px 8px 7px 0;">失败 / 异常</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">news（8）</td><td style="padding:7px 8px 7px 0;">6 源 / 174 条：hn 20、lobsters 25、github-trending 16、ruanyifeng 3、ithome 60、producthunt 50</td><td style="padding:7px 0;color:#c0392b;">v2ex、hf（URLError）</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">deal（6）</td><td style="padding:7px 8px 7px 0;">5 源 / 62 条：epic 12、steam 10、appinn 10、lowendbox 20、idcspy 10</td><td style="padding:7px 0;color:#c0392b;">appstore（URLError）</td></tr>
+<tr><td style="padding:7px 8px 7px 0;">crypto（11）</td><td style="padding:7px 8px 7px 0;">3 源 / 31 条：creleases 10、fng 1、theblock 20</td><td style="padding:7px 0;color:#c0392b;">binance、exstatus、coingecko、cgmarkets、cmc、ethblog、coindesk（URLError）；panews（返回 HTML）</td></tr>
+</tbody></table>
+
+<p><strong>口径与结果</strong>：本轮新增「值得」0 条，确认既有 1 条（Escapists 2 GOTY 订阅包 -90%）；新增「观察」7 条；按边界过滤 1 条（店雷达推荐码帖，含返利参数，不转载）。四步口径不变：取数 → 验真（价格与截止回官方接口或原文，核不到就降观察并写“未核实”）→ 分级（🔥 / ⭐ / 👀 / ❌，宁严勿松）→ 落点（本地存档 + 本篇 Pages 稿）。另需如实记一句：<strong>本轮执行环境没有挂载 info-task-gc 技能文件</strong>，因此按仓库既有稿件的 25 源清单与同一口径复跑，源名单、四步流程与边界均与早间档保持一致。</p>
+
+<p style="margin:28px 0 0;font-size:14px;color:#4b5158;">本文所有价格、折扣与截止时间均来自 2026-11-23 00:10–00:24 与 12:05–12:18 两次接口实际返回，价格随时可能变动，领取与下单前请以官方页面为准。数学与安全部分请注意“预印本 / 未经同行评审”“研究方披露、官方公告未核到”的前提。</p>
