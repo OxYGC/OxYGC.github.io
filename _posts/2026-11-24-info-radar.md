@@ -1,11 +1,12 @@
 ---
-title: "资讯雷达 2026-11-24｜黄仁勋复任英伟达 CEO 点燃美股、Steam《我带过的最差一届》2 小时截止、BTC 回到 6.26 万"
+title: "资讯雷达 2026-11-24｜黄仁勋复任后 HN 2,274 分、BTC 回落 6.04 万、Steam 黑五换榜底特律 -90%"
 author: OxYGC
 date: 2026-11-24 00:15:00 +0800
+last_modified_at: 2026-11-24 12:16:00 +0800
 permalink: /posts/info-radar-2026-11-24/
 categories: [Info, Deals]
 tags: [资讯雷达, 黄仁勋, 英伟达, Steam黑五, Epic限免, 比特币, GitHub趋势]
-description: "2026-11-24 当天第一篇：25 个来源取回 368 条，14 源成功、10 源 URLError、Panews 返回 HTML 异常；行情改用 Gate.io 与 Binance Vision 补位。最重要的一条新闻是黄仁勋被英伟达董事会恢复 CEO 职务，HN 头条 1,494 分，IT之家记录美股开盘 NVDA 涨 32%、市值增加超 1 万亿美元。最近硬截止是 Steam《我带过的最差一届》-35% ¥18.20，11-24 02:00 收，只剩约 2 小时；Epic《深渊之印 / Mark of the Deep》¥55→0 到 11-27 00:00。Steam 黑五 10 款均回读官方榜单，战地风云 5 -95% ¥11.40、双人成行 -80% ¥39.60、FF7 重制版 -82% ¥35.64。BTC 00:00 Gate.io 62,666（+2.81%）、Binance Vision 62,690（+2.85%），恐惧贪婪 11（Extreme Fear）。GitHub Trending 仍是 Agent Skills 占前排，Claude-BugHunter 单日 +2,037 star。"
+description: "2026-11-24 当天（00:15 首稿 + 12:10 午间增量）：25 源复跑取回 356 条、15 源成功、10 源失败（9 个 URLError + Panews 返回 HTML）。00:00 档的硬截止已到点：Steam《我带过的最差一届》11-24 02:00 结束、战地风云 5 -95% 同时下榜，现在没有今天到期的条目；最近是 Epic《深渊之印》¥55→0 到 11-27 00:00。Steam 黑五换榜：底特律 -90% ¥13.60（12-01）、RDR2 -75% ¥69.75（12-08）、双人成行 -80% ¥39.60（12-04）、FF7 重制版 -82% ¥35.64（12-03）。BTC 12:05 Gate.io 60,438（-1.49%，24h 高 64,594 / 低 59,450）、Binance Vision 60,422（-1.53%），较 00:00 的 62,666 回落 3.56%，恐惧贪婪仍 11（Extreme Fear）；HN 黄仁勋升至 2,274 分 / 3,292 评论。GitHub Trending 仍是 Agent Skills 前排，Claude-BugHunter 20,002 star、单日 +2,029。"
 ---
 
 这一轮取数在 2026-11-24 00:00–00:05（北京时间）完成：25 个来源里 14 个取到数据、10 个报错、1 个异常。`SUMMARY fetched=368 sources=25 errors=10 abnormal=1`。异常依旧集中在需要境外 HTTPS 通道的行情与交易所接口——`binance`（api 域）、`exstatus`、`coingecko`、`cgmarkets`、`cmc`、`ethblog`、`creleases`、`coindesk` 全部报 `URLError / SSL_ERROR_SYSCALL`，`v2ex` 与 `hf` 也没能握手，`panews` 的 RSS 地址这次返回的是 HTML 首页而不是 feed（0 条，按异常单列）。行情因此用 Gate.io 公开 ticker 与 Binance Vision 公共行情双源补位，技术资讯由 HN、Lobsters、GitHub Trending、IT之家、阮一峰与 Product Hunt 支撑。**这是 2026-11-24 当天第一篇；今天若再跑，只会在本文件内更新，不新增文件。**
@@ -157,4 +158,75 @@ description: "2026-11-24 当天第一篇：25 个来源取回 368 条，14 源�
 
 <p>另需如实记一句：<strong>本轮执行环境没有挂载 <code>info-task-gc</code> 技能文件</strong>，因此按仓库既有稿件的 25 源清单与同一口径执行；源名单、四步流程与边界均与 11-23 稿件保持一致，差异只在当天数据与失败源集合。</p>
 
-<p style="margin:28px 0 0;font-size:14px;color:#4b5158;">本文所有价格、折扣与截止时间均来自 2026-11-24 00:00–00:05 的接口实际返回，价格随时可能变动，领取与下单前请以官方页面为准。行情只作时刻快照，不构成任何投资建议；新闻部分请注意“媒体转述”与“公司公告 / 官方接口”的区别。</p>
+<p style="margin:34px 0 6px;padding-top:16px;border-top:2px solid #e3e6ea;font-size:16px;font-weight:700;color:#1f2329;">12:10 午间增量复核（同日发布）</p>
+
+<p>这一轮在 2026-11-24 12:03–12:16（北京时间）按 <code>info-task-gc</code> 的 25 源口径复跑：<code>SUMMARY fetched=356 sources=25 success=15 errors=10</code>。失败仍是 9 个 <code>URLError</code>（<code>v2ex</code>、<code>hf</code>、<code>binance</code>、<code>exstatus</code>、<code>coingecko</code>、<code>cgmarkets</code>、<code>cmc</code>、<code>ethblog</code>、<code>coindesk</code>）加 <code>panews</code> 返回 HTML 首页（106,895 字节、<code>text/html</code>，0 条，按异常单列）。行情继续用 Gate.io 与 Binance Vision 双源补位。今天仍只有这一篇，本次只在原文件内追加，没有新增文件。</p>
+
+<p><strong>先处理旧结论：00:00 档标的那个硬截止已经到点。</strong> Steam《我带过的最差一届》-35%（¥18.20）在 11-24 02:00 收，本轮官方 <code>featuredcategories</code> 榜单已不含该作品；同一份榜单里 00:00 档的《战地风云 5》-95%（¥11.40）也已下榜。<strong>这两条不再可领，现在没有「今天到期」的条目。</strong>最近一个到期点是 Epic《深渊之印 / Mark of the Deep》0 元（原价 ¥55.00）<strong>11-27 00:00</strong>，按 12:16 计算还剩约 2 天 12 小时。</p>
+
+<p><strong>Steam 黑五换榜：底特律 -90% 成为当前最低价，RDR2 与 GTA V 增强版进榜。</strong> 10 条全部来自官方 <code>featuredcategories?cc=cn&amp;l=schinese</code>，<code>final_price / original_price / discount_percent / discount_expiration</code> 按官方值换算，<code>discount_expiration</code> 的 epoch 已换算为北京时间（UTC+8）。</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:13.5px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:7px 8px 7px 0;">游戏</th><th style="padding:7px 8px 7px 0;width:10%;">折扣</th><th style="padding:7px 8px 7px 0;width:24%;">现价 / 原价</th><th style="padding:7px 0;width:20%;">截止（北京时间）</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1222140/?l=schinese">底特律：化身为人</a></td><td style="padding:8px 8px 8px 0;">-90%</td><td style="padding:8px 8px 8px 0;">¥13.60 / ¥136.00</td><td style="padding:8px 0;color:#c0392b;font-weight:700;">12-01 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1174180/?l=schinese">Red Dead Redemption 2</a></td><td style="padding:8px 8px 8px 0;">-75%</td><td style="padding:8px 8px 8px 0;">¥69.75 / ¥279.00</td><td style="padding:8px 0;">12-08 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1426210/?l=schinese">双人成行</a></td><td style="padding:8px 8px 8px 0;">-80%</td><td style="padding:8px 8px 8px 0;">¥39.60 / ¥198.00</td><td style="padding:8px 0;">12-04 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/3240220/?l=schinese">Grand Theft Auto V 增强版</a></td><td style="padding:8px 8px 8px 0;">-56%</td><td style="padding:8px 8px 8px 0;">¥98.56 / ¥224.00</td><td style="padding:8px 0;">12-08 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1086940/?l=schinese">博德之门 3</a></td><td style="padding:8px 8px 8px 0;">-30%</td><td style="padding:8px 8px 8px 0;">¥187.60 / ¥268.00</td><td style="padding:8px 0;">12-01 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/2001120/?l=schinese">双影奇境</a></td><td style="padding:8px 8px 8px 0;">-40%</td><td style="padding:8px 8px 8px 0;">¥118.80 / ¥198.00</td><td style="padding:8px 0;">12-08 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/3768760/?l=schinese">007 初露锋芒</a></td><td style="padding:8px 8px 8px 0;">-50%</td><td style="padding:8px 8px 8px 0;">¥149.00 / ¥298.00</td><td style="padding:8px 0;">12-08 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1462040/?l=schinese">FINAL FANTASY VII REMAKE INTERGRADE</a></td><td style="padding:8px 8px 8px 0;">-82%</td><td style="padding:8px 8px 8px 0;">¥35.64 / ¥198.00</td><td style="padding:8px 0;">12-03 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1551360/?l=schinese">极限竞速：地平线 5</a></td><td style="padding:8px 8px 8px 0;">-60%</td><td style="padding:8px 8px 8px 0;">¥79.20 / ¥198.00</td><td style="padding:8px 0;">12-04 02:00</td></tr>
+<tr><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/2483190/?l=schinese">极限竞速：地平线 6</a></td><td style="padding:8px 8px 8px 0;">-25%</td><td style="padding:8px 8px 8px 0;">¥223.50 / ¥298.00</td><td style="padding:8px 0;">12-04 02:00</td></tr>
+</tbody></table>
+
+<p style="font-size:12.5px;color:#8a9099;margin:10px 0 0;">价格为 12:07 官方接口实测。榜单是「当前折扣位」而不是资产清单，同一款游戏可能在活动期内反复进出；截止时间只认 <code>discount_expiration</code>，不引用媒体转述。</p>
+
+<p><strong>Epic 侧没有接档变化，但下一档 0 元已经排上。</strong> 当前仍是《深渊之印》¥55.00 → 0 元（11-27 00:00 收）与《TerraScape》¥53.00 → ¥37.10（-70%，12-22 00:00 收）。接口里《火之石 – 放置点击英雄RPG》现在是 <code>0 → 0</code>，<code>upcomingPromotionalOffers</code> 给出 <strong>11-27 00:00–12-04 00:00</strong> 的 0 元档期，属于下一周免费位，现在不能提前领取；按边界只记录档期，不发布「已可领」。</p>
+
+<p><strong>行情：BTC 从 6.27 万回落到 6.04 万，24 小时读数由正转负。</strong> Gate.io <code>/spot/tickers</code> 12:05 快照：BTC/USDT <strong>60,438.4</strong>，24 小时 <strong>-1.49%</strong>，区间 <strong>64,593.8 – 59,450.0</strong>，成交额约 2.08 万 BTC；ETH/USDT <strong>1,697.88</strong>（-2.04%），BNB/USDT <strong>553.60</strong>（-0.87%）。Binance Vision 同一时刻 BTC <strong>60,422.37</strong>（-1.525%）、ETH 1,697.61（-2.056%）、BNB 553.51（-0.867%），两源相差不到 0.03%。与 00:00 档 Gate.io 的 62,666（+2.81%）相比，价格<strong>回落 3.56%</strong>，24 小时涨幅从 +2.81% 翻到 -1.49%。alternative.me 恐惧贪婪指数仍是 <strong>11（Extreme Fear）</strong>，与 00:00 相同。行情只作时刻记录，不构成买卖建议。</p>
+
+<p><strong>HN：黄仁勋那条继续放大，第二名换成 Yann LeCun 对 Dario Amodei 的批评。</strong> 12:07 首页读数：<a href="https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html">Nvidia Reinstates Jensen Huang as CEO</a>（CNBC）<strong>2,274 分 / 3,292 评论</strong>，较 00:00 档的 1,494 分 / 1,276 评论分别增加 <strong>780 分与 2,016 条评论</strong>；<a href="https://twitter.com/ylecun/status/2124550037912920090">“Dario is hyping the dangers so OSS models are illegal and he stays in control”</a> 1,342 分 / 745 评论；其后是 <a href="https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo">BepiColombo 进入水星轨道</a>（314）、<a href="https://stalw.art/blog/microsoft-exchange-replacement/">Stalwart 作为 Exchange 替代</a>（285）、<a href="https://github.com/zed-industries/gpui">GPUI 独立仓库</a>（174）与 Bored.com（153）。LeCun 那条是社交平台发言，不是 Anthropic 公告，按「转述」处理。</p>
+
+<p><strong>国内侧新增（媒体转述，不进「值得」）</strong>：<a href="https://www.ithome.com/1/031/456.htm">黄仁勋 12 月 3 日将赴美国国会公开作证</a>、<a href="https://www.ithome.com/1/031/426.htm">蚂蚁 Ling-3.2-air 开源：原生多模态、1240 亿总参数</a>、<a href="https://www.ithome.com/1/031/424.htm">特斯拉拟斥资 31 亿美元在得州建光伏多晶硅工厂</a>、<a href="https://www.ithome.com/1/031/339.htm">知乎宣布间接投资 DeepSeek，股价涨 10%</a>、<a href="https://www.ithome.com/1/031/336.htm">华为 Mate 90 Air 曝光、设置页显示麒麟 9020</a>、<a href="https://www.ithome.com/1/031/329.htm">豆包 AI 个人助理「小豆」公测</a>、<a href="https://www.ithome.com/1/031/331.htm">谷歌拟给浏览器 AI 加权限锁：可看商品、不可进支付页</a>。以上都没有回到公司公告或产品官方页逐条核实，只作资讯记录。</p>
+
+<p><strong>GitHub Trending：Agent Skills 仍占前排，下载器与剪辑工具单日增量更高。</strong> 12:04 抓取 16 条，star 为页面读数，「今日新增」是页面上的 <code>stars today</code>，不是官方增量接口：</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:7px 8px 7px 0;width:40%;">仓库</th><th style="padding:7px 8px 7px 0;width:18%;">12:04 总 star</th><th style="padding:7px 8px 7px 0;width:16%;">今日新增</th><th style="padding:7px 0;">说明</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">elementalsouls/Claude-BugHunter</td><td style="padding:7px 8px 7px 0;">20,002</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+2,029</td><td style="padding:7px 0;">Claude Code 漏洞狩猎技能包</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">XiaoYouChR/Ghost-Downloader-3</td><td style="padding:7px 8px 7px 0;">16,489</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+1,087</td><td style="padding:7px 0;">桌面下载器</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">firecrawl/firecrawl</td><td style="padding:7px 8px 7px 0;">208,065</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+924</td><td style="padding:7px 0;">Agent 抓取 / 搜索基础设施</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">zhouxiaoka/autoclip</td><td style="padding:7px 8px 7px 0;">14,596</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+907</td><td style="padding:7px 0;">长视频一键剪短视频</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">obra/superpowers</td><td style="padding:7px 8px 7px 0;">325,212</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+840</td><td style="padding:7px 0;">Agentic skills 框架</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">jingyaogong/minimind</td><td style="padding:7px 8px 7px 0;">69,611</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+828</td><td style="padding:7px 0;">2 小时从 0 训 64M 小模型</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">mvanhorn/last30days-skill</td><td style="padding:7px 8px 7px 0;">73,547</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+797</td><td style="padding:7px 0;">跨 Reddit / X / YouTube 研究技能</td></tr>
+<tr><td style="padding:7px 8px 7px 0;">HKUDS/CLI-Anything</td><td style="padding:7px 8px 7px 0;">63,837</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+790</td><td style="padding:7px 0;">把软件做成 Agent 可调用的 CLI</td></tr>
+</tbody></table>
+
+<p style="font-size:12.5px;color:#8a9099;margin:10px 0 0;">其余进榜：mjmirza/app-store-compliance（5,090，+761）、cathrynlavery/diagram-design（71,111，+620）、toeverything/AFFiNE（77,473，+595）、Tracer-Cloud/opensre（14,883，+436）、google-labs-code/stitch-skills（12,364，+422）、cursor/plugins（18,872，+397）、nginx/nginx（33,080，+174）、openvinotoolkit/openvino（12,314，+184）。与 00:00 档比较，前端框架与 Skills 仍占多数，下载器、剪辑工具和 nginx 这类基础设施继续回榜。</p>
+
+<p><strong>币圈媒体面：ETF 资金流出与「超卖」判断同时出现。</strong> The Block 12:04 的 20 条里，值得记的是：<a href="https://www.theblock.co/news/markets/2026-11-23-spot-bitcoin-etfs-shed-1-79-billion-in-past-week-444857">现货比特币 ETF 过去一周净流出 18 亿美元，分析师称流出已「结构性」</a>、<a href="https://www.theblock.co/news/markets/2026-11-23-grayscale-bitcoin-altcoins-oversold-ai-risks-crypto-outlook-445418">Grayscale 称 BTC 与主流山寨币「超卖」，但 AI 风险压住短期前景</a>、<a href="https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398">美国司法部追索与 Binance 被盗案相关的 11.7 亿美元 USDC，Circle 可能发行替代代币</a>、<a href="https://www.theblock.co/news/defi/2026-11-23-sky-cofounder-weighs-sky-sale-repay-77-million-stusds-pool-runs-dry-445373">Sky 联合创始人考虑出售 SKY 偿还 7,700 万美元，stUSDS 池已枯竭</a>、<a href="https://www.theblock.co/news/regulation/2026-11-23-cftc-staff-bitcoin-ether-count-toward-derivatives-firms-operating-expenses-445435">CFTC 工作人员称 BTC、ETH 可计入衍生品公司营运资金</a>、<a href="https://www.theblock.co/news/markets/2026-11-23-california-court-terminates-lawsuit-coinbase-terrausd-445448">加州法院终止针对 Coinbase 的 TerraUSD 购买诉讼</a>。这些是媒体转述与监管进展，不构成操作建议；涉及被盗资金与私钥的条目，只按项目方与执法机构公告处置，本站不代为操作。</p>
+
+<p><strong>新增观察与过滤</strong>：RackNerd 黑五仍<strong>不公布活动截止时间</strong>（官方页只有购物车保留倒计时与抽奖节点），维持观察；Appinn 的 Parallels Desktop 27 黑五 249 元/年、Gemini AI Pro 黑五约 100 美元/年，未回官方活动页核到固定价与截止，维持观察；idcspy 的 HostEase、FastComet $1.49/月、Zenlayer 5 折、WPForms 70%、FriendHosting 4 折均为转述，未核官方截止，全部留观察。按边界过滤 1 条：<strong>idcspy「店雷达 11 月双礼季 推荐码 07W7U5 享会员 8 折」</strong>，正文含推荐 / 返利参数，不转载。</p>
+
+<p><strong>源健康度（12:03–12:16）</strong>：</p>
+
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:7px 8px 7px 0;width:14%;">组</th><th style="padding:7px 8px 7px 0;width:48%;">成功</th><th style="padding:7px 8px 7px 0;">失败 / 异常</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">news（8）</td><td style="padding:7px 8px 7px 0;">6 源 / 173 条：hn 19、lobsters 25、github-trending 16、ruanyifeng 3、ithome 60、producthunt 50</td><td style="padding:7px 0;color:#c0392b;">v2ex、hf（URLError）</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">deal（6）</td><td style="padding:7px 8px 7px 0;">6 源 / 152 条：epic 2、steam 10、appinn 10、lowendbox 20、idcspy 10、appstore 100</td><td style="padding:7px 0;color:#1a7f37;">全绿</td></tr>
+<tr><td style="padding:7px 8px 7px 0;">crypto（11）</td><td style="padding:7px 8px 7px 0;">3 源 / 31 条：fng 1、theblock 20、creleases 10</td><td style="padding:7px 0;color:#c0392b;">binance、exstatus、coingecko、cgmarkets、cmc、ethblog、coindesk（URLError）；panews（返回 HTML，0 条）</td></tr>
+</tbody></table>
+
+<p style="font-size:12.5px;color:#6b7280;margin:10px 0 0;">合计 <code>356 = 173 + 152 + 31</code>；<code>appstore</code> 本轮返回国区免费榜 100 条，是「免费榜」而不是限免价格层，因此不据此判断任何 App 是否限免。失败形态仍是 <code>SSL: UNEXPECTED_EOF_WHILE_READING</code>，与 11-20 至 11-24 多轮记录一致，按共享出口的通道限制处理，不据此判断站点本身不可用。</p>
+
+<p><strong>口径与结果</strong>：本轮新增「值得」0 条，确认既有 1 条（Epic《深渊之印》0 元，11-27 00:00）；新增「观察」7 条；按边界过滤 1 条（店雷达推荐码帖）。四步口径不变：取数（25 源，NDJSON 归一化）→ 验真（价格与截止回官方接口或原文，核不到就降观察并写「未核实」）→ 分级（🔥 / ⭐ / 👀 / ❌，宁严勿松）→ 落点（本地存档 + 本篇 Pages 稿）。另需如实记两句：<strong>本轮执行环境仍未挂载 <code>info-task-gc</code> 技能文件</strong>，因此沿用仓库既有稿件的 25 源清单与同一口径；<strong>GitHub 连接器在本轮同样未挂载</strong>，仓库状态改由既有 git 远端核对，<code>origin/main</code> 为 <code>287eeca</code>，本轮没有改动其他文件。</p>
+
+<p style="margin:28px 0 0;font-size:14px;color:#4b5158;">本文所有价格、折扣与截止时间均来自 2026-11-24 00:00–00:05 与 12:03–12:16 两次接口实际返回，价格随时可能变动，领取与下单前请以官方页面为准。行情只作时刻快照，不构成任何投资建议；新闻部分请注意「媒体转述」与「公司公告 / 官方接口」的区别。</p>
