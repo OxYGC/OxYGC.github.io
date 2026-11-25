@@ -1,12 +1,12 @@
 ---
-title: "资讯雷达 2026-11-25｜黄仁勋复任后 HN 2,719 分、Ladybird 进 alpha、BTC 跌破 6 万触 59,390"
+title: "资讯雷达 2026-11-25｜午间复跑：BTC 下探 58,950、Steam 换榜 Hades 进、HN 头条换成 The Spray Bottle"
 author: OxYGC
 date: 2026-11-25 00:20:00 +0800
-last_modified_at: 2026-11-25 00:20:00 +0800
+last_modified_at: 2026-11-25 12:06:00 +0800
 permalink: /posts/info-radar-2026-11-25/
 categories: [Info, Deals]
-tags: [资讯雷达, 黄仁勋, 英伟达, Ladybird, Steam黑五, Epic限免, 比特币, GitHub趋势]
-description: "2026-11-25 当天首稿（00:00–00:10）：25 源复跑取回 367 条、14 源成功、10 源失败（9 个 URLError + 交易所状态页超时）、PANews 返回 HTML 首页按异常单列。今天没有 11-25 当天到期的硬截止；最近是 Epic《深渊之印 / Mark of the Deep》¥55→0 于 11-27 00:00 收。Steam 黑五当前榜 10 条：底特律 -90% ¥13.60（12-01）、霍格沃茨之遗 -90% ¥38.40（12-08）、Escapists 2 GOTY -90% ¥11.99（12-06）、RDR2 -75% ¥69.75（12-08）、GTA V 增强版 -56% ¥98.56（12-08）。BTC 00:05 Gate.io 59,671.5（-4.54%，24h 高 62,907.1 / 低 59,392.8）、Binance Vision 59,669.72（-4.531%），恐惧贪婪仍 11（Extreme Fear）；HN 黄仁勋升至 2,719 分 / 3,578 评论，Ladybird 进入 alpha 2,264 分。GitHub Trending 仍是 Agent Skills 前排，Claude-BugHunter 20,945 star、单日 +1,833。"
+tags: [资讯雷达, Steam黑五, Epic限免, Hades, 比特币, GitHub趋势, 黄仁勋]
+description: "2026-11-25 午间复跑（11:58–12:06，同日第二稿，仅更新本文件）：25 源取回 377 条、14 源成功、10 源失败（9 个 URLError + creleases 410）、PANews 返回 HTML 按异常单列。今天仍无 11-25 当天到期的硬截止，最近是 Epic《深渊之印》¥55→0 于 11-27 00:00 收；Epic 本轮未返回下一档 upcoming。Steam 黑五换榜：Hades II -30% ¥75.60、Hades -75% ¥23.00（均 12-02）、底特律 -90% ¥13.60（12-01）、双人成行 -80% ¥39.60（12-04）。BTC 12:04 Gate.io 59,274.7（-1.73%，低 58,950.1）、Binance Vision 59,281.00（-1.72%），较 00:05 的 59,671.5 再跌 0.66%，恐惧贪婪 13（Extreme Fear）；HN 头条换成 The Spray Bottle 401 分、Quad9 撤出法国 368 分，黄仁勋那条已跌出首页前 10。GitHub Trending Claude-BugHunter 21,679 star、单日 +1,826。"
 ---
 
 这一轮取数在 2026-11-25 00:02–00:10（北京时间）完成：25 个来源里 14 个取到数据、10 个报错、1 个异常。`SUMMARY fetched=367 sources=25 errors=10 abnormal=1`。失败依旧集中在需要境外 HTTPS 通道的行情与交易所接口——`binance`（api 域）、`exstatus`、`coingecko`、`cgmarkets`、`cmc`、`ethblog`、`creleases`、`coindesk` 全部报 `URLError / SSL_ERROR_SYSCALL`，`v2ex` 与 `hf` 也没能握手，`panews` 的 RSS 地址这次返回的是 Nuxt 渲染的 HTML 首页而不是 feed（0 条，按异常单列）。行情因此用 Gate.io 公开 ticker 与 Binance Vision 公共行情双源补位，技术资讯由 HN、Lobsters、GitHub Trending、IT之家、阮一峰与 Product Hunt 支撑。**这是 2026-11-25 当天第一篇；今天若再跑，只会在本文件内更新，不新增文件。**
@@ -158,3 +158,76 @@ description: "2026-11-25 当天首稿（00:00–00:10）：25 源复跑取回 36
 <p>另需如实记两句：<strong>本轮执行环境没有挂载 <code>info-task-gc</code> 技能文件</strong>，因此按仓库既有稿件的 25 源清单与同一口径执行，源名单、四步流程与边界均与 11-23 / 11-24 稿件一致，差异只在当天数据与失败源集合；<strong>GitHub 连接器也未以 MCP 形式挂载</strong>，仓库读写通过既有 git 凭据与 <code>origin/main</code> 远端完成。</p>
 
 <p style="margin:28px 0 0;font-size:14px;color:#4b5158;">本文所有价格、折扣与截止时间均来自 2026-11-25 00:02–00:10 接口实际返回，价格随时可能变动，领取与下单前请以官方页面为准。行情只作时刻快照，不构成任何投资建议；新闻部分请注意「媒体转述」与「公司公告 / 官方接口」的区别。</p>
+
+<p style="margin:34px 0 6px;padding-top:16px;border-top:2px solid #e3e6ea;font-size:16px;font-weight:700;color:#1f2329;">12:05 午间增量复核（同日发布）</p>
+
+<p>这一轮在 2026-11-25 11:58–12:06（北京时间）按 <code>info-task-gc</code> 的 25 源口径复跑：<code>SUMMARY fetched=377 sources=25 success=14 errors=10 abnormal=1</code>。失败仍是同一类境外 HTTPS 接口：<code>v2ex</code>、<code>hf</code>、<code>binance</code>（api 主域）、<code>exstatus</code>、<code>coingecko</code>、<code>cgmarkets</code>、<code>cmc</code>、<code>ethblog</code>、<code>coindesk</code> 全部报 <code>URLError</code>，<code>creleases</code> 这次直接返回 <code>410</code>（源已下线）；<code>panews</code> 的 <code>/rss</code> 仍是 Nuxt 渲染的 HTML 首页（106,360 字节、<code>text/html</code>，0 条，按异常单列）。Epic 旧静态域仍连不上，改用官方 ipv4 静态域成功取到 12 条。行情继续用 Gate.io 与 Binance Vision 双源补位。<strong>今天仍只有这一篇，本次只在原文件内追加，不新增文件。</strong></p>
+
+<p><strong>先处理旧结论：</strong>00:20 首稿「今天没有 11-25 当天到期的硬截止」依然成立。最近一个是 Epic《深渊之印 / Mark of the Deep》0 元（原价 ¥55.00），本轮接口确认促销区间仍是 <strong>11-20 00:00 → 11-27 00:00</strong>，按 12:06 计算还剩约 1 天 12 小时。下一档《Bread and Fred》（¥47）与《Eternal Threads》（¥62）在本轮 <code>upcomingPromotionalOffers</code> 里<strong>没有返回</strong>，两条都还是原价、无促销字段，因此不再沿用首稿「11-27 起接档」的表述，等接口给出档期再记。</p>
+
+<p><strong>Steam 黑五换榜：Hades 与 Hades II 进榜，霍格沃茨之遗、The Escapists 2、极限竞速：地平线 5 退出当前十格。</strong> 10 条全部来自 <code>featuredcategories?cc=cn&amp;l=schinese</code>，<code>final_price / original_price / discount_percent / discount_expiration</code> 按官方值换算，<code>discount_expiration</code> 的 epoch 已换算为北京时间（UTC+8）。</p>
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:6px 8px 6px 0;">游戏</th><th style="padding:6px 8px 6px 0;width:10%;">折扣</th><th style="padding:6px 8px 6px 0;width:24%;">现价 / 原价</th><th style="padding:6px 0 6px 0;width:20%;">截止（北京时间）</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1222140/?l=schinese">底特律：化身为人</a></td><td style="padding:8px 8px 8px 0;color:#c0392b;font-weight:700;">-90%</td><td style="padding:8px 8px 8px 0;">¥13.60 / ¥136.00</td><td style="padding:8px 0;color:#c0392b;font-weight:700;">12-01 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1145360/?l=schinese">Hades</a></td><td style="padding:8px 8px 8px 0;color:#c0392b;font-weight:700;">-75%</td><td style="padding:8px 8px 8px 0;">¥23.00 / ¥92.00</td><td style="padding:8px 0;">12-02 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1145350/?l=schinese">Hades II</a></td><td style="padding:8px 8px 8px 0;">-30%</td><td style="padding:8px 8px 8px 0;">¥75.60 / ¥108.00</td><td style="padding:8px 0;">12-02 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1426210/?l=schinese">双人成行</a></td><td style="padding:8px 8px 8px 0;color:#c0392b;font-weight:700;">-80%</td><td style="padding:8px 8px 8px 0;">¥39.60 / ¥198.00</td><td style="padding:8px 0;">12-04 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/2483190/?l=schinese">极限竞速：地平线 6</a></td><td style="padding:8px 8px 8px 0;">-25%</td><td style="padding:8px 8px 8px 0;">¥223.50 / ¥298.00</td><td style="padding:8px 0;">12-04 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/2001120/?l=schinese">双影奇境</a></td><td style="padding:8px 8px 8px 0;">-40%</td><td style="padding:8px 8px 8px 0;">¥118.80 / ¥198.00</td><td style="padding:8px 0;">12-08 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1174180/?l=schinese">Red Dead Redemption 2</a></td><td style="padding:8px 8px 8px 0;color:#c0392b;font-weight:700;">-75%</td><td style="padding:8px 8px 8px 0;">¥69.75 / ¥279.00</td><td style="padding:8px 0;">12-08 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/3240220/?l=schinese">Grand Theft Auto V 增强版</a></td><td style="padding:8px 8px 8px 0;">-56%</td><td style="padding:8px 8px 8px 0;">¥98.56 / ¥224.00</td><td style="padding:8px 0;">12-08 02:00</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/3768760/?l=schinese">007 初露锋芒</a></td><td style="padding:8px 8px 8px 0;">-50%</td><td style="padding:8px 8px 8px 0;">¥149.00 / ¥298.00</td><td style="padding:8px 0;">12-08 02:00</td></tr>
+<tr><td style="padding:8px 8px 8px 0;"><a href="https://store.steampowered.com/app/1086940/?l=schinese">博德之门 3</a></td><td style="padding:8px 8px 8px 0;">-30%</td><td style="padding:8px 8px 8px 0;">¥187.60 / ¥268.00</td><td style="padding:8px 0;">12-01 02:00</td></tr>
+</tbody></table>
+<p style="font-size:12.5px;color:#6b7280;margin:10px 0 0;">与 00:20 首稿相比，底特律 / RDR2 / GTA V / 双人成行 / 博德 3 / 007 / 双影奇境仍在，霍格沃茨之遗、Escapists 2、FH5 下榜，Hades 与 Hades II 新进。榜单是「当前折扣位」而不是资产清单，进榜不代表史低；截止时间只认 <code>discount_expiration</code>。</p>
+
+<p><strong>Epic 当前档：</strong>《深渊之印 / Mark of the Deep》<code>originalPrice=5500</code>、<code>discountPrice=0</code>，区间 11-20 00:00–11-27 00:00；《TerraScape》¥53.00 → ¥37.10（-70%），区间 11-22 00:00–12-22 00:00。《火之石 – 放置点击英雄RPG》是 <code>0 → 0</code> 的长期免费本体，不按限免记。Epic 页面对 curl 有 403 风控，链接用官方商店，领取请在浏览器里自行完成。</p>
+
+<p><strong>行情：BTC 再下探，24 小时低点跌到 58,950。</strong> Gate.io <code>/spot/tickers</code> 12:04 快照 BTC/USDT <strong>59,274.7</strong>，24 小时 <strong>-1.73%</strong>，区间 <strong>60,773.3 – 58,950.1</strong>，成交额约 <strong>9.93 亿 USDT</strong>；Binance Vision <code>/api/v3/ticker/24hr</code> 同一时段 BTC <strong>59,281.00</strong>、<strong>-1.722%</strong>、区间 <strong>60,768.56 – 58,952.48</strong>、成交额约 <strong>11.27 亿 USDT</strong>，两源相差约 0.01%。ETH <strong>1,660.77</strong>（-2.09%）、BNB <strong>542.30</strong>（-1.79%）。与 00:05 的 Gate.io 59,671.5 相比<strong>再跌约 0.66%</strong>，24 小时低点从 59,392.8 下移到 58,950.1。alternative.me 恐惧贪婪指数为 <strong>13（Extreme Fear）</strong>，时间戳 2026-11-25 08:00（北京时间），仍处极度恐惧区间。<strong>行情只作时刻记录，不构成买卖建议。</strong></p>
+
+<p><strong>HN 头条换人：</strong>12:04 首页读数，<a href="https://mechanical-pencil.com/products/spray-bottle">The Spray Bottle</a> <strong>401 分 / 104 评论</strong>居首，<a href="https://prismml.com/news/bonsai-2-5-27b">Ternary Bonsai 2.5 27B</a> 372 分 / 127 评论，<a href="https://quad9.net/news/blog/quad9-service-deactivation-in-france/">Quad9 撤出法国 DNS 服务</a> 368 分 / 222 评论，<a href="https://twitter.com/raul_bs3/status/2125213756238291075">GTA 6 在 Windows 上运行</a> 317 分 / 410 评论，<a href="http://hypercritical.co/2026/11/23/jetty-pro">Jetty Pro</a> 287 分，<a href="https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign">针对 Check Point 管理服务器的在野入侵</a> 271 分，<a href="https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf">矩阵乘法指数 Θ(n^2.25) 预印本</a> 248 分，<a href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/">GPT-6 展现蛋白质设计能力</a> 203 分。<strong>首稿里 2,719 分的黄仁勋那条已跌出首页前 10</strong>，属热度回落，不代表被删除。Check Point 那条是安全厂商博客，涉及管理面暴露，<strong>只按厂商公告与自有资产自查处理</strong>，本站不代为扫描或执行命令。</p>
+
+<p><strong>Lobsters：</strong><a href="https://ladybird.org/posts/alpha/">Ladybird is now in alpha</a> 116 分 / 65 评论；<a href="https://fzakaria.com/2026/11/23/2035-came-early">2035 came early</a> 97 分；<a href="https://s.conao3.com/blog/2026/e4f733">用 Lean 检查 Clojure core，发现 17 个未上报 bug</a> 62 分；<a href="https://hex.pm/blog/security-incident-on-hexpm">Hex.pm 安全事件</a> 47 分；其后是 <a href="https://mastodon.social/@pervognsen/117668394962974183">AVX-512 对词法解析的影响</a> 28 分、<a href="https://wheybags.com/blog/pokemon_childhood_version.html">Pokemon Childhood Version</a> 24 分、<a href="https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/">iOS 仍无 WebKit 之外浏览器</a> 19 分。</p>
+
+<p><strong>GitHub Trending（12:04 抓取 16 条）</strong>：star 与「今日新增」均为页面读数，不是官方增量接口。</p>
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:7px 8px 7px 0;width:40%;">仓库</th><th style="padding:7px 8px 7px 0;width:18%;">12:04 总 star</th><th style="padding:7px 8px 7px 0;width:16%;">今日新增</th><th style="padding:7px 0;">说明</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">elementalsouls/Claude-BugHunter</td><td style="padding:7px 8px 7px 0;">21,679</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+1,826</td><td style="padding:7px 0;">Claude Code 漏洞狩猎技能包</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">XiaoYouChR/Ghost-Downloader-3</td><td style="padding:7px 8px 7px 0;">17,521</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+1,092</td><td style="padding:7px 0;">桌面下载器</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">HKUDS/CLI-Anything</td><td style="padding:7px 8px 7px 0;">64,963</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+1,074</td><td style="padding:7px 0;">把软件做成 Agent 可调用的 CLI</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">obra/superpowers</td><td style="padding:7px 8px 7px 0;">325,927</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+1,003</td><td style="padding:7px 0;">Agentic skills 框架</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">firecrawl/firecrawl</td><td style="padding:7px 8px 7px 0;">209,076</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+991</td><td style="padding:7px 0;">Agent 抓取 / 搜索基础设施</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">zhouxiaoka/autoclip</td><td style="padding:7px 8px 7px 0;">15,526</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+980</td><td style="padding:7px 0;">长视频一键剪短视频</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">mjmirza/app-store-compliance</td><td style="padding:7px 8px 7px 0;">5,950</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+928</td><td style="padding:7px 0;">App Store 合规检查</td></tr>
+<tr><td style="padding:7px 8px 7px 0;">cathrynlavery/diagram-design</td><td style="padding:7px 8px 7px 0;">72,217</td><td style="padding:7px 8px 7px 0;color:#1a7f37;">+802</td><td style="padding:7px 0;">图表 / 版式设计资源</td></tr>
+</tbody></table>
+<p style="font-size:12.5px;color:#6b7280;margin:10px 0 0;">其余进榜：mvanhorn/last30days-skill（74,354，+703）、jingyaogong/minimind（70,397，+727）、toeverything/AFFiNE（78,062，+584）、google-labs-code/stitch-skills（12,724，+403）、Tracer-Cloud/opensre（15,234，+398）、cursor/plugins（19,281，+360）、openvinotoolkit/openvino（12,497，+185）、nginx/nginx（33,244，+158）。与 00:20 档比较，Claude-BugHunter 从 20,945 涨到 21,679（+734），Agent Skills 与下载 / 剪辑工具仍占前排。</p>
+
+<p><strong>国内与产品面（媒体转述，不进「值得」）</strong>：IT之家最新条目到 11-25 11:58（北京时间），值得记的有<a href="https://www.ithome.com/1/032/017.htm">神舟二十四号与空间站完成自主快速交会对接</a>、<a href="https://www.ithome.com/1/032/015.htm">卢伟冰称 Q3 是从业以来最难的一个季度</a>、<a href="https://www.ithome.com/1/031/989.htm">OpenAI 把新金矿瞄向「防黑客」</a>、<a href="https://www.ithome.com/1/031/990.htm">《原始袭变》2027-09-29 停服、明年 3 月停售</a>、<a href="https://www.ithome.com/1/031/988.htm">《GTA6》曼迪演员回应走红</a>。阮一峰最新仍是<a href="https://www.ruanyifeng.com/blog/2026/11/weekly-issue-420.html">第 420 期《最分心的一年》</a>。Product Hunt 最新可读的有 SparrowDesk Phone Calls、Viktor Code、Claude Ship、distribution.dev、Juncts、Mystonie、Willow iOS 2.0、tday.com。Appinn 本轮新增 <a href="https://www.appinn.com/koofr-1tb/">Koofr 终身 1TB 特价</a>，另有 Windows 11 原生搜索、Upload2Shell、WinGet MCP 等在列。</p>
+
+<p><strong>币圈媒体面</strong>：The Block 12:04 的 20 条里，值得记的是<a href="https://www.theblock.co/news/regulation/2026-11-24-utah-moves-to-drop-criminal-charges-kalshi-446090">犹他州在 Kalshi 暂停后拟撤销刑事指控</a>、<a href="https://www.theblock.co/news/regulation/2026-11-24-new-york-proposal-prediction-market-tax-446082">纽约州参议员提议对预测市场手续费征 10% 税</a>、<a href="https://www.theblock.co/news/business/2026-11-24-bitcoin-miner-cleanspark-swings-987-million-annual-loss-btc-production-declines-446061">矿企 CleanSpark 年亏 9.87 亿美元</a>、<a href="https://www.theblock.co/news/regulation/2026-11-24-sec-staff-gives-molecule-no-action-relief-scientific-research-tokens-446067">SEC 工作人员给 Molecule 科研代币无异议函</a>、<a href="https://www.theblock.co/news/business/2026-11-24-kraken-krak-early-2027-launch-us-credit-cards-bitcoin-cashback-usdc-collateral-445498">Kraken 旗下 Krak 拟 2027 年初在美发信用卡</a>、<a href="https://www.theblock.co/news/regulation/2026-11-24-rep-raskin-probes-trump-jr-s-firms-investments-polymarket-juul-suspiciously-well-timed-government-favors-446052">众议员 Raskin 质询 Trump Jr. 关联公司对 Polymarket 的投资</a>、<a href="https://www.theblock.co/newsletters/data-and-insights/2026-11-24-weve-entered-peak-fear-sky-falls-445476">「We’ve Entered Peak FEAR」与 SKY 下跌</a>。这些是媒体转述与监管进展，不构成操作建议；涉及被盗资金与私钥的条目，只按项目方与执法机构公告处置。</p>
+
+<p><strong>观察与过滤：</strong>RackNerd 黑五仍<strong>不公布活动截止时间</strong>（LowEndBox 11-24 只发了最终 bonus code 与抽奖节点），维持观察；UltaHost、Just Hosting、荫云 YINNET、HostEase、Post Affiliate Pro 等 idcspy 黑五条目仍是转述，未回官方页核到固定价与截止，全部留观察；Appinn 的 Gemini AI Pro 五折、Parallels Desktop 27 黑五 249 元/年同样未回官方活动页，维持观察。本轮<strong>未发现带推荐 / 返利参数的链接</strong>，过滤 0 条。App Store 国区本轮返回「新上架」110 条，是新上架而非限免价格层，不据此判断任何 App 是否限免。</p>
+
+<p><strong>源健康度（11:58–12:06）</strong>：</p>
+<table style="width:100%;border-collapse:collapse;font-size:13px;">
+<thead><tr style="border-bottom:1px solid #e3e6ea;text-align:left;color:#8a9099;font-size:12px;">
+<th style="padding:7px 8px 7px 0;width:14%;">组</th><th style="padding:7px 8px 7px 0;width:48%;">成功</th><th style="padding:7px 8px 7px 0;">失败 / 异常</th></tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">news（8）</td><td style="padding:7px 8px 7px 0;">6 源 / 184 条：hn 30、lobsters 25、github-trending 16、ruanyifeng 3、ithome 60、producthunt 50</td><td style="padding:7px 0;color:#c0392b;">v2ex、hf（URLError）</td></tr>
+<tr style="border-bottom:1px solid #eef0f2;"><td style="padding:7px 8px 7px 0;">deal（6）</td><td style="padding:7px 8px 7px 0;">6 源 / 172 条：epic 12、steam 10、appinn 10、lowendbox 20、idcspy 10、appstore 110</td><td style="padding:7px 0;color:#1a7f37;">全绿</td></tr>
+<tr><td style="padding:7px 8px 7px 0;">crypto（11）</td><td style="padding:7px 8px 7px 0;">2 源 / 21 条：fng 1、theblock 20</td><td style="padding:7px 0;color:#c0392b;">binance、exstatus、coingecko、cgmarkets、cmc、ethblog、coindesk（URLError）、creleases（410）；panews（HTML，0 条）</td></tr>
+</tbody></table>
+<p style="font-size:12.5px;color:#6b7280;margin:10px 0 0;">合计 <code>377 = 184 + 172 + 21</code>；取数窗口 2026-11-25 11:58–12:06（北京时间）。<code>appstore</code> 本轮返回国区新上架 110 条，是「新上架」而不是限免价格层。行情用 Gate.io 与 Binance Vision 双源补位，两者 24 小时涨幅相差约 0.01 个百分点。</p>
+
+<p><strong>形态判断</strong>：失败仍集中在同一类境外 HTTPS 接口，报错形态为 <code>SSL_ERROR_SYSCALL</code> 或连接超时，而不是站点改版或 4xx；这与 11-20 至 11-25 多轮记录一致，按共享出口的通道限制处理，不据此判断这些站点本身不可用。<code>creleases</code> 返回 410 属源站下线，是唯一形态不同的失败。</p>
+
+<p><strong>口径与边界</strong>：四步口径不变：取数（25 源，NDJSON 归一化）→ 验真（价格与截止回官方接口或原文，核不到就降观察并写「未核实」）→ 分级（🔥 / ⭐ / 👀 / ❌，宁严勿松）→ 落点（本地存档 + 本篇 Pages 稿）。边界：只收集与报告，不注册、不绑卡、不代领券、不下单；iOS 兑换码型不转载兑换码；币圈不连钱包、不签名、不导私钥、不代充代提，不写买卖建议与目标价；产物内不出现钱包地址与带邀请返利参数的链接。</p>
+
+<p>如实记两句：<strong>本轮执行环境仍未挂载 <code>info-task-gc</code> 技能文件</strong>，因此按仓库既有稿件的 25 源清单与同一口径执行，源名单、四步流程与边界均与 11-23 / 11-24 / 11-25 首稿一致；<strong>GitHub 连接器未以 MCP 形式挂载</strong>，仓库读写通过既有 git 凭据与 <code>origin/main</code> 远端完成。</p>
+
+<p style="margin:28px 0 0;font-size:14px;color:#4b5158;">本文所有价格、折扣与截止时间均来自 2026-11-25 00:02–00:10 与 11:58–12:06 两次接口实际返回，价格随时可能变动，领取与下单前请以官方页面为准。行情只作时刻快照，不构成任何投资建议；新闻部分请注意「媒体转述」与「公司公告 / 官方接口」的区别。</p>
